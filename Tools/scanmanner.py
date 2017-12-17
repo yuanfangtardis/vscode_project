@@ -504,10 +504,13 @@ def PolyChordrun(LogLikelihood,n_dims,n_params,**kwargs):
     # settings.do_clustering=False 
 
     def my_prior(hypercube):
-        ''' 
-        theta: the hypercube for input parameters
-        len(theta)=n_dims    
-        Get the phiscal parameters from hypercube
+        '''
+        Author:yuanfang
+        Email:yuanfang405@gmail.com
+        @parameter:
+            theta: the hypercube for input parameters
+            len(theta)=n_dims    
+            Get the phiscal parameters from hypercube
         '''
         
         theta=[0.0]*n_dims
