@@ -1,0 +1,14 @@
+# Data taken from Fig.14, ATLAS-CONF-2016-067
+# Implemented as pure production mode
+201606714	20160674		1
+ATLAS-CONF-2016-067
+LHC, ATL, ATL
+(pp)->h->gamma gamma (VH)
+13	13.3	0.029
+1	0
+2.5
+125.09 125.09 1.0
+2	-1
+31 41
+
+125.09		-0.82	0.23	1.50

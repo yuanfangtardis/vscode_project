@@ -1,0 +1,7 @@
+/home/yuanfang/Desktop/multinest_latest/bin/mcmc_test	MCMCData.txt
+y	0
+x	1
+m	2
+z	3
+loglike	4
+mult	5

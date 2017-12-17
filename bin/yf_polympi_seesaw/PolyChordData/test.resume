@@ -1,0 +1,89 @@
+=== Number of dimensions ===
+           3
+=== Number of derived parameters ===
+           7
+=== Number of dead points/iterations ===
+           0
+=== Number of clusters ===
+           1
+=== Number of dead clusters ===
+           0
+=== Number of global weighted posterior points ===
+           0
+=== Number of global equally weighted posterior points ===
+           0
+=== Number of grades ===
+           1
+=== positions of grades ===
+           3
+=== Number of repeats ===
+           6
+=== Number of likelihood calls ===
+           7
+=== Number of live points in each cluster ===
+           7
+=== Number of phantom points in each cluster ===
+           0
+=== Number of weighted posterior points in each cluster ===
+           0
+=== Number of equally weighted posterior points in each cluster ===
+           0
+=== Minimum loglikelihood positions ===
+           5
+=== Number of weighted posterior points in each dead cluster ===
+=== Number of equally weighted posterior points in each dead cluster ===
+=== global evidence -- log(<Z>) ===
+ -0.10000000E+031
+=== global evidence^2 -- log(<Z^2>) ===
+ -0.10000000E+031
+=== posterior thin factor ===
+  0.00000000E+000
+=== local loglikelihood bounds ===
+ -0.42997046E-002
+=== local volume -- log(<X_p>) ===
+  0.00000000E+000
+=== global evidence volume cross correlation -- log(<ZX_p>) ===
+ -0.10000000E+031
+=== local evidence -- log(<Z_p>) ===
+ -0.10000000E+031
+=== local evidence^2 -- log(<Z_p^2>) ===
+ -0.10000000E+031
+=== local evidence volume cross correlation -- log(<Z_pX_p>) ===
+ -0.10000000E+031
+=== local volume cross correlation -- log(<X_pX_q>) ===
+  0.00000000E+000
+=== maximum log weights -- log(w_p) ===
+ -0.10000000E+031
+=== local dead evidence -- log(<Z_p>) ===
+=== local dead evidence^2 -- log(<Z_p^2>) ===
+=== maximum dead log weights -- log(w_p) ===
+=== covariance matrices ===
+---------------------------------------
+  0.10000000E+001  0.00000000E+000  0.00000000E+000
+  0.00000000E+000  0.10000000E+001  0.00000000E+000
+  0.00000000E+000  0.00000000E+000  0.10000000E+001
+=== cholesky decompositions ===
+---------------------------------------
+  0.10000000E+001  0.00000000E+000  0.00000000E+000
+  0.00000000E+000  0.10000000E+001  0.00000000E+000
+  0.00000000E+000  0.00000000E+000  0.10000000E+001
+=== live points ===
+---------------------------------------
+  0.95925282E+000  0.45877749E+000  0.35738647E+000  0.30462621E+005 -0.82445026E+002  0.10721594E+000  0.79477337E+003  0.00000000E+000  0.19175428E+003  0.82503887E+003  0.11505522E+003  0.10000000E+001  0.00000000E+000 -0.38110083E-003
+  0.19771201E+000  0.50383731E+000  0.96946080E+000  0.18747604E+003  0.76746116E+001  0.29083824E+000  0.79477337E+003  0.00000000E+000  0.26468801E+003  0.82503882E+003  0.11490755E+003  0.10000000E+001  0.00000000E+000 -0.10684215E-002
+  0.21622755E-001  0.46070130E+000  0.12019589E+000  0.57775380E+002 -0.78597394E+002  0.36058767E-001  0.79477337E+003  0.00000000E+000  0.26860733E+002  0.82503887E+003  0.11505801E+003  0.10000000E+001  0.00000000E+000 -0.42060151E-003
+  0.70478571E+000  0.51404435E+000  0.18312134E+000  0.55593797E+004  0.28088704E+002  0.54936402E-001  0.79477337E+003  0.00000000E+000  0.10868791E+003  0.82503887E+003  0.11504691E+003  0.10000000E+001  0.00000000E+000 -0.27502160E-003
+  0.71441168E+000  0.37948711E+000  0.77325182E+000  0.59288626E+004 -0.24102578E+003  0.23197554E+000  0.79477337E+003  0.00000000E+000  0.93265581E+002  0.82503884E+003  0.11518547E+003  0.10000000E+001  0.00000000E+000 -0.42997046E-002
+  0.63209833E+000  0.45579740E+000  0.75924873E+000  0.34198601E+004 -0.88405206E+002  0.22777462E+000  0.79477337E+003  0.00000000E+000  0.18063691E+003  0.82503884E+003  0.11500739E+003  0.10000000E+001  0.00000000E+000 -0.68265125E-005
+  0.64722500E+000  0.48350141E+000  0.73853801E+000  0.37837499E+004 -0.32997184E+002  0.22156140E+000  0.79477337E+003  0.00000000E+000  0.20223061E+003  0.82503885E+003  0.11498225E+003  0.10000000E+001  0.00000000E+000 -0.39365065E-004
+=== dead points ===
+=== phantom points ===
+---------------------------------------
+=== weighted posterior points ===
+---------------------------------------
+=== dead weighted posterior points ===
+=== global weighted posterior points ===
+=== equally weighted posterior points ===
+---------------------------------------
+=== dead equally weighted posterior points ===
+=== global equally weighted posterior points ===

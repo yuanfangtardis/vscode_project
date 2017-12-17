@@ -1,0 +1,156 @@
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Result file name  = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi[0m
+INFO: [1;32;2m Points number     = 5[0m
+INFO: [1;32;2m Random seed       = 120[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m   ID= x	Prior= FLAT	Min= 0.000000	Max= 100.000000[0m
+INFO: [1;32;2m   ID= y	Prior= FLAT	Min= 300.000000	Max= 400.000000[0m
+INFO: [1;32;2m   ID= m	Prior= FLAT	Min= 500.000000	Max= 600.000000[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = zytest[0m
+INFO: [1;32;2m Execute command = [['python test.py']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m   varID= x 	fID= 1 	Method= Replace 	Name= ES_x[0m
+INFO: [1;32;2m   varID= y 	fID= 1 	Method= Replace 	Name= ES_y[0m
+INFO: [1;32;2m   varID= m 	fID= 1 	Method= Replace 	Name= ES_m[0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/output.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= yf_output 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= z 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m   varID= z	Mean= 9.992000e+02	Deviation= 3.000000e+00	Type= sym[0m
+ES.getFileName()= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi
+nlive_points= 5
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Result file name  = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi[0m
+INFO: [1;32;2m Points number     = 5[0m
+INFO: [1;32;2m Random seed       = 120[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m   ID= x	Prior= FLAT	Min= 0.000000	Max= 100.000000[0m
+INFO: [1;32;2m   ID= y	Prior= FLAT	Min= 300.000000	Max= 400.000000[0m
+INFO: [1;32;2m   ID= m	Prior= FLAT	Min= 500.000000	Max= 600.000000[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = zytest[0m
+INFO: [1;32;2m Execute command = [['python test.py']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m   varID= x 	fID= 1 	Method= Replace 	Name= ES_x[0m
+INFO: [1;32;2m   varID= y 	fID= 1 	Method= Replace 	Name= ES_y[0m
+INFO: [1;32;2m   varID= m 	fID= 1 	Method= Replace 	Name= ES_m[0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/output.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= yf_output 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= z 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m   varID= z	Mean= 9.992000e+02	Deviation= 3.000000e+00	Type= sym[0m
+ES.getFileName()= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi
+nlive_points= 5
+
+PolyChord: Next Generation Nested Sampling
+copyright: Will Handley, Mike Hobson & Anthony Lasenby
+  version: 1.11
+  release: 7th July 2017
+    email: wh260@mrao.cam.ac.uk
+
+Run Settings
+nlive    :       5
+nDims    :       3
+nDerived :       2
+Doing Clustering
+Generating equally weighted posteriors
+Generating weighted posteriors
+Clustering on posteriors
+Writing a resume file to/home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi/PolyChordData/test.resume
+
+generating live points
+
+
+all live points generated
+
+Speed  1 =  0.988E-01 seconds
+number of repeats:            6
+started sampling
+
+_______________
+lives      | 5 |
+phantoms   |12 |
+posteriors | 5 |
+equals     | 1 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                   5
+nposterior =                   5
+nequals    =                   1
+nlike      =                  98
+<nlike>    =          18.60   (           3.10 per slice )
+log(Z)     =           -5.83 +/-  0.77
+log(Z_ 1)  =           -5.83 +/-  0.77 (still evaluating)
+
+
+
+_______________
+lives      | 5 |
+phantoms   |20 |
+posteriors |10 |
+equals     | 4 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                  10
+nposterior =                  10
+nequals    =                   4
+nlike      =                 205
+<nlike>    =          21.40   (           3.57 per slice )
+log(Z)     =           -2.21 +/-  0.47
+log(Z_ 1)  =           -2.21 +/-  0.47 (still evaluating)
+
+
+
+ ____________________________________________________ 
+|                                                    |
+| ndead  =           16                              |
+| log(Z) =           -1.47551 +/-            0.40019 |
+|____________________________________________________|
+Slave  1: efficient MPI parallisation; wait_time/slice_time=    0.15184359E-04

@@ -1,0 +1,596 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>An introduction to the input File &mdash; EasyScan_HEP  documentation</title>
+    
+    <link rel="stylesheet" href="_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="EasyScan_HEP  documentation" href="index.html" />
+    <link rel="next" title="Output folder" href="output.html" />
+    <link rel="prev" title="Structure" href="structure.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body role="document">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="output.html" title="Output folder"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="structure.html" title="Structure"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">EasyScan_HEP  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="an-introduction-to-the-input-file">
+<h1><a class="toc-backref" href="#id1">An introduction to the input File</a><a class="headerlink" href="#an-introduction-to-the-input-file" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#an-introduction-to-the-input-file" id="id1">An introduction to the input File</a><ul>
+<li><a class="reference internal" href="#scan" id="id2">1. [scan]</a></li>
+<li><a class="reference internal" href="#program" id="id3">2. [program]</a></li>
+<li><a class="reference internal" href="#constraint" id="id4">3. [constraint]</a></li>
+<li><a class="reference internal" href="#plot" id="id5">4. [plot]</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>The input file contain 4 sections, <cite>scan</cite>, <cite>program</cite>, <cite>constraint</cite> and <cite>plot</cite>. In this section we will show the meaning of items in each section and present all possible chooses you can adopt in EasyScan_HEP. To explain more clearly, we use following input file as a sample, which is a litter more complex than the one in ’&lt;Test run&gt;’</p>
+<div class="literal-block-wrapper container" id="input-sample">
+<div class="code-block-caption"><span class="caption-text">Input file sample</span><a class="headerlink" href="#input-sample" title="Permalink to this code">¶</a></div>
+<div class="highlight-none"><div class="highlight"><pre><span></span>[scan]
+Result file name:  CMSSM_test
+Points number:     200
+Scan method:       random
+#                  ID     Prior  Min    MAX
+Input parametes:   tanb,  Flat,  40,     41
+                   m0,    Flat,  200,   1000
+                   m12,   FLAT,  500,   1000
+                   A0,    flat,  1000,  1010
+Random seed:       100
+Interval of print: 1
+
+[program1]
+Program name:    softsusy-3.7.3
+Execute command: ./softsusy-3.7.3/softpoint.x leshouches &lt; softsusy-3.7.3/inOutFiles/lesHouchesInput &gt; lesHouchesOutput
+Command path:    ../Externals/
+Input file:      1, ../Externals/softsusy-3.7.3/inOutFiles/lesHouchesInput
+#                varID    fileID  way          note
+Input variable:  m0,      1,      Position,    14,      2
+                 m12,     1,      Lable,       m12,     2
+                 tanb,    1,      Replace,     ES_tanb
+                 A0,      1,      SLHA,        BLOCK,   MINPAR,  5
+Output file:     1, ../Externals/lesHouchesOutput
+#                varID    fileID  way          note
+Output variable: mh,      1,      SLHA,        BLOCK,   MASS,    25
+#                 spec,    1,      File
+
+[program2]
+Program name:    micromegas_4.3.1
+Execute command: ./micromegas_4.3.1/MSSM/main lesHouchesOutput &gt;micromrgas.out
+Command path:    ../Externals/
+Input file:
+Input variable:
+Output file:     1, ../Externals/micromrgas.out
+#                varID    fileID  way          note
+Output variable: omega,      1,   lable,       Omega=,   3
+
+[constraint]
+Gaussian:        mh,    125.0,    2.0
+                 omega, 0.1199,  0.012
+
+[plot]
+Histogram: mh
+Scatter:  omega,mh
+color: m0, m12, mh
+       m0, m12, omega
+</pre></div>
+</div>
+</div>
+<div class="section" id="scan">
+<h2><a class="toc-backref" href="#id2">1. [scan]</a><a class="headerlink" href="#scan" title="Permalink to this headline">¶</a></h2>
+<div class="literal-block-wrapper container" id="input-scan">
+<div class="code-block-caption"><span class="caption-text">scan</span><a class="headerlink" href="#input-scan" title="Permalink to this code">¶</a></div>
+<div class="highlight-none"><div class="highlight"><pre><span></span>[scan]
+Result file name:  CMSSM_test
+Scan method:       random
+Points number:     200
+#                  ID     Prior  Min    MAX
+Input parametes:   tanb,  Flat,  40,     41
+                   m0,    Flat,  200,   1000
+                   m12,   FLAT,  500,   1000
+                   A0,    flat,  1000,  1010
+Random seed:       100
+Interval of print: 10
+MCMC Step tuning:  no
+</pre></div>
+</div>
+</div>
+<ul class="simple">
+<li><cite>Result folder name</cite> : The name of folder you want to save the result data and figures. It will be created at the path that you run the command. If the folder already exists, the program will ask you</li>
+</ul>
+<blockquote>
+<div><div class="highlight-none"><div class="highlight"><pre><span></span>$ * The Result folder [test] already exists.
+$ Choose: (r)replace, (b)backup, (s)stop
+</pre></div>
+</div>
+<p>Typing &#8216;r&#8217; and ‘enter’ key will delete the old folder and create a new one, while &#8216;b&#8217; means mv the old one in to folder &#8216;Backup&#8217; and create a new one, and &#8216;s&#8217; will stop the program.</p>
+</div></blockquote>
+<ul class="simple">
+<li><cite>Scan method</cite> : For now, there are 6 scan methods you can choose,</li>
+</ul>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Random    : XXX</li>
+<li>Grid      : For each input parameter, the points are arranged at a given intervals.</li>
+<li>MCMC      : XXX</li>
+<li>MultiNest : XXX</li>
+<li>Read      : (not ready) Read the output folder of previous run, and recalculate the variables though the program and reanalysis the result data.  Useful if you miss calculate some variables at the previous run.</li>
+<li>Plot      : (not ready) Similar to ‘Read’, but without recalculate the output variables, just analyses the previous data according to the [plot] section.</li>
+</ol>
+</div></blockquote>
+<ul class="simple">
+<li><cite>Input parameters</cite> : For &#8216;<cite>Scan method</cite>&#8216; in [&#8216;Random&#8217;, &#8216;Grid&#8217;, &#8216;MCMC&#8217;, &#8216;MultiNest&#8217;], the input parameters for scanning have at least 4 elements, &#8216;name ID&#8217;,  &#8216;distribution function&#8217;, &#8216;minimum value&#8217; and &#8216;maximum value&#8217; in order,</li>
+</ul>
+<blockquote>
+<div><div class="literal-block-wrapper container" id="scan-method-random-grid-mcmc-multinest">
+<div class="code-block-caption"><span class="caption-text">Scan method:Random / Grid / MCMC / MultiNest</span><a class="headerlink" href="#scan-method-random-grid-mcmc-multinest" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                  Name ID,  Distribution function, Minimum value, Maximum value</span>
+<span class="n">Input</span> <span class="n">parameters</span><span class="p">:</span>  <span class="n">tanb</span><span class="p">,</span>     <span class="n">Flat</span><span class="p">,</span>                  <span class="mf">2.0</span><span class="p">,</span>           <span class="mf">60.0</span>
+                   <span class="n">m0</span><span class="p">,</span>       <span class="n">Log</span><span class="p">,</span>                   <span class="mf">100.0</span><span class="p">,</span>         <span class="mf">4000.0</span>
+                   <span class="n">m1</span><span class="p">,</span>       <span class="n">Log</span><span class="p">,</span>                   <span class="mf">100.0</span><span class="p">,</span>         <span class="mf">4000.0</span>
+                   <span class="n">A0</span><span class="p">,</span>       <span class="n">Flat</span><span class="p">,</span>                  <span class="o">-</span><span class="mf">2000.0</span><span class="p">,</span>       <span class="mf">2000.0</span>
+</pre></div>
+</div>
+</div>
+<p>where &#8216;name ID&#8217; must be the unique though the whole program, since it will be used latter, the &#8216;distribution function&#8217; can be chosen as &#8216;Flat&#8217; and &#8216;Log10&#8217; (not ready) for &#8216;<cite>Scan method</cite>&#8216; in [&#8216;MCMC&#8217;, &#8216;MultiNest&#8217;] while only &#8216;Flat&#8217; for the other two (See XXX for the meaning of distribution function).</p>
+<p>For &#8216;Grid&#8217; scan, one more element, &#8216;bin number&#8217; (interval = (Max-Min)/BinNum), need be provided (the default value is 30), such as</p>
+<div class="literal-block-wrapper container" id="scan-method-grid">
+<div class="code-block-caption"><span class="caption-text">Scan method:       Grid</span><a class="headerlink" href="#scan-method-grid" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                  Name ID,  Distribution function, Minimum value, Maximum value, Bin number</span>
+<span class="n">Input</span> <span class="n">parameters</span><span class="p">:</span>  <span class="n">tanb</span><span class="p">,</span>     <span class="n">Flat</span><span class="p">,</span>                  <span class="mf">2.0</span><span class="p">,</span>           <span class="mf">60.0</span><span class="p">,</span>          <span class="mi">10</span>
+                   <span class="n">m0</span><span class="p">,</span>       <span class="n">Flat</span><span class="p">,</span>                  <span class="mf">100.0</span><span class="p">,</span>         <span class="mf">4000.0</span><span class="p">,</span>        <span class="mi">20</span>
+                   <span class="n">m1</span><span class="p">,</span>       <span class="n">Flat</span><span class="p">,</span>                  <span class="mf">100.0</span><span class="p">,</span>         <span class="mf">4000.0</span><span class="p">,</span>        <span class="mi">20</span>
+                   <span class="n">A0</span><span class="p">,</span>       <span class="n">Flat</span><span class="p">,</span>                  <span class="o">-</span><span class="mf">2000.0</span><span class="p">,</span>       <span class="mf">2000.0</span><span class="p">,</span>        <span class="mi">10</span>
+</pre></div>
+</div>
+</div>
+<p>For &#8216;MCMC&#8217; scan, &#8216;step width&#8217; and &#8216;initial value&#8217; (See XXX for detail explanation) can be change from the default value (Max-Min)/5 and (Max-Min)/2 in the way like following,</p>
+<div class="literal-block-wrapper container" id="scan-method-mcmc">
+<div class="code-block-caption"><span class="caption-text">Scan method:       MCMC</span><a class="headerlink" href="#scan-method-mcmc" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                  Name ID,  Distribution function, Minimum value, Maximum value, Step width, Initial value</span>
+<span class="n">Input</span> <span class="n">parameters</span><span class="p">:</span>  <span class="n">tanb</span><span class="p">,</span>     <span class="n">Flat</span><span class="p">,</span>                  <span class="mf">2.0</span><span class="p">,</span>           <span class="mf">60.0</span><span class="p">,</span>          <span class="mi">2</span><span class="p">,</span>          <span class="mi">25</span>
+                   <span class="n">m0</span><span class="p">,</span>       <span class="n">log</span><span class="p">,</span>                   <span class="mf">100.0</span><span class="p">,</span>         <span class="mf">4000.0</span><span class="p">,</span>        <span class="mi">100</span><span class="p">,</span>        <span class="mf">2000.0</span>
+                   <span class="n">m1</span><span class="p">,</span>       <span class="n">log</span><span class="p">,</span>                   <span class="mf">100.0</span><span class="p">,</span>         <span class="mf">4000.0</span><span class="p">,</span>        <span class="mi">100</span><span class="p">,</span>        <span class="mf">2000.0</span>
+                   <span class="n">A0</span><span class="p">,</span>       <span class="n">Flat</span><span class="p">,</span>                  <span class="o">-</span><span class="mf">2000.0</span><span class="p">,</span>       <span class="mf">2000.0</span><span class="p">,</span>        <span class="mi">100</span><span class="p">,</span>        <span class="mf">1500.0</span>
+</pre></div>
+</div>
+</div>
+<p>For &#8216;Read&#8217;, just put the &#8216;<cite>Result folder name</cite>&#8216; of prior run here, the program will automatically load the parameter name ID of prior run, which you can find from the &#8216;inf.txt&#8217; (if you want to use input folder not generated by EasyScan_HEP, please imitate the output format &lt;XXX&gt; to create an &#8216;inf.txt&#8217;).</p>
+<div class="literal-block-wrapper container" id="scan-method-read">
+<div class="code-block-caption"><span class="caption-text">Scan method:Read</span><a class="headerlink" href="#scan-method-read" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">Scan</span> <span class="n">method</span><span class="p">:</span>       <span class="n">Read</span>
+<span class="n">Input</span> <span class="n">parameters</span><span class="p">:</span>  <span class="n">test_old</span>
+</pre></div>
+</div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li><cite>Points number</cite>: The total number of points you want to scan. It will be ignore if <cite>Scan method</cite>&#8216; is &#8216;Grid&#8217; or &#8216;Read’.</li>
+<li><cite>Interval of print</cite>: There is no need to print the information of evey points on the screen, especially for larger <cite>Points number</cite>. This parameter determine how many point intervals between each information print of point.</li>
+<li><cite>Random seed</cite>: The seed is used to initialize the random function, which is an int. number in range (). If one set the seed ‘-1’, the seed will generate according time.</li>
+</ul>
+</div>
+<div class="section" id="program">
+<h2><a class="toc-backref" href="#id3">2. [program]</a><a class="headerlink" href="#program" title="Permalink to this headline">¶</a></h2>
+<div class="literal-block-wrapper container" id="input-program">
+<div class="code-block-caption"><span class="caption-text">program</span><a class="headerlink" href="#input-program" title="Permalink to this code">¶</a></div>
+<div class="highlight-none"><div class="highlight"><pre><span></span>[program1]
+Program name:    softsusy-3.7.3
+Execute command: ./softsusy-3.7.3/softpoint.x leshouches &lt; softsusy-3.7.3/inOutFiles/lesHouchesInput &gt; lesHouchesOutput
+Command path:    ../Externals/
+Input file:      1, ../Externals/softsusy-3.7.3/inOutFiles/lesHouchesInput
+#                varID    fileID  way          note
+Input variable:  m0,      1,      Position,    14,      2
+                 m12,     1,      Lable,       m12,     2
+                 tanb,    1,      Replace,     ES_tanb
+                 A0,      1,      SLHA,        BLOCK,   MINPAR,  5
+Output file:     1, ../Externals/lesHouchesOutput
+#                varID    fileID  way          note
+Output variable: mh,      1,      SLHA,        BLOCK,   MASS,    25
+#                spec,    1,      File
+
+[program2]
+Program name:    micromegas_4.3.1
+Execute command: ./micromegas_4.3.1/MSSM/main lesHouchesOutput &gt;micromrgas.out
+Command path:    ../Externals/
+Input file:
+Input variable:
+Output file:     1, ../Externals/micromrgas.out
+#                varID    fileID  way          note
+Output variable: omega,      1,   lable,       Omega=,   3
+</pre></div>
+</div>
+</div>
+<p>You can have more than one programs to run in a row with section named by [program?] where ‘?’ is an unique integer for each program. EasyScan_HEP will run the programs according to the numbers.</p>
+<ul class="simple">
+<li><cite>Program name</cite>: It is only used to label your program, so any string is ok.</li>
+<li><cite>Execute command</cite>: The command to run your program.</li>
+<li><cite>Command path</cite>: The path where you run the ‘<cite>Execute command</cite>’, either absolute path or relative path.</li>
+<li><cite>Input file</cite>: The input file(s) of your programs. It can include more than one files, label by the first term.</li>
+<li><cite>Input variable</cite>: For each input variable used in this program, at least 4 items (name ID, input file ID, method, parameter of method) are needed,</li>
+</ul>
+<blockquote>
+<div><div class="literal-block-wrapper container" id="input-variable">
+<div class="code-block-caption"><span class="caption-text">Input variable</span><a class="headerlink" href="#input-variable" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                Input file ID,  Path</span>
+<span class="n">Input</span> <span class="nb">file</span><span class="p">:</span>      <span class="mi">1</span><span class="p">,</span>              <span class="n">Externals</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">mass</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="c1">#                Name ID,  Input file ID,  Method,     Parameters of method</span>
+<span class="n">Input</span> <span class="n">variable</span><span class="p">:</span>  <span class="n">m0</span><span class="p">,</span>       <span class="mi">1</span><span class="p">,</span>              <span class="n">Position</span><span class="p">,</span>   <span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<p>The input variables are chosen from the input parameters of the [scan] section and all output variables of the  programs which have less integer ‘?’ in the section name than the current one, and this is why the ‘Name ID’ should be unique though the whole program. The ‘Input file ID’ stands which file you want to put the input variable in, and ‘Method’ indicated how to put the input variables in it. In current vision, five methods to put in the input variables are provided, ‘Position’, ‘Replace’, ‘Label’, ’SLHA’ and ‘File’(not ready). Suppose that the input file of [program1] is</p>
+<div class="literal-block-wrapper container" id="example-input-file-for-the-external-program">
+<div class="code-block-caption"><span class="caption-text">Example input file for the external program</span><a class="headerlink" href="#example-input-file-for-the-external-program" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">Block</span> <span class="n">MINPAR</span>             <span class="c1"># Input parameters</span>
+<span class="mi">1</span>   <span class="mf">1.250000000e+02</span>      <span class="c1"># m0</span>
+<span class="mi">2</span>   <span class="mf">9.000000000e+02</span>      <span class="c1"># m12</span>
+<span class="mi">3</span>   <span class="mf">1.000000000e+01</span>      <span class="c1"># tan beta at MZ, in DRbar scheme, Feynman gauge</span>
+<span class="mi">4</span>   <span class="mf">1.000000000e+00</span>      <span class="c1"># sign(mu)</span>
+<span class="mi">5</span>   <span class="mf">0.000000000e+00</span>      <span class="c1"># A0</span>
+</pre></div>
+</div>
+</div>
+<p>and the input file of [program2] is the output file of [program1]. The following explain the meaning of different input methods.</p>
+<ul class="simple">
+<li>For the ‘Position’ method, two parameters are needed to indicate the line number and column number of the input variable in corresponding input file, e.g.</li>
+</ul>
+<blockquote>
+<div><div class="literal-block-wrapper container" id="position">
+<div class="code-block-caption"><span class="caption-text">Position</span><a class="headerlink" href="#position" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                          Method,     Line number,  Column number</span>
+<span class="n">Input</span> <span class="n">variable</span><span class="p">:</span>  <span class="n">m0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span>    <span class="n">Position</span><span class="p">,</span>   <span class="mi">2</span><span class="p">,</span>            <span class="mi">2</span>
+</pre></div>
+</div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li>The ‘Label’ method contains three parameters, the name and column number of label and the column number of input variable. For the example input file, it can be either</li>
+</ul>
+<blockquote>
+<div><div class="literal-block-wrapper container" id="label-1">
+<div class="code-block-caption"><span class="caption-text">Label 1</span><a class="headerlink" href="#label-1" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                          Method,     Label name, Input variable column number</span>
+<span class="n">Input</span> <span class="n">variable</span><span class="p">:</span>  <span class="n">m12</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span>   <span class="n">Label</span><span class="p">,</span>      <span class="n">m12</span><span class="p">,</span>        <span class="mi">2</span>
+</pre></div>
+</div>
+</div>
+<p>or</p>
+<div class="literal-block-wrapper container" id="label-2">
+<div class="code-block-caption"><span class="caption-text">Label 2</span><a class="headerlink" href="#label-2" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                          Method,     Label name, Input variable column number</span>
+<span class="n">Input</span> <span class="n">variable</span><span class="p">:</span>  <span class="n">m12</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span>   <span class="n">Label</span><span class="p">,</span>      <span class="mi">2</span><span class="p">,</span>          <span class="mi">2</span>
+</pre></div>
+</div>
+</div>
+<p>The point is you need make sure only one parameter will be identified in your file.</p>
+</div></blockquote>
+<ul class="simple">
+<li>For the ‘Replace’ method, the input file should exist before running EasyScan_HEP, and you should manually modify file, such as</li>
+</ul>
+<blockquote>
+<div><div class="literal-block-wrapper container" id="modified-example-input-file-for-replace-method">
+<div class="code-block-caption"><span class="caption-text">Modified example input file for ‘Replace’ method</span><a class="headerlink" href="#modified-example-input-file-for-replace-method" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">Block</span> <span class="n">MINPAR</span>             <span class="c1"># Input parameters</span>
+<span class="mi">1</span>   <span class="mf">1.250000000e+02</span>      <span class="c1"># m0</span>
+<span class="mi">2</span>   <span class="mf">9.000000000e+02</span>      <span class="c1"># m12</span>
+<span class="mi">3</span>   <span class="n">ES_tanb</span>              <span class="c1"># tan beta at MZ, in DRbar scheme, Feynman gauge</span>
+<span class="mi">4</span>   <span class="mf">1.000000000e+00</span>      <span class="c1"># sign(mu)</span>
+<span class="mi">5</span>   <span class="mf">0.000000000e+00</span>      <span class="c1"># A0</span>
+</pre></div>
+</div>
+</div>
+<p>and corresponding ‘Input variable’ setting is</p>
+<div class="literal-block-wrapper container" id="replace">
+<div class="code-block-caption"><span class="caption-text">Replace</span><a class="headerlink" href="#replace" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                          Method,     Name of replaced parameter</span>
+<span class="n">Input</span> <span class="n">variable</span><span class="p">:</span>  <span class="n">tanb</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span>  <span class="n">Replace</span><span class="p">,</span>    <span class="n">ES_tanb</span>
+</pre></div>
+</div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li>For the ‘SLHA’ method, firstly you must choose the type, i.e. ‘BLOCK’, ’DECAY’ or something you defined by yourself, and then provide the name of block or the PDG code of the decay particle and corresponding keys. For example, following is part of a SLHA format file,</li>
+</ul>
+<blockquote>
+<div><div class="literal-block-wrapper container" id="example-input-file-for-slha-method">
+<div class="code-block-caption"><span class="caption-text">Example input file for SLHA method</span><a class="headerlink" href="#example-input-file-for-slha-method" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">BLOCK</span> <span class="n">MINPAR</span>  <span class="c1"># Input parameters - minimal models</span>
+     <span class="mi">1</span>     <span class="mf">6.70000000E+02</span>   <span class="c1"># m0</span>
+     <span class="mi">2</span>     <span class="mf">1.04000000E+03</span>   <span class="c1"># m_1</span>
+     <span class="mi">3</span>     <span class="mf">2.10000000E+01</span>   <span class="c1"># tanbeta(mZ)</span>
+     <span class="mi">4</span>     <span class="mf">1.00000000E+00</span>   <span class="c1"># sign(mu)</span>
+     <span class="mi">5</span>     <span class="mf">2.44000000E+03</span>   <span class="c1"># A0</span>
+
+<span class="n">BLOCK</span> <span class="n">UMIX</span>  <span class="c1"># Chargino Mixing Matrix U</span>
+     <span class="mi">1</span>  <span class="mi">1</span>    <span class="o">-</span><span class="mf">9.69283723E-01</span>   <span class="c1"># U_11</span>
+     <span class="mi">1</span>  <span class="mi">2</span>     <span class="mf">2.45945247E-01</span>   <span class="c1"># U_12</span>
+     <span class="mi">2</span>  <span class="mi">1</span>     <span class="mf">2.45945247E-01</span>   <span class="c1"># U_21</span>
+     <span class="mi">2</span>  <span class="mi">2</span>     <span class="mf">9.69283723E-01</span>   <span class="c1"># U_22</span>
+
+
+<span class="n">BLOCK</span> <span class="n">GAUGE</span> <span class="n">Q</span><span class="o">=</span>  <span class="mf">1.00000000E+03</span> <span class="c1"># (SUSY SCALE)</span>
+     <span class="mi">1</span>     <span class="mf">3.62845531E-01</span>   <span class="c1"># g1</span>
+     <span class="mi">2</span>     <span class="mf">6.42066527E-01</span>   <span class="c1"># g2</span>
+     <span class="mi">3</span>     <span class="mf">1.04083353E+00</span>   <span class="c1"># g3</span>
+
+<span class="n">DECAY</span>   <span class="mi">1000023</span>     <span class="mf">1.22776237E-04</span>   <span class="c1"># neutralino2</span>
+     <span class="mf">8.88469593E-04</span>    <span class="mi">2</span>     <span class="mi">1000022</span>        <span class="mi">22</span>   <span class="c1"># BR(~chi_20 -&gt; ~chi_10 gam)</span>
+     <span class="mf">1.15050111E-01</span>    <span class="mi">3</span>     <span class="mi">1000022</span>        <span class="o">-</span><span class="mi">2</span>         <span class="mi">2</span>   <span class="c1"># BR(~chi_20 -&gt; ~chi_10 ub      u)</span>
+</pre></div>
+</div>
+</div>
+<p>to fill-in ‘A0’ of ‘BLOCK MINPAR’, ‘U_11’ of ‘BLOCK UMIX’, ‘g3’ in ‘BLOCK GAUGE Q=  1.00000000E+03’, ’neutralino2’ decay width, ’BR(~chi_20 -&gt; ~chi_10 gam)’ and ‘BR(~chi_20 -&gt; ~chi_10 ub      u)’ of ‘DECAY   1000023’, those input variables are written as</p>
+<div class="literal-block-wrapper container" id="slha">
+<div class="code-block-caption"><span class="caption-text">SLHA</span><a class="headerlink" href="#slha" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                                    Method,  BLOCK/DECAY, Block name/PDG,              Keys</span>
+<span class="n">Input</span> <span class="n">variable</span><span class="p">:</span>  <span class="n">A0</span><span class="p">,</span>            <span class="mi">1</span><span class="p">,</span>    <span class="n">SLHA</span><span class="p">,</span>    <span class="n">BLOCK</span><span class="p">,</span>       <span class="n">MINPAR</span><span class="p">,</span>                     <span class="mi">5</span>
+                 <span class="n">U_11</span><span class="p">,</span>          <span class="mi">1</span><span class="p">,</span>    <span class="n">SLHA</span><span class="p">,</span>    <span class="n">BLOCK</span><span class="p">,</span>       <span class="n">UMIX</span><span class="p">,</span>                       <span class="mi">1</span>  <span class="mi">1</span>
+                 <span class="n">g3</span><span class="p">,</span>            <span class="mi">1</span><span class="p">,</span>    <span class="n">SLHA</span><span class="p">,</span>    <span class="n">BLOCK</span><span class="p">,</span>       <span class="n">GAUGE</span> <span class="n">Q</span><span class="o">=</span>  <span class="mf">1.00000000E+03</span><span class="p">,</span>   <span class="mi">3</span>
+                 <span class="n">Wd_n2</span><span class="p">,</span>         <span class="mi">1</span><span class="p">,</span>    <span class="n">SLHA</span><span class="p">,</span>    <span class="n">DECAY</span><span class="p">,</span>       <span class="mi">1000023</span><span class="p">,</span>                    <span class="mi">0</span>
+                 <span class="n">Br_n2_n1_gam</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>    <span class="n">SLHA</span><span class="p">,</span>    <span class="n">DECAY</span><span class="p">,</span>       <span class="mi">1000023</span><span class="p">,</span>                    <span class="mi">2</span>     <span class="mi">1000022</span>        <span class="mi">22</span>
+                 <span class="n">Br_n2_n1_ub_u</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span>    <span class="n">SLHA</span><span class="p">,</span>    <span class="n">DECAY</span><span class="p">,</span>       <span class="mi">1000023</span><span class="p">,</span>                    <span class="mi">3</span>     <span class="mi">1000022</span>        <span class="o">-</span><span class="mi">2</span>         <span class="mi">2</span>
+</pre></div>
+</div>
+</div>
+<p><strong>NOTE</strong>:</p>
+<ol class="arabic simple">
+<li>If the block name contains white space(s), all the space(s) should retain, such as the ‘g3’ above.</li>
+<li>The block other than the ones in standard SLHA format can also be identified by this method, but it should have same pattern, i.e. for the line your input variable in, the first several items are keys, and the following item is your input variable.</li>
+</ol>
+</div></blockquote>
+<ul class="simple">
+<li>The ‘File’ method is used to the situation that the input file is the out file of previous program (which has less integer ‘X’ in the section name than the current one), such as</li>
+</ul>
+<blockquote>
+<div><div class="literal-block-wrapper container" id="file">
+<div class="code-block-caption"><span class="caption-text">File</span><a class="headerlink" href="#file" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#               Defined at previous program setting,  Input file ID   Method</span>
+<span class="n">Input</span> <span class="n">variable</span><span class="p">:</span>  <span class="n">f1</span><span class="p">,</span>                                   <span class="mi">1</span><span class="p">,</span>              <span class="n">File</span>
+</pre></div>
+</div>
+</div>
+</div></blockquote>
+</div></blockquote>
+<ul>
+<li><p class="first"><cite>Output file</cite>: The output file(s) of your programs, similar to <cite>Input file</cite>.</p>
+</li>
+<li><p class="first"><cite>Output variable</cite>: The output variable you want to read from the <cite>Output file</cite>, similar to <cite>Input variable</cite>, having same format and options of method except the ’Replace’ method. For example, you can read variables in</p>
+<div class="literal-block-wrapper container" id="example-output-file-externals-test-output-txt">
+<div class="code-block-caption"><span class="caption-text">Example output file (Externals/test/output.txt)</span><a class="headerlink" href="#example-output-file-externals-test-output-txt" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">BLOCK</span> <span class="n">MASS</span>   <span class="c1"># Mass spectrum</span>
+<span class="c1">#  PDG Code     mass             particle</span>
+        <span class="mi">25</span>     <span class="mf">8.69083347E+01</span>   <span class="c1"># lightest neutral scalar</span>
+        <span class="mi">35</span>     <span class="mf">1.25954831E+02</span>   <span class="c1"># second neutral scalar</span>
+        <span class="mi">45</span>     <span class="mf">1.63193932E+03</span>   <span class="c1"># third neutral scalar</span>
+        <span class="mi">36</span>     <span class="mf">1.61209440E+02</span>   <span class="c1"># lightest pseudoscalar</span>
+</pre></div>
+</div>
+</div>
+</li>
+</ul>
+<blockquote>
+<div><p>by</p>
+<div class="literal-block-wrapper container" id="output-variable">
+<div class="code-block-caption"><span class="caption-text">Output variable</span><a class="headerlink" href="#output-variable" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                Output file ID,  Path</span>
+<span class="n">Output</span> <span class="nb">file</span><span class="p">:</span>     <span class="mi">1</span><span class="p">,</span>               <span class="n">Externals</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">output</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="c1">#                Name ID,  Output file ID,  Method,     Parameters of method</span>
+<span class="n">Output</span> <span class="n">variable</span><span class="p">:</span> <span class="n">mh1</span><span class="p">,</span>      <span class="mi">1</span><span class="p">,</span>               <span class="n">Position</span><span class="p">,</span>   <span class="mi">2</span><span class="p">,</span>        <span class="mi">2</span>
+                 <span class="n">mh2</span><span class="p">,</span>      <span class="mi">1</span><span class="p">,</span>               <span class="n">Label</span><span class="p">,</span>      <span class="mi">35</span><span class="p">,</span>                    <span class="mi">1</span><span class="p">,</span>    <span class="mi">2</span>
+                 <span class="n">mh3</span><span class="p">,</span>      <span class="mi">1</span><span class="p">,</span>               <span class="n">Label</span><span class="p">,</span>      <span class="n">third</span> <span class="n">neutral</span> <span class="n">scalar</span><span class="p">,</span>  <span class="mi">4</span><span class="p">,</span>    <span class="mi">2</span>
+                 <span class="n">mA1</span><span class="p">,</span>      <span class="mi">1</span><span class="p">,</span>               <span class="n">SLHA</span><span class="p">,</span>       <span class="n">BLOCK</span><span class="p">,</span>    <span class="n">MASS</span>
+                 <span class="n">f1</span><span class="p">,</span>       <span class="mi">1</span><span class="p">,</span>               <span class="n">File</span>
+                 <span class="n">chisq_mh</span><span class="p">,</span> <span class="nb">any</span><span class="p">,</span>             <span class="n">Calculate</span><span class="p">,</span>  <span class="p">(</span><span class="n">var</span><span class="p">[</span><span class="n">mh1</span><span class="p">]</span><span class="o">-</span><span class="mf">125.0</span><span class="p">)</span><span class="o">/</span><span class="mf">2.0</span>
+</pre></div>
+</div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="constraint">
+<h2><a class="toc-backref" href="#id4">3. [constraint]</a><a class="headerlink" href="#constraint" title="Permalink to this headline">¶</a></h2>
+<p>This section is used to calculate the logarithm of likelihood function during the scan. It is essential for scan methods ‘MCMC’ and ‘MultiNest’, but not necessary for the other scan methods. Three ways to calculate the logarithm of likelihood function are provided, seeing the following sample.</p>
+<div class="literal-block-wrapper container" id="example-of-constraint">
+<div class="code-block-caption"><span class="caption-text">Example of constraint</span><a class="headerlink" href="#example-of-constraint" title="Permalink to this code">¶</a></div>
+<div class="highlight-none"><div class="highlight"><pre><span></span>[constraint]
+Gaussian:        mh,    125.0,    2.0
+                 omg,   0.1199,   0.00012,           upper
+Limit:           mn1,   sigma,    externals/LUX.txt, lower
+
+Log(likelihood): chisq_mh
+</pre></div>
+</div>
+</div>
+<ul>
+<li><p class="first"><cite>Gaussian</cite>: the logarithm of likelihood function $log(L) += - 2* frac{(mu-hat{mu})^2}{sigma^2}, and the corresponding items in the input file is</p>
+<div class="literal-block-wrapper container" id="gaussian">
+<div class="code-block-caption"><span class="caption-text">Gaussian</span><a class="headerlink" href="#gaussian" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                var ID,  Mean,     Deviation,        Upper/Lower</span>
+<span class="n">Gaussian</span><span class="p">:</span>        <span class="n">mh</span><span class="p">,</span>      <span class="mf">125.0</span><span class="p">,</span>    <span class="mf">2.0</span>
+                 <span class="n">omg</span><span class="p">,</span>     <span class="mf">0.1199</span><span class="p">,</span>   <span class="mf">0.00012</span><span class="p">,</span>          <span class="n">upper</span>
+</pre></div>
+</div>
+</div>
+</li>
+</ul>
+<blockquote>
+<div>where the last item ‘Upper’(Lower) is used in the situation that if the theoretical value $mu$ is larger(less) than the Mean value, the $log(L)$ is calculated by above equation, otherwise $log(L) += 0$.</div></blockquote>
+<ul>
+<li><p class="first"><cite>Limit</cite>: the items included two ‘var ID’s, a file name, and “Upper”/“Lower”, like like</p>
+<div class="literal-block-wrapper container" id="limit">
+<div class="code-block-caption"><span class="caption-text">Limit</span><a class="headerlink" href="#limit" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#                var1 ID,  var2 ID,     File,              Upper/Lower</span>
+<span class="n">Gaussian</span><span class="p">:</span>        <span class="n">mn1</span><span class="p">,</span>      <span class="n">sigma</span><span class="p">,</span>       <span class="n">externals</span><span class="o">/</span><span class="n">LUX</span><span class="o">.</span><span class="n">txt</span><span class="p">,</span> <span class="n">lower</span>
+</pre></div>
+</div>
+</div>
+</li>
+</ul>
+<blockquote>
+<div>where the file include n lines (n&gt;1) and 2 columns, stand a line in plane (var1, var2), and if the last item is ‘Upper’(‘Lower’) the points under(above) the line will set $log(L)$ to log(0), otherwise $log(L) += 0$.</div></blockquote>
+<ul class="simple">
+<li><cite>Log(likelihood)</cite>: the item is a variable defined in above program(s) setting, it will be added directly to the $log(L)$.</li>
+</ul>
+</div>
+<div class="section" id="plot">
+<h2><a class="toc-backref" href="#id5">4. [plot]</a><a class="headerlink" href="#plot" title="Permalink to this headline">¶</a></h2>
+<p>To get an overall description of the scan result, the section [plot] provided some base options to visualize the data.</p>
+<div class="literal-block-wrapper container" id="example-of-plot">
+<div class="code-block-caption"><span class="caption-text">Example of plot</span><a class="headerlink" href="#example-of-plot" title="Permalink to this code">¶</a></div>
+<div class="highlight-none"><div class="highlight"><pre><span></span>[plot]
+Histogram: mh,                 fig_1.png
+           m1
+Scatter:   mn1,      sigma,    fig_LUX.png
+           externals/LUX.txt
+           m0,       m1
+Color:     m0,   m12,    mh
+Contour:   m0,   m12,    loglike
+</pre></div>
+</div>
+</div>
+<ul>
+<li><p class="first"><cite>Histogram</cite>: For each variable, two histograms will be created, one the all the points in the scan results, and the another one is the points consistence with the each constraint in above section(for <cite>Gaussian</cite> requiring $chi^2&lt;4$). The second item is the name of the figure, which has default value ‘fig’+varID+’.png’.</p>
+</li>
+<li><p class="first"><cite>Scatter</cite>: You can draw scatter plot with syntaxes,</p>
+<div class="literal-block-wrapper container" id="scatter">
+<div class="code-block-caption"><span class="caption-text">Scatter</span><a class="headerlink" href="#scatter" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#          var1 ID,  var2 ID,  Figure name</span>
+<span class="n">Scatter</span><span class="p">:</span>   <span class="n">mn1</span><span class="p">,</span>      <span class="n">sigma</span><span class="p">,</span>    <span class="n">fig_LUX</span><span class="o">.</span><span class="n">png</span>
+           <span class="n">externals</span><span class="o">/</span><span class="n">LUX</span><span class="o">.</span><span class="n">txt</span>
+           <span class="n">m0</span><span class="p">,</span>       <span class="n">m1</span>
+</pre></div>
+</div>
+</div>
+</li>
+</ul>
+<blockquote>
+<div>which generate scatter plot on plane (var1, var2) with two colors representing the same meaning to <cite>Histogram</cite> plot. If there is a line just have one item and this item indicates a file containing two columns, it will plot a corresponding line in the figure obtained from the above line. &lt;see the plots for example XXX&gt;.</div></blockquote>
+<ul>
+<li><p class="first"><cite>Color</cite>: It is similar to the <cite>Scatter</cite>, but the color of points are labeled by the third item, such as</p>
+<div class="literal-block-wrapper container" id="color">
+<div class="code-block-caption"><span class="caption-text">Color</span><a class="headerlink" href="#color" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#         (x)var1 ID,   (y)var2 ID,   (color)var3 ID</span>
+<span class="n">Scatter</span><span class="p">:</span>   <span class="n">m0</span><span class="p">,</span>           <span class="n">m12</span><span class="p">,</span>          <span class="n">mh</span>
+</pre></div>
+</div>
+</div>
+</li>
+<li><p class="first"><cite>Contour</cite>: Generate contour map with also three variable.</p>
+<div class="literal-block-wrapper container" id="contour">
+<div class="code-block-caption"><span class="caption-text">Contour</span><a class="headerlink" href="#contour" title="Permalink to this code">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="c1">#         (x)var1 ID,   (y)var2 ID,   (high)var3 ID</span>
+<span class="n">Scatter</span><span class="p">:</span>   <span class="n">m0</span><span class="p">,</span>           <span class="n">m12</span><span class="p">,</span>          <span class="n">mh</span>
+</pre></div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">An introduction to the input File</a><ul>
+<li><a class="reference internal" href="#scan">1. [scan]</a></li>
+<li><a class="reference internal" href="#program">2. [program]</a></li>
+<li><a class="reference internal" href="#constraint">3. [constraint]</a></li>
+<li><a class="reference internal" href="#plot">4. [plot]</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="structure.html"
+                        title="previous chapter">Structure</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="output.html"
+                        title="next chapter">Output folder</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="output.html" title="Output folder"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="structure.html" title="Structure"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">EasyScan_HEP  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Yang Zhang, Liang Shang.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.1.
+    </div>
+  </body>
+</html>

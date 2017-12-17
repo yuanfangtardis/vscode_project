@@ -1,0 +1,13 @@
+README
+setup.py
+/home/yuanfang/Desktop/multinest_latest/Externals/PolyChord/PyPolyChord/_PyPolyChord.cpp
+PyPolyChord/__init__.py
+PyPolyChord/output.py
+PyPolyChord/priors.py
+PyPolyChord/settings.py
+PyPolyChord.egg-info/PKG-INFO
+PyPolyChord.egg-info/SOURCES.txt
+PyPolyChord.egg-info/dependency_links.txt
+PyPolyChord.egg-info/not-zip-safe
+PyPolyChord.egg-info/requires.txt
+PyPolyChord.egg-info/top_level.txt

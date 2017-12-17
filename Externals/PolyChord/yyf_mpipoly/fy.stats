@@ -1,0 +1,27 @@
+Evidence estimates:
+===================
+  - The evidence Z is a log-normally distributed, with location and scale parameters mu and sigma.
+  - We denote this as log(Z) = mu +/- sigma.
+
+Global evidence:
+----------------
+
+log(Z)       =  -0.19813186E+001 +/-   0.25476974E+000
+
+
+Local evidences:
+----------------
+
+log(Z_ 1)  =  -0.19813186E+001 +/-   0.25476974E+000
+
+
+Run-time information:
+---------------------
+
+ ncluster:          0 /       1
+ nposterior:     1051
+ nequals:         180
+ ndead:          1060
+ nlive:            75
+ nlike:         69357
+ <nlike>:        0.95   (    0.06 per slice )

@@ -1,0 +1,9 @@
+2017.10.08
+   changes:
+     1. to avoid four body decay, we set Yv_33 = 0.001 instead of Yv_33 = 0
+    => why? In that case there will be four body decay and it takes more 1 day for Micromegas to work out one channel and finally throw an error of it.
+   
+    => Why does there are four body decay ?
+       If we set Yv_33 =0 , chanels like ~Hu -> l ~vr were turned off and they search for higher body decyas like four body decay
+   2.Set timeout time to 30 minnutes
+   3. for h2 sm-like scenario case 

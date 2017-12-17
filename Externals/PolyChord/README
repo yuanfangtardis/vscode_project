@@ -1,0 +1,279 @@
+PolyChord v 1.9
+Will Handley, Mike Hobson & Anthony Lasenby
+wh260@mrao.cam.ac.uk
+arXiv:1502.01856
+arXiv:1506.00171
+Released April 2016
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PolyChord Licence
+=================
+
+Users are required to accept the licence agreement given in LICENCE
+file. PolyChord is free for academic usage
+
+Users are also required to cite the PolyChord papers: 
+arXiv:1502.01856
+arXiv:1506.00171
+in their publications.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MPI Support
+===========
+
+The code is MPI compatible with openMPI. To disable the MPI parallelization, 
+set MPI= in ./Makefile, or compile with
+make MPI= <target>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Additional Libraries  
+====================
+
+PolyChord requires no additional libraries to run in linear mode
+To run with MPI it requires the openMPI library
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Compilers
+=========
+
+PolyChord compiles with both gfortran and intel compilers. 
+
+Compiler type is chosen in the Makefile with the COMPILER_TYPE flag;
+set
+COMPILER_TYPE = gnu
+for gfortran compilers (free)
+
+set
+COMPILER_TYPE = intel
+for intel compilers (proprietary, much faster)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Running PolyChord
+=================
+
+Examples
+--------
+First, try a couple of quick examples:
+
+1) 20 dimensional Gaussian
+
+run the commands:
+$  make gaussian
+$  ./bin/gaussian ini/gaussian.ini
+
+2) Rastrigin
+
+run the commands:
+$ make rastrigin
+$ ./bin/rastrigin ini/rastrigin.ini
+
+This runs the rastrigin 'bunch of grapes' loglikelihood.
+
+In general, binary executables are stored in the directory ./bin, and ini files are
+stored in the directory ./ini.
+
+You can create new likelihoods by modelling them on the ones in
+likelihoods/examples, and triggering them with their own ini files
+
+Alternatively you can take a more "MultiNest" like approach, and manually
+generate the prior transformations. PolyChord's settings are then modified in
+the driver files src/drivers.
+
+
+Fortran likelihoods
+-------------------
+You should place your likelihood code in the function loglikelihood and your
+prior code in the function prior, contained in:
+
+./likelihoods/fortran/likelihood.f90 
+
+Any setup required (such as reading in input files) should be conducted in the
+function setup_loglikelihood. In most cases, this will likely just be a call
+to your own pre-written library.
+
+You should then alter the polychord run-time settings within the driver file:
+
+./src/drivers/polychord_fortran.f90
+
+Your code can be compiled and run with the commands:
+$  make polychord_fortran
+$  ./bin/polychord_fortran
+
+
+
+C++/C likelihoods
+-----------------
+You should place your likelihood code in the function cpp_loglikelihood,
+contained in 
+
+./likelihoods/CC/likelihood.cpp
+
+Any setup required (such as reading in input files) should be conducted in the
+function setup_loglikelihood.  In most cases, this will likely just be a call
+to your own pre-written library.
+
+You should then alter the polychord run-time settings within the driver file:
+
+./src/drivers/polychord_fortran.cpp
+
+Your code can be compiled and run with the commands:
+$  make polychord_CC
+$  ./bin/polychord_CC 
+
+If you have an additional suggestions to make the c++ wrapper more easy to use, 
+please email Will (wh260@mrao.cam.ac.uk).
+
+
+
+Python likelihoods (PyPolyChord)
+--------------------------------
+Being python, this interface is much more self-explanatory. You need to compile
+the library with
+$  make PyPolyChord
+
+You then need to point python to the library folder ./lib by adding it to
+LD_LIBRARY PATH. For example, in bash:
+$  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD/lib
+
+You may then need to also amend LD_PRELOAD with your mpi library. This is only
+necessary on some systems, and only then if you wish to run it with MPI.  Find
+out where your mpi library is kept, and then add it to LD_PRELOAD. For
+examples, in bash on Ubuntu 14.04:
+$  export LD_PRELOAD=/usr/lib/openmpi/lib/libmpi.so:$LD_PRELOAD
+    
+A good trick to finding the correct library is to inspect the output of:
+$  ldd lib/libchord.so
+
+
+You can then import PyPolyChord from anywhere with the lines:
+import PyPolyChord
+
+and check that it's working by running:
+$  python run_PyPolyChord.py
+
+or in MPI:
+$  mpirun -np 4 python run_PyPolyChord.py
+
+If so, the rest of the interface is relatively painless. Follow the example in
+run_PyPolyChord.py, and consult the docstring if you need help:
+>   import PyPolyChord as PPC
+>   from PyPolyChord.settings import PolyChordSettings
+>
+>   help(PPC.run_polychord)
+>   help(PolyChordSettings)
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Output files 
+=============
+PolyChord produces several output files depending on which settings
+are chosen
+
+
+[root].stats
+------------
+Run time statistics
+
+[root].resume
+-------------
+Files for resuming a stopped run. Semi-human readable.
+This is produced if settings%write_resume=.true.
+This is used if settings%read_resume=.true.
+
+[root].txt
+----------
+File containing weighted posterior samples. Compatable with the format
+required by getdist package which is part of the CosmoMC package.
+Contains npars+ndims+2 columns:
+
+weight -2*loglike <params> <derived params>
+
+Refer to the following website in order to download or get more
+information about getdist:
+http://cosmologist.info/cosmomc/readme.html#Analysing
+
+If settings%cluster_posteriors=.true. there are additional cluster files in
+clusters/[root]_<integer>.txt 
+
+[root]_equal_weights.txt
+------------------------
+As above, but the posterior points are equally weighted. This is
+better for 'eyeballing' the posterior, and provides a natural ~4 fold
+compression of the .txt file. 
+
+
+[root]_phys_live.txt
+--------------------
+Live points in the physical space. This is produced if
+settings%write_phys_live=.true.
+This file contains npars+ndims+1 columns, indicating the physical
+parameters, derived parameters and the log-likelihood. This is useful
+for monitoring a run as it progresses. 
+
+[root]_dead.txt
+--------------------
+Points that have been killed off. This is produced if
+settings%write_dead=.true.
+This file contains npars+ndims+1 columns, indicating the loglikelihood,
+physical parameters, derived parameters and the log-likelihood. This is useful
+for monitoring a run as it progresses, and for performing alternative
+calculations and checks on evidence and posterior computations
+
+[root].paramnames
+------------
+Parameter names file for compatibility with getdist
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Visualization of PolyChord Output:
+
+[root].txt file created by PolyChord is compatable with the format
+required by getdist package which is part of the CosmoMC package.
+Refer to the following website in order to download or get more
+information about getdist:
+http://getdist.readthedocs.org/en/latest/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Common Problems & FAQs:
+
+
+Run time Issues
+===============
+1. PolyChord crashes after segmentation fault.
+
+Try increasing the stack size:
+Linux:    ulimit -s unlimited 
+OSX:      ulimit -s hard 
+& resume your job.
+The slice sampling & clustering steps use a recursive procedure. The
+default memory allocated to recursive procedures is embarassingly
+small (to guard against memory leaks).
+
+
+2. Output files ([root].txt & [root]_equal_weights.dat) files have
+very few (of order tens) points.
+
+These files only become populated as the algorithm approaches the
+peak(s) of the posterior. Wait for the run to be closer to finishing.
+
+
+3. MPI doesn't help
+
+* Currently, the MPI parallelisation will only increase speed for 
+  'slow' likelihoods, i.e. likelihoods where the slice sampling step
+  is the dominant computational cost (compared to the organisation of
+  live points and clustering steps). 
+* Parallelisation is only effective up to ncores~O(nlive).
+
+
+Compilation Issues
+==================
+Most issues are usually one associated with an out-of-date MPI library or
+fortran compiler. Ideally you should be using:
+* gfortran 4.8    or    ifort 14
+* openMPI 1.6.5   or    Intel MPI 4.1

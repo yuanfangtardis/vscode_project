@@ -1,0 +1,1348 @@
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+INFO: [1;32;2m Scan method       = MULTINEST[0m
+* The Result file [yf_multinest_seesaw] already exists.
+Choose: (r)replace, (b)backup, (s)stop
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Result file name  = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/yf_multinest_seesaw[0m
+INFO: [1;32;2m Points number     = 3[0m
+INFO: [1;32;2m Random seed       = 789[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Input parametes   =  [0m
+WARNING: [1;31;2m For the scan method you choosed, only 4 items ( ID, Prior fution, Minimum, Maximum ) are needed for each input parameter. But the parameter [mv2_33] has 6 items. The last -2 will be ignored.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+[1;31;2m # Waiting 3 seconds for WARNING.[0m
+WARNING: [1;31;2m For the scan method you choosed, only 4 items ( ID, Prior fution, Minimum, Maximum ) are needed for each input parameter. But the parameter [LAMN_33] has 6 items. The last -2 will be ignored.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+[1;31;2m # Waiting 3 seconds for WARNING.[0m
+WARNING: [1;31;2m For the scan method you choosed, only 4 items ( ID, Prior fution, Minimum, Maximum ) are needed for each input parameter. But the parameter [alamn_33] has 6 items. The last -2 will be ignored.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+[1;31;2m # Waiting 3 seconds for WARNING.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = CAL[0m
+INFO: [1;32;2m Execute command = [['python GsphenoInput.py']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/calculator/[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/calculator/GsphenoInput.py[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m   varID= mv2_33 	fID= 1 	Method= Replace 	Name= ES_mv2_33[0m
+WARNING: [1;31;2m For input variable "mv2_33" in program "CAL" with "Replace" method, the input file "/home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/calculator/GsphenoInput.py" does not contain "ES_mv2_33", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+INFO: [1;32;2m   varID= LAMN_33 	fID= 1 	Method= Replace 	Name= ES_LAMN_33[0m
+INFO: [1;32;2m   varID= alamn_33 	fID= 1 	Method= Replace 	Name= ES_alamn_33[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno-4.0.3/GsphenoInput.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= spec 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = SPheno-4.0.3[0m
+INFO: [1;32;2m Execute command = [['rm SPheno.spc.seesaw1nmssm'], ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= spec 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= Sd_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000001[0m
+INFO: [1;32;2m   varID= Sd_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000003[0m
+INFO: [1;32;2m   varID= Sd_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000005[0m
+INFO: [1;32;2m   varID= Sd_4 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000001[0m
+INFO: [1;32;2m   varID= Sd_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000003[0m
+INFO: [1;32;2m   varID= Sd_6 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000005[0m
+INFO: [1;32;2m   varID= Su_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000002[0m
+INFO: [1;32;2m   varID= Su_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000004[0m
+INFO: [1;32;2m   varID= Su_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000006[0m
+INFO: [1;32;2m   varID= Su_4 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000002[0m
+INFO: [1;32;2m   varID= Su_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000004[0m
+INFO: [1;32;2m   varID= Su_6 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000006[0m
+INFO: [1;32;2m   varID= Se_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000011[0m
+INFO: [1;32;2m   varID= Se_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000013[0m
+INFO: [1;32;2m   varID= Se_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000015[0m
+INFO: [1;32;2m   varID= Se_4 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000011[0m
+INFO: [1;32;2m   varID= Se_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000013[0m
+INFO: [1;32;2m   varID= Se_6 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000015[0m
+INFO: [1;32;2m   varID= SvRe_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000012[0m
+INFO: [1;32;2m   varID= SvRe_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000014[0m
+INFO: [1;32;2m   varID= SvRe_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000016[0m
+INFO: [1;32;2m   varID= SvRe_4 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000012[0m
+INFO: [1;32;2m   varID= SvRe_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000014[0m
+INFO: [1;32;2m   varID= SvRe_6 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 2000016[0m
+INFO: [1;32;2m   varID= SvIm_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 4000012[0m
+INFO: [1;32;2m   varID= SvIm_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 4000014[0m
+INFO: [1;32;2m   varID= SvIm_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 4000016[0m
+INFO: [1;32;2m   varID= SvIm_4 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 5000012[0m
+INFO: [1;32;2m   varID= SvIm_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 5000014[0m
+INFO: [1;32;2m   varID= SvIm_6 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 5000016[0m
+INFO: [1;32;2m   varID= hh_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 25[0m
+INFO: [1;32;2m   varID= hh_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 35[0m
+INFO: [1;32;2m   varID= hh_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 45[0m
+INFO: [1;32;2m   varID= Ah_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 36[0m
+INFO: [1;32;2m   varID= Ah_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 46[0m
+INFO: [1;32;2m   varID= Hpm_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 37[0m
+INFO: [1;32;2m   varID= VZ 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 23[0m
+INFO: [1;32;2m   varID= VWm 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 24[0m
+INFO: [1;32;2m   varID= Fv_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 12[0m
+INFO: [1;32;2m   varID= Fv_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 14[0m
+INFO: [1;32;2m   varID= Fv_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 16[0m
+INFO: [1;32;2m   varID= Fv_4 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 112[0m
+INFO: [1;32;2m   varID= Fv_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 114[0m
+INFO: [1;32;2m   varID= Fv_6 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 116[0m
+INFO: [1;32;2m   varID= Gluino 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000021[0m
+INFO: [1;32;2m   varID= Cha_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000024[0m
+INFO: [1;32;2m   varID= Cha_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000037[0m
+INFO: [1;32;2m   varID= Chi_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000022[0m
+INFO: [1;32;2m   varID= Chi_2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000023[0m
+INFO: [1;32;2m   varID= Chi_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000025[0m
+INFO: [1;32;2m   varID= Chi_4 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000035[0m
+INFO: [1;32;2m   varID= Chi_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000045[0m
+INFO: [1;32;2m   varID= LSP_pdg 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= LSP 	Keys= 1[0m
+INFO: [1;32;2m   varID= NLSP_pdg 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= LSP 	Keys= 2[0m
+INFO: [1;32;2m   varID= (g-2)_e 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= SPhenoLowEnergy 	Keys= 20[0m
+INFO: [1;32;2m   varID= (g-2)_mu 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= SPhenoLowEnergy 	Keys= 21[0m
+INFO: [1;32;2m   varID= (g-2)_tau 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= SPhenoLowEnergy 	Keys= 22[0m
+INFO: [1;32;2m   varID= delta_rho 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= SPhenoLowEnergy 	Keys= 39[0m
+INFO: [1;32;2m   varID= BR(B->X_s gamma) 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= FlavorKitQFV 	Keys= 200[0m
+INFO: [1;32;2m   varID= BR(B^0_s->mu mu) 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= FlavorKitQFV 	Keys= 4006[0m
+INFO: [1;32;2m   varID= BR(h->e mu) 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= FlavorKitLFV 	Keys= 1101[0m
+INFO: [1;32;2m   varID= hh1SvIm1SvIm1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= cplhhSvImSvIm 	Keys= 1[0m
+INFO: [1;32;2m   varID= hh2SvIm1SvIm1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= cplhhSvImSvIm 	Keys= 2[0m
+INFO: [1;32;2m   varID= hh3SvIm1SvIm1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= cplhhSvImSvIm 	Keys= 3[0m
+INFO: [1;32;2m   varID= au1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= cplhhSvImSvIm 	Keys= 4[0m
+INFO: [1;32;2m   varID= au2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= cplhhSvImSvIm 	Keys= 5[0m
+INFO: [1;32;2m   varID= au3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= cplhhSvImSvIm 	Keys= 6[0m
+INFO: [1;32;2m   varID= ad1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= cplhhSvImSvIm 	Keys= 7[0m
+INFO: [1;32;2m   varID= ad2 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= cplhhSvImSvIm 	Keys= 8[0m
+INFO: [1;32;2m   varID= ad3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= cplhhSvImSvIm 	Keys= 9[0m
+INFO: [1;32;2m   varID= ZVI_1_3 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= SNUMIXI 	Keys= 1[0m
+INFO: [1;32;2m   varID= ZVI_1_6 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= SNUMIXI 	Keys= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = micromegas_4.3.5[0m
+INFO: [1;32;2m Execute command = [['rm omg.out'], ['./micromegas_4.3.5/shl-seesaw1-nmssm/CalcOmega_with_DDetection_MOv4.3 SPheno.spc.seesaw1nmssm']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/omg.out[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= spec 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= omega 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 1[0m
+INFO: [1;32;2m   varID= proton_si 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 201[0m
+INFO: [1;32;2m   varID= sigma_v 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 302[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = Fermi_Lat[0m
+INFO: [1;32;2m Execute command = [['./Fermi_Lat/IDD_onefile.py omg.out']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/Delta_X2.dat[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= spec 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= Fermi_Lat 	fID= 1 	Method= position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = HiggsBounds[0m
+INFO: [1;32;2m Execute command = [['rm HiggsBounds_results.dat'], ['./HiggsBounds-5.1.1beta/HiggsBounds LandH effC 5 1 ../Externals/']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/HiggsBounds_results.dat[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= HBresult 	fID= 1 	Method= position 	Line num= 19 	Column num= 8[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = HiggsSignals[0m
+INFO: [1;32;2m Execute command = [['rm HiggsSignals_results.dat'], ['./HiggsSignals-2.1.0beta/HiggsSignals latestresults peak 2 effC 5 1 ../Externals/']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/HiggsSignals_results.dat[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= Pvalue 	fID= 1 	Method= position 	Line num= 18 	Column num= 14[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = yf_extract[0m
+INFO: [1;32;2m Execute command = [['rm -f yf_results.txt'], ['./yf_extract/yf_ni1ni1_a1a1.py']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/yf_results.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= yf_flag 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = LUX limits2015[0m
+INFO: [1;32;2m Execute command = [['rm -f AllowFlag2015.txt'], ['python ./LUXlimits2015.py']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/LUXlimit2015/[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/LUXlimit2015/testpoint.dat[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m   varID= SvIm_1 	fID= 1 	Method= Replace 	Name= ES_SvIm_1[0m
+WARNING: [1;31;2m For input variable "SvIm_1" in program "LUX limits2015" with "Replace" method, the input file "/home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/LUXlimit2015/testpoint.dat" does not contain "ES_SvIm_1", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+INFO: [1;32;2m   varID= proton_si 	fID= 1 	Method= Replace 	Name= ES_proton_SI[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/LUXlimit2015/AllowFlag2015.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= LUXFlag2015 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = LUX limits2016_psi[0m
+INFO: [1;32;2m Execute command = [['rm -f AllowFlag2016_psi.txt'], ['python ./LUXlimits.py']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/LUXlimit2016_psi/[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/LUXlimit2016_psi/testpoint.dat[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m   varID= SvIm_1 	fID= 1 	Method= Replace 	Name= ES_SvIm_1[0m
+WARNING: [1;31;2m For input variable "SvIm_1" in program "LUX limits2016_psi" with "Replace" method, the input file "/home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/LUXlimit2016_psi/testpoint.dat" does not contain "ES_SvIm_1", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+INFO: [1;32;2m   varID= proton_si 	fID= 1 	Method= Replace 	Name= ES_proton_SI[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/LUXlimit2016_psi/AllowFlag2016_psi.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= LUXFlag2016_psi 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+DEBUG: [1;35;2m Programe ID: program4[0m
+DEBUG: [1;35;2m Corresponding output vars: {'spec': nan, 'Fermi_Lat': nan}[0m
+DEBUG: [1;35;2m Programe ID: program5[0m
+DEBUG: [1;35;2m Corresponding output vars: {'HBresult': nan}[0m
+DEBUG: [1;35;2m Programe ID: program6[0m
+DEBUG: [1;35;2m Corresponding output vars: {'Pvalue': nan}[0m
+DEBUG: [1;35;2m Programe ID: program7[0m
+DEBUG: [1;35;2m Corresponding output vars: {'yf_flag': nan}[0m
+DEBUG: [1;35;2m Programe ID: program1[0m
+DEBUG: [1;35;2m Corresponding output vars: {'spec': nan}[0m
+DEBUG: [1;35;2m Programe ID: program2[0m
+DEBUG: [1;35;2m Corresponding output vars: {'BR(B^0_s->mu mu)': nan, 'NLSP_pdg': nan, '(g-2)_mu': nan, 'LSP_pdg': nan, 'hh3SvIm1SvIm1': nan, 'Ah_3': nan, 'Se_5': nan, 'Se_4': nan, 'Se_6': nan, 'Se_1': nan, '(g-2)_tau': nan, 'Se_3': nan, 'Se_2': nan, 'BR(h->e mu)': nan, 'hh2SvIm1SvIm1': nan, 'SvIm_2': nan, 'SvIm_3': nan, 'SvIm_1': nan, 'SvIm_6': nan, 'SvIm_4': nan, 'SvIm_5': nan, 'Sd_4': nan, 'Sd_5': nan, 'Sd_6': nan, 'Ah_2': nan, 'Sd_1': nan, 'Sd_2': nan, 'Sd_3': nan, 'Chi_4': nan, 'Chi_5': nan, 'Chi_2': nan, 'Chi_3': nan, 'Chi_1': nan, '(g-2)_e': nan, 'spec': nan, 'BR(B->X_s gamma)': nan, 'Su_5': nan, 'Su_4': nan, 'Su_6': nan, 'Su_1': nan, 'Su_3': nan, 'Su_2': nan, 'delta_rho': nan, 'Gluino': nan, 'VWm': nan, 'Hpm_2': nan, 'ZVI_1_3': nan, 'VZ': nan, 'hh1SvIm1SvIm1': nan, 'au1': nan, 'ad3': nan, 'ZVI_1_6': nan, 'ad2': nan, 'au3': nan, 'ad1': nan, 'Fv_5': nan, 'Fv_4': nan, 'Fv_6': nan, 'Fv_1': nan, 'Fv_3': nan, 'Fv_2': nan, 'SvRe_3': nan, 'SvRe_2': nan, 'SvRe_1': nan, 'au2': nan, 'SvRe_6': nan, 'SvRe_5': nan, 'SvRe_4': nan, 'hh_1': nan, 'hh_3': nan, 'hh_2': nan, 'Cha_2': nan, 'Cha_1': nan}[0m
+DEBUG: [1;35;2m Programe ID: program3[0m
+DEBUG: [1;35;2m Corresponding output vars: {'proton_si': nan, 'omega': nan, 'sigma_v': nan, 'spec': nan}[0m
+DEBUG: [1;35;2m Programe ID: program8[0m
+DEBUG: [1;35;2m Corresponding output vars: {'LUXFlag2015': nan}[0m
+DEBUG: [1;35;2m Programe ID: program9[0m
+DEBUG: [1;35;2m Corresponding output vars: {'LUXFlag2016_psi': nan}[0m
+DEBUG: [1;35;2m All vars:   : {'Se_3': nan, 'Su_4': nan, '(g-2)_mu': nan, 'SvRe_1': nan, 'hh3SvIm1SvIm1': nan, 'Sd_1': nan, 'Se_5': nan, 'Se_4': nan, 'Se_6': nan, 'Se_1': nan, 'Cha_2': nan, 'BR(B^0_s->mu mu)': nan, 'Se_2': nan, 'BR(h->e mu)': nan, 'LUXFlag2015': nan, 'hh2SvIm1SvIm1': nan, 'mv2_33': nan, 'SvIm_3': nan, 'alamn_33': nan, 'SvIm_1': nan, 'SvIm_6': nan, 'HBresult': nan, 'SvIm_4': nan, 'SvIm_5': nan, 'Sd_4': nan, '(g-2)_tau': nan, 'Sd_6': nan, 'Ah_2': nan, 'Ah_3': nan, 'Sd_2': nan, 'Sd_3': nan, 'Chi_4': nan, 'Chi_5': nan, 'Chi_2': nan, 'Chi_3': nan, 'Chi_1': nan, 'yf_flag': nan, 'spec': nan, 'SvRe_6': nan, 'Su_5': nan, 'SvIm_2': nan, 'Su_6': nan, 'Su_1': nan, 'Su_3': nan, 'Su_2': nan, 'SvRe_4': nan, 'Gluino': nan, '(g-2)_e': nan, 'VWm': nan, 'proton_si': nan, 'Fermi_Lat': nan, 'Hpm_2': nan, 'Cha_1': nan, 'ad2': nan, 'VZ': nan, 'LUXFlag2016_psi': nan, 'hh1SvIm1SvIm1': nan, 'Pvalue': nan, 'ZVI_1_6': nan, 'sigma_v': nan, 'ZVI_1_3': nan, 'ad3': nan, 'LAMN_33': nan, 'ad1': nan, 'Fv_5': nan, 'NLSP_pdg': nan, 'Fv_6': nan, 'Fv_1': nan, 'Fv_4': nan, 'Fv_3': nan, 'Fv_2': nan, 'au1': nan, 'SvRe_2': nan, 'au3': nan, 'au2': nan, 'SvRe_3': nan, 'BR(B->X_s gamma)': nan, 'SvRe_5': nan, 'Sd_5': nan, 'hh_1': nan, 'hh_3': nan, 'hh_2': nan, 'LSP_pdg': nan, 'omega': nan, 'delta_rho': nan}[0m
+DEBUG: [1;35;2m Input Pars: : {'mv2_33': nan, 'alamn_33': nan, 'LAMN_33': nan}[0m
+DEBUG: [1;35;2m Output Pars:: {'BR(B^0_s->mu mu)': nan, '(g-2)_mu': nan, 'SvRe_1': nan, 'hh3SvIm1SvIm1': nan, 'Sd_1': nan, 'Se_5': nan, 'Se_4': nan, 'Se_6': nan, 'Se_1': nan, 'Cha_2': nan, 'Se_3': nan, 'Se_2': nan, 'BR(h->e mu)': nan, 'LUXFlag2015': nan, 'hh2SvIm1SvIm1': nan, 'SvIm_2': nan, 'SvIm_3': nan, 'SvIm_1': nan, 'SvIm_6': nan, 'HBresult': nan, 'SvIm_4': nan, 'SvIm_5': nan, 'Sd_4': nan, '(g-2)_tau': nan, 'Sd_6': nan, 'Ah_2': nan, 'Ah_3': nan, 'Sd_2': nan, 'Sd_3': nan, 'Chi_4': nan, 'Chi_5': nan, 'Chi_2': nan, 'Chi_3': nan, 'Chi_1': nan, 'yf_flag': nan, 'spec': nan, 'SvRe_6': nan, 'Su_5': nan, 'Su_4': nan, 'Su_6': nan, 'Su_1': nan, 'Su_3': nan, 'Su_2': nan, 'SvRe_4': nan, 'Gluino': nan, '(g-2)_e': nan, 'VWm': nan, 'proton_si': nan, 'Fermi_Lat': nan, 'Hpm_2': nan, 'Cha_1': nan, 'ad2': nan, 'VZ': nan, 'LUXFlag2016_psi': nan, 'hh1SvIm1SvIm1': nan, 'Pvalue': nan, 'ZVI_1_6': nan, 'sigma_v': nan, 'ZVI_1_3': nan, 'ad3': nan, 'ad1': nan, 'Fv_5': nan, 'NLSP_pdg': nan, 'Fv_6': nan, 'Fv_1': nan, 'Fv_4': nan, 'Fv_3': nan, 'Fv_2': nan, 'au1': nan, 'SvRe_2': nan, 'au3': nan, 'au2': nan, 'SvRe_3': nan, 'BR(B->X_s gamma)': nan, 'SvRe_5': nan, 'Sd_5': nan, 'hh_1': nan, 'hh_3': nan, 'hh_2': nan, 'LSP_pdg': nan, 'omega': nan, 'delta_rho': nan}[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+DEBUG: [1;35;2m constraint_items: ['gaussian'][0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m   varID= omega	Mean= 1.187000e-01	Deviation= 1.980000e-02	Type= sym[0m
+INFO: [1;32;2m   varID= hh_2	Mean= 1.250000e+02	Deviation= 2.000000e-01	Type= sym[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -2658.7559770236790     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -46028.183494312456     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -58590.476931534329     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -1147.7856144115005     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -59935.820557809988     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -7379.4933531483075     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -2184.5345094953586     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Calculating branching ratios and decay widths
+ Calculating low energy constraints
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -104129.03552157030     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108260.35901435693     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108529.47771387982     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108547.02951558000     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108548.17432524687     
+ MSvRe1=   52.352851914401541     
+ MSvIm1=   34.983607851481871     
+ Mchi1=   163.68034624252303     
+ Writing output files
+ (  1.3270810396223234     ,  0.0000000000000000     ) (  4.8709646022195212     ,  0.0000000000000000     ) (  6.9741702749236847     ,  0.0000000000000000     )
+ (  1.3270810396223234     ,  0.0000000000000000     ) (  4.8709646022195212     ,  0.0000000000000000     ) (  6.9741702749236847     ,  0.0000000000000000     ) (  4.6346476146652851E-012, -0.0000000000000000     ) (  1.3997997870329277E-011, -0.0000000000000000     ) (  1.5799618657258462E-011, -0.0000000000000000     ) (  2.1416543719187802E-011, -0.0000000000000000     ) ( -2.1022135248396866E-013, -0.0000000000000000     ) (  4.7518945604343806E-012, -0.0000000000000000     )
+ Finished!
+[0m
+DEBUG: [1;35;2m Runing Program micromegas_4.3.5 with command: ['rm omg.out'][0m
+DEBUG: [1;35;2m Program micromegas_4.3.5 done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program micromegas_4.3.5 with command: ['./micromegas_4.3.5/shl-seesaw1-nmssm/CalcOmega_with_DDetection_MOv4.3 SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program micromegas_4.3.5 done in 0 minutes, corresponding output:: Can not find decays for  nu4
+Higgs masses and widths
+     h1   115.05 7.04E-03
+     h2   127.94 1.47E-02
+     h3   841.03 1.23E+01
+    Ah2   276.62 5.62E-02
+    Ah3   845.51 1.34E+01
+    Hm2   838.04 1.15E+01
+
+Masses of odd sector Particles:
+~nI1 : MnI1  =    35.0 || ~nR1 : MnR1  =    52.4 || ~N1  : MN1   =   163.7 
+~C1  : MC1   =   242.8 || ~N2  : MN2   =   266.3 || ~N3  : MN3   =   270.0 
+~se1 : Mse1  =   400.1 || ~N4  : MN4   =   404.3 || ~se2 : Mse2  =   405.0 
+~se3 : Mse3  =   405.0 || ~nR2 : MnR2  =   407.7 || ~nI2 : MnI2  =   407.7 
+~nI3 : MnI3  =   407.9 || ~nR3 : MnR3  =   407.9 || ~nI4 : MnI4  =   407.9 
+~nR4 : MnR4  =   407.9 || ~se4 : Mse4  =   414.8 || ~se5 : Mse5  =   414.8 
+~se6 : Mse6  =   418.9 || ~nI5 : MnI5  =   441.9 || ~nR5 : MnR5  =   479.9 
+~nI6 : MnI6  =   525.5 || ~nR6 : MnR6  =   578.3 || ~su1 : Msu1  =   764.6 
+~sd1 : Msd1  =   794.8 || ~N5  : MN5   =   825.0 || ~C2  : MC2   =   825.2 
+~sd2 : Msd2  =   998.5 || ~su2 : Msu2  =  1038.7 || ~sd3 : Msd3  =  2010.1 
+~sd4 : Msd4  =  2010.1 || ~su3 : Msu3  =  2010.2 || ~su4 : Msu4  =  2010.2 
+~su5 : Msu5  =  2013.3 || ~su6 : Msu6  =  2013.3 || ~sd5 : Msd5  =  2014.4 
+~sd6 : Msd6  =  2014.4 || ~go  : Mgo   =  2345.9 || 
+Xf=1.65e+01 Omega h^2=2.55e+01
+# Channels which contribute to 1/(omega) more than 1%.
+# Relative contributions in % are displayed
+   76% ~nI1 ~nI1 ->d3 D3 
+   13% ~nI1 ~nI1 ->e3 E3 
+    6% ~nI1 ~nI1 ->g g 
+    4% ~nI1 ~nI1 ->u2 U2 
+
+# Channels which contribute to 1/(omega) more than 1%.
+# Relative contributions in % are displayed
+   76% ~nI1 ~nI1 ->d3 D3 
+   13% ~nI1 ~nI1 ->e3 E3 
+    6% ~nI1 ~nI1 ->g g 
+    4% ~nI1 ~nI1 ->u2 U2 
+
+====== Indirect detection =====
+sigmaV=6.464211E-29 [cm^3/s]
+
+==== Calculation of CDM-nucleons amplitudes  =====
+CDM-nucleon micrOMEGAs amplitudes:
+proton:  SI  2.176E-09  SD  0.000E+00
+neutron: SI  2.199E-09  SD  0.000E+00
+CDM-nucleon cross sections[pb]:
+ proton  SI 1.963E-09  SD 0.000E+00
+ neutron SI 2.005E-09  SD 0.000E+00
+[0m
+DEBUG: [1;35;2m Runing Program Fermi_Lat with command: ['./Fermi_Lat/IDD_onefile.py omg.out'][0m
+DEBUG: [1;35;2m Program Fermi_Lat done in 0 minutes, corresponding output:: ('bins:(GeV)\n', array([[   0.5       ,    0.66676072],
+       [   0.66676072,    0.88913971],
+       [   0.88913971,    1.18568685],
+       [   1.18568685,    1.58113883],
+       [   1.58113883,    2.10848252],
+       [   2.10848252,    2.81170663],
+       [   2.81170663,    3.74947105],
+       [   3.74947105,    5.        ],
+       [   5.        ,    6.66760716],
+       [   6.66760716,    8.89139705],
+       [   8.89139705,   11.8568685 ],
+       [  11.8568685 ,   15.8113883 ],
+       [  15.8113883 ,   21.0848252 ],
+       [  21.0848252 ,   28.1170663 ],
+       [  28.1170663 ,   37.4947105 ],
+       [  37.4947105 ,   50.        ],
+       [  50.        ,   66.6760716 ],
+       [  66.6760716 ,   88.9139705 ],
+       [  88.9139705 ,  118.568685  ],
+       [ 118.568685  ,  158.113883  ],
+       [ 158.113883  ,  210.848252  ],
+       [ 210.848252  ,  281.170663  ],
+       [ 281.170663  ,  374.947105  ],
+       [ 374.947105  ,  500.        ]]))
+----------./release-01-00-02/like_bootes_I.txt----------
+-- log(Jfactor)= 1.88e+01,	 Jfactor=6.30957e+18
+-- log(  err  )= 2.20e-01,	   err  =4.16171e+18
+----------./release-01-00-02/like_canes_venatici_II.txt----------
+-- log(Jfactor)= 1.79e+01,	 Jfactor=7.94328e+17
+-- log(  err  )= 2.50e-01,	   err  =6.18209e+17
+----------./release-01-00-02/like_carina.txt----------
+-- log(Jfactor)= 1.81e+01,	 Jfactor=1.25893e+18
+-- log(  err  )= 2.30e-01,	   err  =8.79037e+17
+----------./release-01-00-02/like_coma_berenices.txt----------
+-- log(Jfactor)= 1.90e+01,	 Jfactor=1.00000e+19
+-- log(  err  )= 2.50e-01,	   err  =7.78279e+18
+----------./release-01-00-02/like_draco.txt----------
+-- log(Jfactor)= 1.88e+01,	 Jfactor=6.30957e+18
+-- log(  err  )= 1.60e-01,	   err  =2.81053e+18
+----------./release-01-00-02/like_fornax.txt----------
+-- log(Jfactor)= 1.82e+01,	 Jfactor=1.58489e+18
+-- log(  err  )= 2.10e-01,	   err  =9.85503e+17
+----------./release-01-00-02/like_hercules.txt----------
+-- log(Jfactor)= 1.81e+01,	 Jfactor=1.25893e+18
+-- log(  err  )= 2.50e-01,	   err  =9.79796e+17
+----------./release-01-00-02/like_leo_II.txt----------
+-- log(Jfactor)= 1.76e+01,	 Jfactor=3.98107e+17
+-- log(  err  )= 1.80e-01,	   err  =2.04452e+17
+----------./release-01-00-02/like_leo_IV.txt----------
+-- log(Jfactor)= 1.79e+01,	 Jfactor=7.94328e+17
+-- log(  err  )= 2.80e-01,	   err  =7.19233e+17
+----------./release-01-00-02/like_sculptor.txt----------
+-- log(Jfactor)= 1.86e+01,	 Jfactor=3.98107e+18
+-- log(  err  )= 1.80e-01,	   err  =2.04452e+18
+----------./release-01-00-02/like_segue_1.txt----------
+-- log(Jfactor)= 1.95e+01,	 Jfactor=3.16228e+19
+-- log(  err  )= 2.90e-01,	   err  =3.00367e+19
+----------./release-01-00-02/like_sextans.txt----------
+-- log(Jfactor)= 1.84e+01,	 Jfactor=2.51189e+18
+-- log(  err  )= 2.70e-01,	   err  =2.16546e+18
+----------./release-01-00-02/like_ursa_major_II.txt----------
+-- log(Jfactor)= 1.93e+01,	 Jfactor=1.99526e+19
+-- log(  err  )= 2.80e-01,	   err  =1.80663e+19
+----------./release-01-00-02/like_ursa_minor.txt----------
+-- log(Jfactor)= 1.88e+01,	 Jfactor=6.30957e+18
+-- log(  err  )= 1.90e-01,	   err  =3.46280e+18
+----------./release-01-00-02/like_willman_1.txt----------
+-- log(Jfactor)= 1.91e+01,	 Jfactor=1.25893e+19
+-- log(  err  )= 3.10e-01,	   err  =1.31147e+19
+
+Delta chisqure is :	0.000000e+00----------------------
+Good point!
+[0m
+DEBUG: [1;35;2m Runing Program HiggsBounds with command: ['rm HiggsBounds_results.dat'][0m
+DEBUG: [1;35;2m Program HiggsBounds done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program HiggsBounds with command: ['./HiggsBounds-5.1.1beta/HiggsBounds LandH effC 5 1 ../Externals/'][0m
+DEBUG: [1;35;2m Program HiggsBounds done in 0 minutes, corresponding output:: 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~                                                        ~
+ ~                   HiggsBounds 5.1.1beta                ~
+ ~                                                        ~
+ ~     Philip Bechtle, Daniel Dercks, Sven Heinemeyer,    ~
+ ~             Tim Stefaniak, Georg Weiglein              ~
+ ~                                                        ~
+ ~            arXiv:0811.4169, arXiv:1102.1898,           ~
+ ~            arXiv:1301.2345, arXiv:1311.0055            ~
+ ~            arXiv:1507.06706,                           ~
+ ~            http://higgsbounds.hepforge.org             ~
+ ~                                                        ~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ HiggsBounds collects together results from 
+
+     * the LEP collaborations and LEP Higgs Working Group
+     * the CDF and D0 Collaborations
+     * the ATLAS and CMS Collaborations
+     * the program HDECAY (arXiv:hep-ph/9704448)
+     * the program VH@NNLO (arXiv:1210.5347)
+     * TeV4LHC Higgs Working Group report
+       (see arXiv:hep-ph/0612172 and refs. therein)
+     * LHC Higgs Cross Section Working Group
+       (arXiv:1101.0593, arXiv:1201.3084, arXiv:1307.1347,
+        arXiv:1610.07922 and refs. therein, including the 
+        gluon fusion N3LO prediction (arXiv:1602.00695).)
+ doing some preliminary tasks...
+ ------
+ From command line:
+ prefix:../Externals/
+ ------
+ reading in Standard Model tables...
+ reading in S95tables...
+ reading in likelihoods...
+ sorting out processes to be checked...
+ preparing output arrays...
+ getting theoretical input...
+ The problematic input file is called:
+   ../Externals/MHall_uncertainties.dat
+ Optional datafile ../Externals/MHall_uncertainties.dat not found. Using default values.
+ The problematic input file is called:
+   ../Externals/BR_H_OP.dat
+ Optional datafile ../Externals/BR_H_OP.dat not found. Using default values.
+ The problematic input file is called:
+   ../Externals/LHC8_Hplus_hadCS.dat
+ WARNING: Required file not found. Corresponding values are set to zero!
+ The problematic input file is called:
+   ../Externals/LHC13_Hplus_hadCS.dat
+ WARNING: Required file not found. Corresponding values are set to zero!
+ compare each data point to the experimental bounds...
+ beginning output...
+ finishing off...
+ finished
+[0m
+DEBUG: [1;35;2m Runing Program HiggsSignals with command: ['rm HiggsSignals_results.dat'][0m
+DEBUG: [1;35;2m Program HiggsSignals done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program HiggsSignals with command: ['./HiggsSignals-2.1.0beta/HiggsSignals latestresults peak 2 effC 5 1 ../Externals/'][0m
+DEBUG: [1;35;2m Program HiggsSignals done in 0 minutes, corresponding output::  ------
+ From command line:
+ prefix:../Externals/
+ ------
+
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~                                                        ~
+ ~      	      HiggsSignals 2.1.0beta	          ~
+ ~                                                        ~
+ ~     Philip Bechtle, Daniel Dercks, Sven Heinemeyer,    ~
+ ~      Tobias Klingl, Tim Stefaniak, Georg Weiglein      ~
+ ~                                                        ~
+ ~       arXiv:1305.1933 (Manual)                         ~
+ ~       arXiv:1403.1582 (application + more details)     ~
+ ~                                                        ~
+ ~ It is based on the HiggsBounds-5 Fortran library.      ~
+ ~ Please consult and cite also the following references  ~
+ ~ for the HiggsBounds program                            ~
+ ~                                                        ~
+ ~    arXiv:0811.4169, arXiv:1102.1898, arXiv:1311.0055   ~
+ ~                                                        ~
+ ~ For updates, additional material, release notes, see:  ~
+ ~            http://higgsbounds.hepforge.org             ~
+ ~                                                        ~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  HiggsSignals collects together results from 
+
+     * the ATLAS and CMS Collaborations
+     * the CDF and D0 Collaborations
+     * the program HDECAY (arXiv:hep-ph/9704448)
+     * LHC Higgs Cross Section Working Group
+       (arXiv:1101.0593, arXiv:1201.3084, arXiv:1307.1347,
+        arXiv:1610.07922 and ref. therein)
+
+ Covariance matrix for relative branching ratio uncertainties read in successfully.
+ Covariance matrix for relative cross section uncertainties read in successfully.
+ Reading in the following datafiles from analysis-set latestresults:
+   1  ATL_H-gaga_central-highpT_8TeV_20.3fb-1_125.4GeV_7084102.txt                                        
+   2  ATL_H-gaga_central-lowpT_8TeV_20.3fb-1_125.4GeV_7084101.txt                                         
+   3  ATL_H-gaga_forward-highpT_8TeV_20.3fb-1_125.4GeV_7084104.txt                                        
+   4  ATL_H-gaga_forward-lowpT_8TeV_20.3fb-1_125.4GeV_7084103.txt                                         
+   5  ATL_H-gaga_ttH-hadronic_8TeV_20.3fb-1_125.4GeV_7084110.txt                                          
+   6  ATL_H-gaga_ttH-leptonic_8TeV_20.3fb-1_125.4GeV_7084111.txt                                          
+   7  ATL_H-gaga_VBF-loose_8TeV_20.3fb-1_125.4GeV_7084105.txt                                             
+   8  ATL_H-gaga_VBF-tight_8TeV_20.3fb-1_125.4GeV_7084106.txt                                             
+   9  ATL_H-gaga_VH-dijet_8TeV_20.3fb-1_125.4GeV_7084107.txt                                              
+  10  ATL_H-gaga_VH-ETmiss_8TeV_20.3fb-1_125.4GeV_7084108.txt                                             
+  11  ATL_H-gaga_VH-onelepton_8TeV_20.3fb-1_125.4GeV_7084109.txt                                          
+  12  ATL_H-tautau_hadhad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061105.txt                                
+  13  ATL_H-tautau_hadhad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061106.txt                                    
+  14  ATL_H-tautau_lephad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061103.txt                                
+  15  ATL_H-tautau_lephad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061104.txt                                    
+  16  ATL_H-tautau_leplep_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061101.txt                                
+  17  ATL_H-tautau_leplep_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061102.txt                                    
+  18  ATL_H-WW-lnulnu_ggH_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060101.txt                                
+  19  ATL_H-WW-lnulnu_VBF_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060102.txt                                
+  20  ATL_H-ZZ-4l_ggF_7-8TeV_4.5fb-1_20.3fb-1_124.51GeV_5191102.txt                                       
+  21  ATL_H-ZZ-4l_VBFVH_7-8TeV_4.6fb-1_20.7fb-1_125.5GeV_2013013102.txt                                   
+  22  ATL_ttH-1l2tau_8TeV_20.3fb-1_125GeV_201500615.txt                                                   
+  23  ATL_ttH-2l0tau_8TeV_20.3fb-1_125GeV_201500611.txt                                                   
+  24  ATL_ttH-2l1tau_8TeV_20.3fb-1_125GeV_201500613.txt                                                   
+  25  ATL_ttH-3l_8TeV_20.3fb-1_125GeV_201500612.txt                                                       
+  26  ATL_ttH-4l_8TeV_20.3fb-1_125GeV_201500614.txt                                                       
+  27  ATL_ttH-bb_8TeV_20.3fb-1_125GeV_0506611.txt                                                         
+  28  ATL_VH-Vbb_0lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212101.txt                                        
+  29  ATL_VH-Vbb_1lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212102.txt                                        
+  30  ATL_VH-Vbb_2lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212103.txt                                        
+  31  ATL_VH-WW_2l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500513.txt                                        
+  32  ATL_VH-WW_3l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500512.txt                                        
+  33  ATL_VH-WW_4l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500511.txt                                        
+  34  CDF_H-gaga_1.96TeV_9.45fb-1_125GeV_1301666812.txt                                                   
+  35  CDF_H-tautau_1.96TeV_9.45fb-1_125GeV_1301666814.txt                                                 
+  36  CDF_H-WW_1.96TeV_9.45fb-1_125GeV_1301666813.txt                                                     
+  37  CDF_ttH-bb_1.96TeV_9.45fb-1_125GeV_1301666811.txt                                                   
+  38  CDF_VH-bb_1.96TeV_9.45fb-1_125GeV_1301666815.txt                                                    
+  39  CMS_H-gaga_ttH-dijet_8TeV_19.6fb-1_124.7GeV_0558124.txt                                             
+  40  CMS_H-gaga_ttH-lepton_8TeV_19.7fb-1_124.7GeV_0558123.txt                                            
+  41  CMS_H-gaga_ttH-tags_7TeV_5.0fb-1_124.7GeV_0558110.txt                                               
+  42  CMS_H-gaga_untag0_7TeV_5.0fb-1_124.7GeV_0558101.txt                                                 
+  43  CMS_H-gaga_untag0_8TeV_19.7fb-1_124.7GeV_0558111.txt                                                
+  44  CMS_H-gaga_untag1_7TeV_5.0fb-1_124.7GeV_0558102.txt                                                 
+  45  CMS_H-gaga_untag1_8TeV_19.7fb-1_124.7GeV_0558112.txt                                                
+  46  CMS_H-gaga_untag2_7TeV_5.0fb-1_124.7GeV_0558103.txt                                                 
+  47  CMS_H-gaga_untag2_8TeV_19.7fb-1_124.7_0558113.txt                                                   
+  48  CMS_H-gaga_untag3_7TeV_5.0fb-1_124.7GeV_0558104.txt                                                 
+  49  CMS_H-gaga_untag3_8TeV_19.7fb-1_124.7GeV_0558114.txt                                                
+  50  CMS_H-gaga_untag4_8TeV_19.7fb-1_124.7GeV_0558115.txt                                                
+  51  CMS_H-gaga_VBF-dijet0_7TeV_5.0fb-1_124.7GeV_0558105.txt                                             
+  52  CMS_H-gaga_VBF-dijet0_8TeV_19.7fb-1_124.7GeV_0558116.txt                                            
+  53  CMS_H-gaga_VBF-dijet1_7TeV_5.0fb-1_124.7GeV_0558106.txt                                             
+  54  CMS_H-gaga_VBF-dijet1_8TeV_19.7fb-1_124.7GeV_0558117.txt                                            
+  55  CMS_H-gaga_VBF-dijet2_8TeV_19.7fb-1_124.7GeV_0558118.txt                                            
+  56  CMS_H-gaga_VH-dijet_7TeV_5.0fb-1_124.7GeV_0558109.txt                                               
+  57  CMS_H-gaga_VH-dijet_8TeV_19.7fb-1_124.7GeV_0558122.txt                                              
+  58  CMS_H-gaga_VH-ETmiss_7TeV_5.0fb-1_124.7GeV_0558108.txt                                              
+  59  CMS_H-gaga_VH-ETmiss_8TeV_19.7fb-1_124.7GeV_0558121.txt                                             
+  60  CMS_H-gaga_VH-loose_7TeV_5.0fb-1_124.7GeV_0558107.txt                                               
+  61  CMS_H-gaga_VH-loose_8TeV_19.7fb-1_124.7GeV_0558120.txt                                              
+  62  CMS_H-gaga_VH-tight_8TeV_19.7fb-1_124.7GeV_0558119.txt                                              
+  63  CMS_H-mumu_7-8TeV_5.0fb-1_19.7fb-1_125.7GeV_13007101.txt                                            
+  64  CMS_H-tautau_0jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004101.txt                                     
+  65  CMS_H-tautau_1jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004102.txt                                     
+  66  CMS_H-WW_0-1jet_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112911.txt                                         
+  67  CMS_H-WW_VBF_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112912.txt                                            
+  68  CMS_H-ZZ_0-1jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009101.txt                                       
+  69  CMS_H-ZZ_2jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009102.txt                                         
+  70  CMS_ttH-2leptons_8TeV_19.6fb-1_125.6GeV_1682104.txt                                                 
+  71  CMS_ttH-3leptons_8TeV_19.6fb-1_125.6GeV_1682105.txt                                                 
+  72  CMS_ttH-4leptons_8TeV_19.6fb-1_125.6GeV_1682106.txt                                                 
+  73  CMS_ttH-bb_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682102.txt                                             
+  74  CMS_ttH-gaga_8TeV_19.6fb-1_125.6GeV_1682101.txt                                                     
+  75  CMS_ttH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682103.txt                                         
+  76  CMS_VBF-tautau_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004104.txt                                        
+  77  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_125.0GeV_13012101.txt                                             
+  78  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_13012201.txt                                                      
+  79  CMS_VH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.7GeV_13004103.txt                                         
+  80  CMS_VH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112913.txt                                               
+  81  CMS_VH-WW_hadronicV_7-8TeV_4.9fb-1_19.5fb-1_125.0GeV_13017101.txt                                   
+  82  CMS_WH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112914.txt                                               
+  83  D0_H-bb_1.96TeV_9.7fb-1_125GeV_1303082314.txt                                                       
+  84  D0_H-gaga_1.96TeV_9.7fb-1_125GeV_1303082311.txt                                                     
+  85  D0_H-tautau_1.96TeV_9.7fb-1_125GeV_1303082313.txt                                                   
+  86  D0_H-WW_1.96TeV_9.7fb-1_125GeV_1303082312.txt                                                       
+ The problematic input file is called:
+   ../Externals/MHall_uncertainties.dat
+ Optional datafile ../Externals/MHall_uncertainties.dat not found. Using default values.
+ The problematic input file is called:
+   ../Externals/BR_H_OP.dat
+ Optional datafile ../Externals/BR_H_OP.dat not found. Using default values.
+ The problematic input file is called:
+   ../Externals/LHC8_Hplus_hadCS.dat
+ WARNING: Required file not found. Corresponding values are set to zero!
+ The problematic input file is called:
+   ../Externals/LHC13_Hplus_hadCS.dat
+ WARNING: Required file not found. Corresponding values are set to zero!
+[0m
+DEBUG: [1;35;2m Runing Program yf_extract with command: ['rm -f yf_results.txt'][0m
+DEBUG: [1;35;2m Program yf_extract done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program yf_extract with command: ['./yf_extract/yf_ni1ni1_a1a1.py'][0m
+DEBUG: [1;35;2m Program yf_extract done in 0 minutes, corresponding output::    100 0.757865 
+ ~nI1 ~nI1 -> d3 D3
+
+the ~nI1 ~nI1 -> A1 A1 NOT FOUND!
+[0m
+DEBUG: [1;35;2m Runing Program LUX limits2015 with command: ['rm -f AllowFlag2015.txt'][0m
+DEBUG: [1;35;2m Program LUX limits2015 done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program LUX limits2015 with command: ['python ./LUXlimits2015.py'][0m
+DEBUG: [1;35;2m Program LUX limits2015 done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program LUX limits2016_psi with command: ['rm -f AllowFlag2016_psi.txt'][0m
+DEBUG: [1;35;2m Program LUX limits2016_psi done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program LUX limits2016_psi with command: ['python ./LUXlimits.py'][0m
+DEBUG: [1;35;2m Program LUX limits2016_psi done in 0 minutes, corresponding output:[0m
+yuanang cube begin....
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -49459.362569926605     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Calculating branching ratios and decay widths
+ Calculating low energy constraints
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -104129.03560243928     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108260.35909546341     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108529.47779502091     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108547.02959672461     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108548.17440639196     
+ MSvRe1=   89.147261532694202     
+ MSvIm1=   187.94017685197349     
+ Mchi1=   163.69616080520427     
+ Writing output files
+ (  18.278170541826732     ,  0.0000000000000000     ) ( -13.149696887541431     ,  0.0000000000000000     ) (  1.8637532028699835     ,  0.0000000000000000     )
+ (  18.278170541826732     ,  0.0000000000000000     ) ( -13.149696887541431     ,  0.0000000000000000     ) (  1.8637532028699835     ,  0.0000000000000000     ) (  1.1907127252336065E-011, -0.0000000000000000     ) (  3.5915298053341443E-011, -0.0000000000000000     ) ( -7.9202869539548323E-012,  0.0000000000000000     ) ( -1.0711410435434720E-011,  0.0000000000000000     ) ( -1.0456755036566378E-014, -0.0000000000000000     ) (  2.3636911710084887E-013, -0.0000000000000000     )
+ Finished!
+[0m
+DEBUG: [1;35;2m Runing Program micromegas_4.3.5 with command: ['rm omg.out'][0m
+DEBUG: [1;35;2m Program micromegas_4.3.5 done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program micromegas_4.3.5 with command: ['./micromegas_4.3.5/shl-seesaw1-nmssm/CalcOmega_with_DDetection_MOv4.3 SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program micromegas_4.3.5 done in 0 minutes, corresponding output:: Can not find decays for  nu4
+Can not find decays for  nu4
+Can not find decays for  nu4
+Higgs masses and widths
+     h1   115.07 4.38E-03
+     h2   127.98 3.69E-03
+     h3   841.04 1.23E+01
+    Ah2   276.57 1.38E-02
+    Ah3   845.52 1.34E+01
+    Hm2   838.06 1.15E+01
+
+Masses of odd sector Particles:
+~nR1 : MnR1  =    89.1 || ~N1  : MN1   =   163.7 || ~nI1 : MnI1  =   187.9 
+~C1  : MC1   =   242.8 || ~N2  : MN2   =   266.3 || ~N3  : MN3   =   270.0 
+~se1 : Mse1  =   400.1 || ~N4  : MN4   =   404.3 || ~se2 : Mse2  =   405.0 
+~se3 : Mse3  =   405.0 || ~nR2 : MnR2  =   407.7 || ~nI2 : MnI2  =   407.7 
+~nI3 : MnI3  =   407.9 || ~nR3 : MnR3  =   407.9 || ~nI4 : MnI4  =   407.9 
+~nR4 : MnR4  =   407.9 || ~se4 : Mse4  =   414.8 || ~se5 : Mse5  =   414.8 
+~se6 : Mse6  =   418.9 || ~nI5 : MnI5  =   441.9 || ~nR5 : MnR5  =   479.9 
+~nI6 : MnI6  =   525.4 || ~nR6 : MnR6  =   578.3 || ~su1 : Msu1  =   764.6 
+~sd1 : Msd1  =   794.8 || ~N5  : MN5   =   825.0 || ~C2  : MC2   =   825.2 
+~sd2 : Msd2  =   998.5 || ~su2 : Msu2  =  1038.7 || ~sd3 : Msd3  =  2010.1 
+~sd4 : Msd4  =  2010.1 || ~su3 : Msu3  =  2010.2 || ~su4 : Msu4  =  2010.2 
+~su5 : Msu5  =  2013.3 || ~su6 : Msu6  =  2013.3 || ~sd5 : Msd5  =  2014.4 
+~sd6 : Msd6  =  2014.4 || ~go  : Mgo   =  2345.9 || 
+Xf=2.09e+01 Omega h^2=8.51e-01
+# Channels which contribute to 1/(omega) more than 1%.
+# Relative contributions in % are displayed
+   73% ~nR1 ~nR1 ->nu4 nu4 
+   23% ~nR1 ~nR1 ->Wm Wp 
+    2% ~nR1 ~nR1 ->d3 D3 
+    1% ~nR1 ~nR1 ->Z Z 
+
+# Channels which contribute to 1/(omega) more than 1%.
+# Relative contributions in % are displayed
+   73% ~nR1 ~nR1 ->nu4 nu4 
+   23% ~nR1 ~nR1 ->Wm Wp 
+    2% ~nR1 ~nR1 ->d3 D3 
+    1% ~nR1 ~nR1 ->Z Z 
+
+====== Indirect detection =====
+sigmaV=2.666386E-27 [cm^3/s]
+
+==== Calculation of CDM-nucleons amplitudes  =====
+CDM-nucleon micrOMEGAs amplitudes:
+proton:  SI  -1.383E-09  SD  0.000E+00
+neutron: SI  -1.436E-09  SD  0.000E+00
+CDM-nucleon cross sections[pb]:
+ proton  SI 8.192E-10  SD 0.000E+00
+ neutron SI 8.832E-10  SD 0.000E+00
+[0m
+DEBUG: [1;35;2m Runing Program Fermi_Lat with command: ['./Fermi_Lat/IDD_onefile.py omg.out'][0m
+DEBUG: [1;35;2m Program Fermi_Lat done in 0 minutes, corresponding output:: ('bins:(GeV)\n', array([[   0.5       ,    0.66676072],
+       [   0.66676072,    0.88913971],
+       [   0.88913971,    1.18568685],
+       [   1.18568685,    1.58113883],
+       [   1.58113883,    2.10848252],
+       [   2.10848252,    2.81170663],
+       [   2.81170663,    3.74947105],
+       [   3.74947105,    5.        ],
+       [   5.        ,    6.66760716],
+       [   6.66760716,    8.89139705],
+       [   8.89139705,   11.8568685 ],
+       [  11.8568685 ,   15.8113883 ],
+       [  15.8113883 ,   21.0848252 ],
+       [  21.0848252 ,   28.1170663 ],
+       [  28.1170663 ,   37.4947105 ],
+       [  37.4947105 ,   50.        ],
+       [  50.        ,   66.6760716 ],
+       [  66.6760716 ,   88.9139705 ],
+       [  88.9139705 ,  118.568685  ],
+       [ 118.568685  ,  158.113883  ],
+       [ 158.113883  ,  210.848252  ],
+       [ 210.848252  ,  281.170663  ],
+       [ 281.170663  ,  374.947105  ],
+       [ 374.947105  ,  500.        ]]))
+----------./release-01-00-02/like_bootes_I.txt----------
+-- log(Jfactor)= 1.88e+01,	 Jfactor=6.30957e+18
+-- log(  err  )= 2.20e-01,	   err  =4.16171e+18
+----------./release-01-00-02/like_canes_venatici_II.txt----------
+-- log(Jfactor)= 1.79e+01,	 Jfactor=7.94328e+17
+-- log(  err  )= 2.50e-01,	   err  =6.18209e+17
+----------./release-01-00-02/like_carina.txt----------
+-- log(Jfactor)= 1.81e+01,	 Jfactor=1.25893e+18
+-- log(  err  )= 2.30e-01,	   err  =8.79037e+17
+----------./release-01-00-02/like_coma_berenices.txt----------
+-- log(Jfactor)= 1.90e+01,	 Jfactor=1.00000e+19
+-- log(  err  )= 2.50e-01,	   err  =7.78279e+18
+----------./release-01-00-02/like_draco.txt----------
+-- log(Jfactor)= 1.88e+01,	 Jfactor=6.30957e+18
+-- log(  err  )= 1.60e-01,	   err  =2.81053e+18
+----------./release-01-00-02/like_fornax.txt----------
+-- log(Jfactor)= 1.82e+01,	 Jfactor=1.58489e+18
+-- log(  err  )= 2.10e-01,	   err  =9.85503e+17
+----------./release-01-00-02/like_hercules.txt----------
+-- log(Jfactor)= 1.81e+01,	 Jfactor=1.25893e+18
+-- log(  err  )= 2.50e-01,	   err  =9.79796e+17
+----------./release-01-00-02/like_leo_II.txt----------
+-- log(Jfactor)= 1.76e+01,	 Jfactor=3.98107e+17
+-- log(  err  )= 1.80e-01,	   err  =2.04452e+17
+----------./release-01-00-02/like_leo_IV.txt----------
+-- log(Jfactor)= 1.79e+01,	 Jfactor=7.94328e+17
+-- log(  err  )= 2.80e-01,	   err  =7.19233e+17
+----------./release-01-00-02/like_sculptor.txt----------
+-- log(Jfactor)= 1.86e+01,	 Jfactor=3.98107e+18
+-- log(  err  )= 1.80e-01,	   err  =2.04452e+18
+----------./release-01-00-02/like_segue_1.txt----------
+-- log(Jfactor)= 1.95e+01,	 Jfactor=3.16228e+19
+-- log(  err  )= 2.90e-01,	   err  =3.00367e+19
+----------./release-01-00-02/like_sextans.txt----------
+-- log(Jfactor)= 1.84e+01,	 Jfactor=2.51189e+18
+-- log(  err  )= 2.70e-01,	   err  =2.16546e+18
+----------./release-01-00-02/like_ursa_major_II.txt----------
+-- log(Jfactor)= 1.93e+01,	 Jfactor=1.99526e+19
+-- log(  err  )= 2.80e-01,	   err  =1.80663e+19
+----------./release-01-00-02/like_ursa_minor.txt----------
+-- log(Jfactor)= 1.88e+01,	 Jfactor=6.30957e+18
+-- log(  err  )= 1.90e-01,	   err  =3.46280e+18
+----------./release-01-00-02/like_willman_1.txt----------
+-- log(Jfactor)= 1.91e+01,	 Jfactor=1.25893e+19
+-- log(  err  )= 3.10e-01,	   err  =1.31147e+19
+
+--------------------
+('sigmaV fixed and C_i=1 :\n', 'X2=43.000\tX2_rr=43.000\tX2_j=0.000')
+('free sigmaV and C_i :\n', 'X2=40.745\tX2_rr=40.745\tX2_j=0.000', '\n parameters:\n', array([ 0.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,
+        1.,  1.,  1.]))
+('fix sigmaV and free C_i :\n', 'X2=41.989\tX2_rr=41.336\tX2_j=0.653', '\n parameters:\n', array([ 0.90971369,  0.9534162 ,  0.99517079,  0.58850181,  0.8595142 ,
+        1.03616426,  1.00354457,  0.98706483,  0.94752086,  1.08228347,
+        0.61566224,  0.86798265,  0.5       ,  0.77829319,  1.48431536]))
+Delta chisqure is :	1.244695e+00----------------------
+Good point!
+[0m
+DEBUG: [1;35;2m Runing Program HiggsBounds with command: ['rm HiggsBounds_results.dat'][0m
+DEBUG: [1;35;2m Program HiggsBounds done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program HiggsBounds with command: ['./HiggsBounds-5.1.1beta/HiggsBounds LandH effC 5 1 ../Externals/'][0m
+DEBUG: [1;35;2m Program HiggsBounds done in 0 minutes, corresponding output:: 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~                                                        ~
+ ~                   HiggsBounds 5.1.1beta                ~
+ ~                                                        ~
+ ~     Philip Bechtle, Daniel Dercks, Sven Heinemeyer,    ~
+ ~             Tim Stefaniak, Georg Weiglein              ~
+ ~                                                        ~
+ ~            arXiv:0811.4169, arXiv:1102.1898,           ~
+ ~            arXiv:1301.2345, arXiv:1311.0055            ~
+ ~            arXiv:1507.06706,                           ~
+ ~            http://higgsbounds.hepforge.org             ~
+ ~                                                        ~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ HiggsBounds collects together results from 
+
+     * the LEP collaborations and LEP Higgs Working Group
+     * the CDF and D0 Collaborations
+     * the ATLAS and CMS Collaborations
+     * the program HDECAY (arXiv:hep-ph/9704448)
+     * the program VH@NNLO (arXiv:1210.5347)
+     * TeV4LHC Higgs Working Group report
+       (see arXiv:hep-ph/0612172 and refs. therein)
+     * LHC Higgs Cross Section Working Group
+       (arXiv:1101.0593, arXiv:1201.3084, arXiv:1307.1347,
+        arXiv:1610.07922 and refs. therein, including the 
+        gluon fusion N3LO prediction (arXiv:1602.00695).)
+ doing some preliminary tasks...
+ ------
+ From command line:
+ prefix:../Externals/
+ ------
+ reading in Standard Model tables...
+ reading in S95tables...
+ reading in likelihoods...
+ sorting out processes to be checked...
+ preparing output arrays...
+ getting theoretical input...
+ The problematic input file is called:
+   ../Externals/MHall_uncertainties.dat
+ Optional datafile ../Externals/MHall_uncertainties.dat not found. Using default values.
+ The problematic input file is called:
+   ../Externals/BR_H_OP.dat
+ Optional datafile ../Externals/BR_H_OP.dat not found. Using default values.
+ The problematic input file is called:
+   ../Externals/LHC8_Hplus_hadCS.dat
+ WARNING: Required file not found. Corresponding values are set to zero!
+ The problematic input file is called:
+   ../Externals/LHC13_Hplus_hadCS.dat
+ WARNING: Required file not found. Corresponding values are set to zero!
+ compare each data point to the experimental bounds...
+ beginning output...
+ finishing off...
+ finished
+[0m
+DEBUG: [1;35;2m Runing Program HiggsSignals with command: ['rm HiggsSignals_results.dat'][0m
+DEBUG: [1;35;2m Program HiggsSignals done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program HiggsSignals with command: ['./HiggsSignals-2.1.0beta/HiggsSignals latestresults peak 2 effC 5 1 ../Externals/'][0m
+DEBUG: [1;35;2m Program HiggsSignals done in 0 minutes, corresponding output::  ------
+ From command line:
+ prefix:../Externals/
+ ------
+
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~                                                        ~
+ ~      	      HiggsSignals 2.1.0beta	          ~
+ ~                                                        ~
+ ~     Philip Bechtle, Daniel Dercks, Sven Heinemeyer,    ~
+ ~      Tobias Klingl, Tim Stefaniak, Georg Weiglein      ~
+ ~                                                        ~
+ ~       arXiv:1305.1933 (Manual)                         ~
+ ~       arXiv:1403.1582 (application + more details)     ~
+ ~                                                        ~
+ ~ It is based on the HiggsBounds-5 Fortran library.      ~
+ ~ Please consult and cite also the following references  ~
+ ~ for the HiggsBounds program                            ~
+ ~                                                        ~
+ ~    arXiv:0811.4169, arXiv:1102.1898, arXiv:1311.0055   ~
+ ~                                                        ~
+ ~ For updates, additional material, release notes, see:  ~
+ ~            http://higgsbounds.hepforge.org             ~
+ ~                                                        ~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  HiggsSignals collects together results from 
+
+     * the ATLAS and CMS Collaborations
+     * the CDF and D0 Collaborations
+     * the program HDECAY (arXiv:hep-ph/9704448)
+     * LHC Higgs Cross Section Working Group
+       (arXiv:1101.0593, arXiv:1201.3084, arXiv:1307.1347,
+        arXiv:1610.07922 and ref. therein)
+
+ Covariance matrix for relative branching ratio uncertainties read in successfully.
+ Covariance matrix for relative cross section uncertainties read in successfully.
+ Reading in the following datafiles from analysis-set latestresults:
+   1  ATL_H-gaga_central-highpT_8TeV_20.3fb-1_125.4GeV_7084102.txt                                        
+   2  ATL_H-gaga_central-lowpT_8TeV_20.3fb-1_125.4GeV_7084101.txt                                         
+   3  ATL_H-gaga_forward-highpT_8TeV_20.3fb-1_125.4GeV_7084104.txt                                        
+   4  ATL_H-gaga_forward-lowpT_8TeV_20.3fb-1_125.4GeV_7084103.txt                                         
+   5  ATL_H-gaga_ttH-hadronic_8TeV_20.3fb-1_125.4GeV_7084110.txt                                          
+   6  ATL_H-gaga_ttH-leptonic_8TeV_20.3fb-1_125.4GeV_7084111.txt                                          
+   7  ATL_H-gaga_VBF-loose_8TeV_20.3fb-1_125.4GeV_7084105.txt                                             
+   8  ATL_H-gaga_VBF-tight_8TeV_20.3fb-1_125.4GeV_7084106.txt                                             
+   9  ATL_H-gaga_VH-dijet_8TeV_20.3fb-1_125.4GeV_7084107.txt                                              
+  10  ATL_H-gaga_VH-ETmiss_8TeV_20.3fb-1_125.4GeV_7084108.txt                                             
+  11  ATL_H-gaga_VH-onelepton_8TeV_20.3fb-1_125.4GeV_7084109.txt                                          
+  12  ATL_H-tautau_hadhad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061105.txt                                
+  13  ATL_H-tautau_hadhad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061106.txt                                    
+  14  ATL_H-tautau_lephad_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061103.txt                                
+  15  ATL_H-tautau_lephad_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061104.txt                                    
+  16  ATL_H-tautau_leplep_boosted_7-8TeV_24.8fb-1_125.36GeV_2014061101.txt                                
+  17  ATL_H-tautau_leplep_VBF_7-8TeV_24.8fb-1_125.36GeV_2014061102.txt                                    
+  18  ATL_H-WW-lnulnu_ggH_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060101.txt                                
+  19  ATL_H-WW-lnulnu_VBF_7-8TeV_4.5fb-1_20.3fb-1_125.36GeV_2014060102.txt                                
+  20  ATL_H-ZZ-4l_ggF_7-8TeV_4.5fb-1_20.3fb-1_124.51GeV_5191102.txt                                       
+  21  ATL_H-ZZ-4l_VBFVH_7-8TeV_4.6fb-1_20.7fb-1_125.5GeV_2013013102.txt                                   
+  22  ATL_ttH-1l2tau_8TeV_20.3fb-1_125GeV_201500615.txt                                                   
+  23  ATL_ttH-2l0tau_8TeV_20.3fb-1_125GeV_201500611.txt                                                   
+  24  ATL_ttH-2l1tau_8TeV_20.3fb-1_125GeV_201500613.txt                                                   
+  25  ATL_ttH-3l_8TeV_20.3fb-1_125GeV_201500612.txt                                                       
+  26  ATL_ttH-4l_8TeV_20.3fb-1_125GeV_201500614.txt                                                       
+  27  ATL_ttH-bb_8TeV_20.3fb-1_125GeV_0506611.txt                                                         
+  28  ATL_VH-Vbb_0lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212101.txt                                        
+  29  ATL_VH-Vbb_1lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212102.txt                                        
+  30  ATL_VH-Vbb_2lep_7-8TeV_4.7fb-1_20.3fb-1_125.0GeV_6212103.txt                                        
+  31  ATL_VH-WW_2l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500513.txt                                        
+  32  ATL_VH-WW_3l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500512.txt                                        
+  33  ATL_VH-WW_4l_7-8TeV_4.7fb-1_20.3fb-1_125.36GeV_201500511.txt                                        
+  34  CDF_H-gaga_1.96TeV_9.45fb-1_125GeV_1301666812.txt                                                   
+  35  CDF_H-tautau_1.96TeV_9.45fb-1_125GeV_1301666814.txt                                                 
+  36  CDF_H-WW_1.96TeV_9.45fb-1_125GeV_1301666813.txt                                                     
+  37  CDF_ttH-bb_1.96TeV_9.45fb-1_125GeV_1301666811.txt                                                   
+  38  CDF_VH-bb_1.96TeV_9.45fb-1_125GeV_1301666815.txt                                                    
+  39  CMS_H-gaga_ttH-dijet_8TeV_19.6fb-1_124.7GeV_0558124.txt                                             
+  40  CMS_H-gaga_ttH-lepton_8TeV_19.7fb-1_124.7GeV_0558123.txt                                            
+  41  CMS_H-gaga_ttH-tags_7TeV_5.0fb-1_124.7GeV_0558110.txt                                               
+  42  CMS_H-gaga_untag0_7TeV_5.0fb-1_124.7GeV_0558101.txt                                                 
+  43  CMS_H-gaga_untag0_8TeV_19.7fb-1_124.7GeV_0558111.txt                                                
+  44  CMS_H-gaga_untag1_7TeV_5.0fb-1_124.7GeV_0558102.txt                                                 
+  45  CMS_H-gaga_untag1_8TeV_19.7fb-1_124.7GeV_0558112.txt                                                
+  46  CMS_H-gaga_untag2_7TeV_5.0fb-1_124.7GeV_0558103.txt                                                 
+  47  CMS_H-gaga_untag2_8TeV_19.7fb-1_124.7_0558113.txt                                                   
+  48  CMS_H-gaga_untag3_7TeV_5.0fb-1_124.7GeV_0558104.txt                                                 
+  49  CMS_H-gaga_untag3_8TeV_19.7fb-1_124.7GeV_0558114.txt                                                
+  50  CMS_H-gaga_untag4_8TeV_19.7fb-1_124.7GeV_0558115.txt                                                
+  51  CMS_H-gaga_VBF-dijet0_7TeV_5.0fb-1_124.7GeV_0558105.txt                                             
+  52  CMS_H-gaga_VBF-dijet0_8TeV_19.7fb-1_124.7GeV_0558116.txt                                            
+  53  CMS_H-gaga_VBF-dijet1_7TeV_5.0fb-1_124.7GeV_0558106.txt                                             
+  54  CMS_H-gaga_VBF-dijet1_8TeV_19.7fb-1_124.7GeV_0558117.txt                                            
+  55  CMS_H-gaga_VBF-dijet2_8TeV_19.7fb-1_124.7GeV_0558118.txt                                            
+  56  CMS_H-gaga_VH-dijet_7TeV_5.0fb-1_124.7GeV_0558109.txt                                               
+  57  CMS_H-gaga_VH-dijet_8TeV_19.7fb-1_124.7GeV_0558122.txt                                              
+  58  CMS_H-gaga_VH-ETmiss_7TeV_5.0fb-1_124.7GeV_0558108.txt                                              
+  59  CMS_H-gaga_VH-ETmiss_8TeV_19.7fb-1_124.7GeV_0558121.txt                                             
+  60  CMS_H-gaga_VH-loose_7TeV_5.0fb-1_124.7GeV_0558107.txt                                               
+  61  CMS_H-gaga_VH-loose_8TeV_19.7fb-1_124.7GeV_0558120.txt                                              
+  62  CMS_H-gaga_VH-tight_8TeV_19.7fb-1_124.7GeV_0558119.txt                                              
+  63  CMS_H-mumu_7-8TeV_5.0fb-1_19.7fb-1_125.7GeV_13007101.txt                                            
+  64  CMS_H-tautau_0jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004101.txt                                     
+  65  CMS_H-tautau_1jet_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004102.txt                                     
+  66  CMS_H-WW_0-1jet_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112911.txt                                         
+  67  CMS_H-WW_VBF_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112912.txt                                            
+  68  CMS_H-ZZ_0-1jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009101.txt                                       
+  69  CMS_H-ZZ_2jet_7-8TeV_5.1fb-1_19.6fb-1_125.7GeV_14009102.txt                                         
+  70  CMS_ttH-2leptons_8TeV_19.6fb-1_125.6GeV_1682104.txt                                                 
+  71  CMS_ttH-3leptons_8TeV_19.6fb-1_125.6GeV_1682105.txt                                                 
+  72  CMS_ttH-4leptons_8TeV_19.6fb-1_125.6GeV_1682106.txt                                                 
+  73  CMS_ttH-bb_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682102.txt                                             
+  74  CMS_ttH-gaga_8TeV_19.6fb-1_125.6GeV_1682101.txt                                                     
+  75  CMS_ttH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.6GeV_1682103.txt                                         
+  76  CMS_VBF-tautau_7-8TeV_4.9fb-1_19.7fb-1_125.0GeV_13004104.txt                                        
+  77  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_125.0GeV_13012101.txt                                             
+  78  CMS_VH-bb_7-8TeV_5.0fb-1_19.0fb-1_13012201.txt                                                      
+  79  CMS_VH-tautau_7-8TeV_5.0fb-1_19.5fb-1_125.7GeV_13004103.txt                                         
+  80  CMS_VH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112913.txt                                               
+  81  CMS_VH-WW_hadronicV_7-8TeV_4.9fb-1_19.5fb-1_125.0GeV_13017101.txt                                   
+  82  CMS_WH-WW_7-8TeV_4.9_19.4fb-1_125.6GeV_1312112914.txt                                               
+  83  D0_H-bb_1.96TeV_9.7fb-1_125GeV_1303082314.txt                                                       
+  84  D0_H-gaga_1.96TeV_9.7fb-1_125GeV_1303082311.txt                                                     
+  85  D0_H-tautau_1.96TeV_9.7fb-1_125GeV_1303082313.txt                                                   
+  86  D0_H-WW_1.96TeV_9.7fb-1_125GeV_1303082312.txt                                                       
+ The problematic input file is called:
+   ../Externals/MHall_uncertainties.dat
+ Optional datafile ../Externals/MHall_uncertainties.dat not found. Using default values.
+ The problematic input file is called:
+   ../Externals/BR_H_OP.dat
+ Optional datafile ../Externals/BR_H_OP.dat not found. Using default values.
+ The problematic input file is called:
+   ../Externals/LHC8_Hplus_hadCS.dat
+ WARNING: Required file not found. Corresponding values are set to zero!
+ The problematic input file is called:
+   ../Externals/LHC13_Hplus_hadCS.dat
+ WARNING: Required file not found. Corresponding values are set to zero!
+[0m
+DEBUG: [1;35;2m Runing Program yf_extract with command: ['rm -f yf_results.txt'][0m
+DEBUG: [1;35;2m Program yf_extract done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program yf_extract with command: ['./yf_extract/yf_ni1ni1_a1a1.py'][0m
+DEBUG: [1;35;2m Program yf_extract done in 0 minutes, corresponding output::    100 0.729687 
+ ~nR1 ~nR1 -> nu4 nu4
+
+the ~nI1 ~nI1 -> A1 A1 NOT FOUND!
+[0m
+DEBUG: [1;35;2m Runing Program LUX limits2015 with command: ['rm -f AllowFlag2015.txt'][0m
+DEBUG: [1;35;2m Program LUX limits2015 done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program LUX limits2015 with command: ['python ./LUXlimits2015.py'][0m
+DEBUG: [1;35;2m Program LUX limits2015 done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program LUX limits2016_psi with command: ['rm -f AllowFlag2016_psi.txt'][0m
+DEBUG: [1;35;2m Program LUX limits2016_psi done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program LUX limits2016_psi with command: ['python ./LUXlimits.py'][0m
+DEBUG: [1;35;2m Program LUX limits2016_psi done in 0 minutes, corresponding output:[0m
+yuanang cube begin....
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -71960.201998445773     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -50719.420308431429     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -152939.86342600806     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -98800.233009384596     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -4904.2440779123835     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -2839.7228131246943     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -19724.067753930442     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -3206.6619480850864     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -129689.90647957049     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -51629.191014312542     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -1079.7605473564499     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output::  Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -43893.352378609081     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+[0m
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+DEBUG: [1;35;2m Runing Program CAL with command: ['python GsphenoInput.py'][0m
+DEBUG: [1;35;2m Program CAL done in 0 minutes, corresponding output:[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['rm SPheno.spc.seesaw1nmssm'][0m
+DEBUG: [1;35;2m Program SPheno-4.0.3 done in 0 minutes, corresponding output:: rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+[0m
+DEBUG: [1;35;2m Runing Program SPheno-4.0.3 with command: ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm SPheno-4.0.3/GsphenoInput.txt'][0m

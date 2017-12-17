@@ -1,0 +1,505 @@
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+INFO: [1;32;2m Scan method       = MULTINEST[0m
+* The Result file [multinest_test] already exists.
+Choose: (r)replace, (b)backup, (s)stop
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Result file name  = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/multinest_test[0m
+INFO: [1;32;2m Points number     = 10[0m
+INFO: [1;32;2m Random seed       = 100[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m   ID= x	Prior= FLAT	Min= 0.000000	Max= 100.000000[0m
+INFO: [1;32;2m   ID= y	Prior= FLAT	Min= 0.000000	Max= 100.000000[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = zytest[0m
+INFO: [1;32;2m Execute command = [['python test.py']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Internals/zytest[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Internals/zytest/inp.dat[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m   varID= x 	fID= 1 	Method= Replace 	Name= ES_x[0m
+INFO: [1;32;2m   varID= y 	fID= 1 	Method= Replace 	Name= ES_y[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_test/bin/../Internals/zytest/output.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= z 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+DEBUG: [1;35;2m Programe ID: program1[0m
+DEBUG: [1;35;2m Corresponding output vars: {'z': nan}[0m
+DEBUG: [1;35;2m All vars:   : {'y': nan, 'x': nan, 'z': nan}[0m
+DEBUG: [1;35;2m Input Pars: : {'y': nan, 'x': nan}[0m
+DEBUG: [1;35;2m Output Pars:: {'z': nan}[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+DEBUG: [1;35;2m constraint_items: ['gaussian'][0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m   varID= z	Mean= 1.200000e+02	Deviation= 2.000000e+00	Type= sym[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+DEBUG: [1;35;2m Runing Program zytest with command: ['python test.py'][0m
+DEBUG: [1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+[0m
+setPlotPar() in manfun.py 02llllllllllllllllllllllll
+/home/shl/type_I_seesaw/new_h2like/multinest_test/bin/multinest_test MultiNestData/ev.dat
+INFO: [1;32;2m Start to plot the result ... [0m
+ *****************************************************
+ MultiNest v3.10
+ Copyright Farhan Feroz & Mike Hobson
+ Release Jul 2015
+
+ no. of live points =   10
+ dimensionality =    2
+ *****************************************************
+ Starting MultiNest
+ generating live points
+ live points generated, starting sampling
+
+ MultiNest Warning!
+ Parameter            1  of mode            1  is converging towards the edge of the prior.
+Acceptance Rate:                        0.750000
+Replacements:                                 60
+Total Samples:                                80
+Nested Sampling ln(Z):                -98.695003
+Importance Nested Sampling ln(Z):      -8.498143 +/-  0.594063
+Acceptance Rate:                        0.619718
+Replacements:                                 88
+Total Samples:                               142
+Nested Sampling ln(Z):                 -7.584514
+Importance Nested Sampling ln(Z):      -9.252916 +/-  0.171866
+ ln(ev)=  -6.9811543807117342      +/-  0.80060485659870073     
+ Total Likelihood Evaluations:          142
+ Sampling finished. Exiting MultiNest

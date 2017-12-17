@@ -1,0 +1,233 @@
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Result file name  = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Result file name  = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi[0m
+INFO: [1;32;2m Points number     = 5[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Points number     = 5[0m
+INFO: [1;32;2m Result file name  = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi[0m
+INFO: [1;32;2m Random seed       = 120[0m
+INFO: [1;32;2m Result file name  = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Random seed       = 120[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Points number     = 5[0m
+INFO: [1;32;2m Points number     = 5[0m
+INFO: [1;32;2m   ID= x	Prior= FLAT	Min= 0.000000	Max= 100.000000[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m   ID= y	Prior= FLAT	Min= 300.000000	Max= 400.000000[0m
+INFO: [1;32;2m Random seed       = 120[0m
+INFO: [1;32;2m Random seed       = 120[0m
+INFO: [1;32;2m   ID= m	Prior= FLAT	Min= 500.000000	Max= 600.000000[0m
+INFO: [1;32;2m   ID= x	Prior= FLAT	Min= 0.000000	Max= 100.000000[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m   ID= y	Prior= FLAT	Min= 300.000000	Max= 400.000000[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m   ID= m	Prior= FLAT	Min= 500.000000	Max= 600.000000[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m Program name    = zytest[0m
+INFO: [1;32;2m   ID= x	Prior= FLAT	Min= 0.000000	Max= 100.000000[0m
+INFO: [1;32;2m   ID= x	Prior= FLAT	Min= 0.000000	Max= 100.000000[0m
+INFO: [1;32;2m Execute command = [['python test.py']][0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest[0m
+INFO: [1;32;2m   ID= y	Prior= FLAT	Min= 300.000000	Max= 400.000000[0m
+INFO: [1;32;2m   ID= y	Prior= FLAT	Min= 300.000000	Max= 400.000000[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m Program name    = zytest[0m
+INFO: [1;32;2m   ID= m	Prior= FLAT	Min= 500.000000	Max= 600.000000[0m
+INFO: [1;32;2m   ID= m	Prior= FLAT	Min= 500.000000	Max= 600.000000[0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat[0m
+INFO: [1;32;2m Execute command = [['python test.py']][0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat[0m
+INFO: [1;32;2m Program name    = zytest[0m
+INFO: [1;32;2m Program name    = zytest[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m Execute command = [['python test.py']][0m
+INFO: [1;32;2m Execute command = [['python test.py']][0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest[0m
+INFO: [1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat[0m
+INFO: [1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m   varID= x 	fID= 1 	Method= Replace 	Name= ES_x[0m
+INFO: [1;32;2m   varID= x 	fID= 1 	Method= Replace 	Name= ES_x[0m
+INFO: [1;32;2m   varID= x 	fID= 1 	Method= Replace 	Name= ES_x[0m
+INFO: [1;32;2m   varID= x 	fID= 1 	Method= Replace 	Name= ES_x[0m
+WARNING: [1;31;2m For input variable "x" in program "zytest" with "Replace" method, the input file "/home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat" does not contain "ES_x", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+WARNING: [1;31;2m For input variable "x" in program "zytest" with "Replace" method, the input file "/home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat" does not contain "ES_x", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+WARNING: [1;31;2m For input variable "x" in program "zytest" with "Replace" method, the input file "/home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat" does not contain "ES_x", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+WARNING: [1;31;2m For input variable "x" in program "zytest" with "Replace" method, the input file "/home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat" does not contain "ES_x", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+INFO: [1;32;2m   varID= y 	fID= 1 	Method= Replace 	Name= ES_y[0m
+INFO: [1;32;2m   varID= y 	fID= 1 	Method= Replace 	Name= ES_y[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+INFO: [1;32;2m   varID= y 	fID= 1 	Method= Replace 	Name= ES_y[0m
+INFO: [1;32;2m   varID= y 	fID= 1 	Method= Replace 	Name= ES_y[0m
+INFO: [1;32;2m   varID= m 	fID= 1 	Method= Replace 	Name= ES_m[0m
+INFO: [1;32;2m   varID= m 	fID= 1 	Method= Replace 	Name= ES_m[0m
+INFO: [1;32;2m   varID= m 	fID= 1 	Method= Replace 	Name= ES_m[0m
+INFO: [1;32;2m   varID= m 	fID= 1 	Method= Replace 	Name= ES_m[0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/output.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= yf_output 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= z 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m   varID= z	Mean= 9.992000e+02	Deviation= 3.000000e+00	Type= sym[0m
+ES.getFileName()= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi
+nlive_points= 5
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/output.txt[0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/output.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   varID= yf_output 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= z 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/output.txt[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m   varID= yf_output 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= z 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m   varID= yf_output 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m   varID= z 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m   varID= z	Mean= 9.992000e+02	Deviation= 3.000000e+00	Type= sym[0m
+ES.getFileName()= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi
+nlive_points= 5
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m   varID= z	Mean= 9.992000e+02	Deviation= 3.000000e+00	Type= sym[0m
+ES.getFileName()= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi
+nlive_points= 5
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m   varID= z	Mean= 9.992000e+02	Deviation= 3.000000e+00	Type= sym[0m
+ES.getFileName()= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi
+nlive_points= 5
+
+PolyChord: Next Generation Nested Sampling
+copyright: Will Handley, Mike Hobson & Anthony Lasenby
+  version: 1.11
+  release: 7th July 2017
+    email: wh260@mrao.cam.ac.uk
+
+Run Settings
+nlive    :       5
+nDims    :       3
+nDerived :       2
+Doing Clustering
+Generating equally weighted posteriors
+Generating weighted posteriors
+Clustering on posteriors
+Writing a resume file to/home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_mpi/PolyChordData/test.resume
+
+Resuming from previous run
+number of repeats:            6
+started sampling
+
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+Polychord Warning: Non deterministic loglikelihood
+Polychord Warning: Non deterministic loglikelihood
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+Polychord Warning: Non deterministic loglikelihood
+Polychord Warning: Non deterministic loglikelihood
+Polychord Warning: Non deterministic loglikelihood
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+Polychord Warning: Non deterministic loglikelihood
+Polychord Warning: Non deterministic loglikelihood
+Polychord Warning: Non deterministic loglikelihood
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m
+INFO: [1;32;2m Can not read the output var ['z', 1, 'Position', 1, 1][0m

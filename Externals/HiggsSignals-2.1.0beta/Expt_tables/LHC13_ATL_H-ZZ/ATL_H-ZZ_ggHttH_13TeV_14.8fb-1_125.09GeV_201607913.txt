@@ -1,0 +1,14 @@
+# Data calculated from eq. 8, ATLAS-CONF-2016-079
+# Implemented as pure production mode
+201607913	20160793		1
+ATLAS-CONF-2016-079
+LHC, ATL, ATL
+(pp)->h->ZZ (ggH,ttH)
+13	14.8	0.029
+1	0
+5.0
+125.09 125.09 1.0
+2	-1
+13 53
+
+125.09		1.03	1.37	1.75

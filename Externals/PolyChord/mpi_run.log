@@ -1,0 +1,33 @@
+
+PolyChord: Next Generation Nested Sampling
+copyright: Will Handley, Mike Hobson & Anthony Lasenby
+  version: 1.11
+  release: 7th July 2017
+    email: wh260@mrao.cam.ac.uk
+
+Run Settings
+nlive    :      75
+nDims    :       3
+nDerived :       1
+Doing Clustering
+Generating equally weighted posteriors
+Generating weighted posteriors
+Clustering on posteriors
+Writing a resume file tochains/gaussian.resume
+
+Resuming from previous run
+number of repeats:           15
+started sampling
+
+ ____________________________________________________ 
+|                                                    |
+| ndead  =         1042                              |
+| log(Z) =           -1.60448 +/-            0.24338 |
+|____________________________________________________|
+Slave  1: efficient MPI parallisation; wait_time/slice_time=    0.43952900E-01
+Slave  2: efficient MPI parallisation; wait_time/slice_time=    0.45813990E-01
+Slave  3: efficient MPI parallisation; wait_time/slice_time=    0.63641252E-01
+chains/gaussian.txt
+chains/gaussian.txt
+Removed no burn in
+Removed no burn in

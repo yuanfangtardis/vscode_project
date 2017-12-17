@@ -1,0 +1,926 @@
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+rank= 0
+rank= 1
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Result file name  = /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw[0m
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m Points number     = 7[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Random seed       = 123[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Result file name  = /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m Points number     = 7[0m
+INFO: [1;32;2m   ID= mv2_33	Prior= LOG	Min= 50.000000	Max= 40000.000000[0m
+INFO: [1;32;2m Random seed       = 123[0m
+INFO: [1;32;2m   ID= LAMN_33	Prior= FLAT	Min= 0.000000	Max= 0.300000[0m
+INFO: [1;32;2m   ID= alamn_33	Prior= FLAT	Min= -1000.000000	Max= 1000.000000[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m   ID= mv2_33	Prior= LOG	Min= 50.000000	Max= 40000.000000[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = CAL[0m
+INFO: [1;32;2m   ID= LAMN_33	Prior= FLAT	Min= 0.000000	Max= 0.300000[0m
+INFO: [1;32;2m   ID= alamn_33	Prior= FLAT	Min= -1000.000000	Max= 1000.000000[0m
+INFO: [1;32;2m Execute command = [['python ./calculator/GsphenoInput.py']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = CAL[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m Execute command = [['python ./calculator/GsphenoInput.py']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
+INFO: [1;32;2m   varID= mv2_33 	fID= 1 	Method= Replace 	Name= ES_mv2_33[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m   varID= mv2_33 	fID= 1 	Method= Replace 	Name= ES_mv2_33[0m
+WARNING: [1;31;2m For input variable "mv2_33" in program "CAL" with "Replace" method, the input file "/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py" does not contain "ES_mv2_33", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+INFO: [1;32;2m   varID= LAMN_33 	fID= 1 	Method= Replace 	Name= ES_LAMN_33[0m
+WARNING: [1;31;2m For input variable "mv2_33" in program "CAL" with "Replace" method, the input file "/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py" does not contain "ES_mv2_33", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+INFO: [1;32;2m   varID= alamn_33 	fID= 1 	Method= Replace 	Name= ES_alamn_33[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+INFO: [1;32;2m   varID= LAMN_33 	fID= 1 	Method= Replace 	Name= ES_LAMN_33[0m
+INFO: [1;32;2m   varID= alamn_33 	fID= 1 	Method= Replace 	Name= ES_alamn_33[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   varID= GsphenoInput 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt[0m
+INFO: [1;32;2m   varID= yf_M1 	fID= 1 	Method= Position 	Line num= 2 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= GsphenoInput 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m   varID= yf_M1 	fID= 1 	Method= Position 	Line num= 2 	Column num= 1[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m Program name    = SPheno-4.0.3[0m
+INFO: [1;32;2m Execute command = [['rm  SPheno.spc.seesaw1nmssm'], ['rm -rf effC.dat'], ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']][0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m Program name    = SPheno-4.0.3[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Execute command = [['rm  SPheno.spc.seesaw1nmssm'], ['rm -rf effC.dat'], ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m Output variable = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m   varID= SPhenooutfile 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   varID= Sd_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000001[0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+INFO: [1;32;2m   varID= SvRe_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000012[0m
+INFO: [1;32;2m   varID= hh_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 25[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= Chi_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000045[0m
+INFO: [1;32;2m   varID= SPhenooutfile 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m   varID= Sd_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000001[0m
+DEBUG: [1;35;2m Programe ID: program1[0m
+INFO: [1;32;2m   varID= SvRe_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000012[0m
+DEBUG: [1;35;2m Corresponding output vars: {'yf_M1': nan, 'GsphenoInput': nan}[0m
+INFO: [1;32;2m   varID= hh_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 25[0m
+DEBUG: [1;35;2m Programe ID: program2[0m
+INFO: [1;32;2m   varID= Chi_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000045[0m
+DEBUG: [1;35;2m Corresponding output vars: {'hh_1': nan, 'SvRe_1': nan, 'Chi_5': nan, 'SPhenooutfile': nan, 'Sd_1': nan}[0m
+DEBUG: [1;35;2m All vars:   : {'mv2_33': nan, 'alamn_33': nan, 'LAMN_33': nan, 'Sd_1': nan, 'GsphenoInput': nan, 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': nan, 'SPhenooutfile': nan}[0m
+INFO: [1;32;2m No Run flag.[0m
+DEBUG: [1;35;2m Programe ID: program1[0m
+DEBUG: [1;35;2m Input Pars: : {'mv2_33': nan, 'alamn_33': nan, 'LAMN_33': nan}[0m
+DEBUG: [1;35;2m Corresponding output vars: {'yf_M1': nan, 'GsphenoInput': nan}[0m
+DEBUG: [1;35;2m Output Pars:: {'Sd_1': nan, 'GsphenoInput': nan, 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': nan, 'SPhenooutfile': nan}[0m
+DEBUG: [1;35;2m Programe ID: program2[0m
+DEBUG: [1;35;2m Corresponding output vars: {'hh_1': nan, 'SvRe_1': nan, 'Chi_5': nan, 'SPhenooutfile': nan, 'Sd_1': nan}[0m
+INFO: [1;32;2m ...............................................[0m
+DEBUG: [1;35;2m All vars:   : {'mv2_33': nan, 'alamn_33': nan, 'LAMN_33': nan, 'Sd_1': nan, 'GsphenoInput': nan, 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': nan, 'SPhenooutfile': nan}[0m
+DEBUG: [1;35;2m Input Pars: : {'mv2_33': nan, 'alamn_33': nan, 'LAMN_33': nan}[0m
+INFO: [1;32;2m ...............................................[0m
+DEBUG: [1;35;2m Output Pars:: {'Sd_1': nan, 'GsphenoInput': nan, 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': nan, 'SPhenooutfile': nan}[0m
+DEBUG: [1;35;2m constraint_items: ['gaussian'][0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+DEBUG: [1;35;2m constraint_items: ['gaussian'][0m
+INFO: [1;32;2m   varID= hh_1	Mean= 1.150000e+02	Deviation= 2.000000e+00	Type= sym[0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+main: programs= {'program1': <manfun.program instance at 0x2af28e1237a0>, 'program2': <manfun.program instance at 0x2af28e0d6b00>}
+main:ProgID= ['program1', 'program2']
+INFO: [1;32;2m   varID= hh_1	Mean= 1.150000e+02	Deviation= 2.000000e+00	Type= sym[0m
+ES.getFileName()= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+nlive_points= 7
+main: programs= {'program1': <manfun.program instance at 0x2b77f80c77a0>, 'program2': <manfun.program instance at 0x2b77f807ab00>}
+main:ProgID= ['program1', 'program2']
+ES.getFileName()= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+nlive_points= 7
+yf mpi_initilized, then still run...
+yf mpi_initilized, then still run...
+
+PolyChord: Next Generation Nested Sampling
+copyright: Will Handley, Mike Hobson & Anthony Lasenby
+  version: 1.11
+  release: 7th July 2017
+    email: wh260@mrao.cam.ac.uk
+
+Run Settings
+nlive    :       7
+nDims    :       3
+nDerived :       7
+Doing Clustering
+Generating equally weighted posteriors
+Generating weighted posteriors
+Clustering on posteriors
+Writing a resume file to/home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw/PolyChordData/test.resume
+
+Resuming from previous run
+number of repeats:            6
+started sampling
+
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 2847.7429109448585, 'alamn_33': -910.3631316366816, 'LAMN_33': 0.09674309537695548, 'Sd_1': nan, 'GsphenoInput': nan, 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': nan, 'SPhenooutfile': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 2847.7429109448585, 'alamn_33': -910.3631316366816, 'LAMN_33': 0.09674309537695548, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -54668.982515185286     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 2847.7429109448585, 'alamn_33': -910.3631316366816, 'LAMN_33': 0.09674309537695548, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 2****************
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+Phy= False
+ES.AllPar= {'mv2_33': 2847.7429109448585, 'alamn_33': -910.3631316366816, 'LAMN_33': 0.09674309537695548, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 9935.75975531538, 'alamn_33': -473.8275817608146, 'LAMN_33': 0.10226510215342646, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 9935.75975531538, 'alamn_33': -473.8275817608146, 'LAMN_33': 0.10226510215342646, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -15408.300817783569     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 9935.75975531538, 'alamn_33': -473.8275817608146, 'LAMN_33': 0.10226510215342646, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 2****************
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+Phy= False
+ES.AllPar= {'mv2_33': 9935.75975531538, 'alamn_33': -473.8275817608146, 'LAMN_33': 0.10226510215342646, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 29264.51333622971, 'alamn_33': -96.46205431654857, 'LAMN_33': 0.10703863090806358, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 29264.51333622971, 'alamn_33': -96.46205431654857, 'LAMN_33': 0.10703863090806358, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Calculating branching ratios and decay widths
+ Calculating low energy constraints
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -104129.03530356592     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108260.35879601285     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108529.47749544328     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108547.02929713314     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108548.17410679918     
+ MSvRe1=   185.40370012396428     
+ MSvIm1=   195.36607560350225     
+ Mchi1=   163.64445366494147     
+ Writing output files
+ (  16.141821950137690     ,  0.0000000000000000     ) ( -3.0705804234592762     ,  0.0000000000000000     ) (  11.634658903309495     ,  0.0000000000000000     )
+ (  16.141821950137690     ,  0.0000000000000000     ) ( -3.0705804234592762     ,  0.0000000000000000     ) (  11.634658903309495     ,  0.0000000000000000     ) (  1.0101715026868250E-011, -0.0000000000000000     ) (  3.0496010469215083E-011, -0.0000000000000000     ) ( -1.7823098019036431E-012,  0.0000000000000000     ) ( -2.4140963755804004E-012,  0.0000000000000000     ) ( -6.2798809555097843E-014, -0.0000000000000000     ) (  1.4195137596988020E-012, -0.0000000000000000     )
+ Finished!
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 29264.51333622971, 'alamn_33': -96.46205431654857, 'LAMN_33': 0.10703863090806358, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': nan, 'Chi_5': nan, 'hh_1': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= [['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001], ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012], ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25], ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]]
+**************yuanfang break detect 6****************
+jj= ['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 29264.51333622971, 'alamn_33': -96.46205431654857, 'LAMN_33': 0.10703863090806358, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 185.4037, 'Chi_5': 825.038866, 'hh_1': 115.057396, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 883.7087478329255, 'alamn_33': 59.58362734924799, 'LAMN_33': 0.06986664533236867, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 185.4037, 'Chi_5': 825.038866, 'hh_1': 115.057396, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 883.7087478329255, 'alamn_33': 59.58362734924799, 'LAMN_33': 0.06986664533236867, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 185.4037, 'Chi_5': 825.038866, 'hh_1': 115.057396, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Warning from routine CalculateMSvIm                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -3671.2198630350213     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 883.7087478329255, 'alamn_33': 59.58362734924799, 'LAMN_33': 0.06986664533236867, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 185.4037, 'Chi_5': 825.038866, 'hh_1': 115.057396, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 2****************
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+Phy= False
+ES.AllPar= {'mv2_33': 883.7087478329255, 'alamn_33': 59.58362734924799, 'LAMN_33': 0.06986664533236867, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 185.4037, 'Chi_5': 825.038866, 'hh_1': 115.057396, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 9657.40663206174, 'alamn_33': -47.03349604843356, 'LAMN_33': 0.09526414515904527, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 185.4037, 'Chi_5': 825.038866, 'hh_1': 115.057396, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 9657.40663206174, 'alamn_33': -47.03349604843356, 'LAMN_33': 0.09526414515904527, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 185.4037, 'Chi_5': 825.038866, 'hh_1': 115.057396, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Calculating branching ratios and decay widths
+ Calculating low energy constraints
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -104129.03533985523     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108260.35883231883     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108529.47753176458     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108547.02933345624     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108548.17414312242     
+ MSvRe1=   131.30400973624637     
+ MSvIm1=   115.11043218100356     
+ Mchi1=   163.64580064274443     
+ Writing output files
+ (  7.7067001132512702     ,  0.0000000000000000     ) (  3.4833841948447453     ,  0.0000000000000000     ) (  11.357991950771403     ,  0.0000000000000000     )
+ (  7.7067001132512702     ,  0.0000000000000000     ) (  3.4833841948447453     ,  0.0000000000000000     ) (  11.357991950771403     ,  0.0000000000000000     ) (  8.1744525359618346E-012, -0.0000000000000000     ) (  2.4699620807439013E-011, -0.0000000000000000     ) (  3.4368431976855619E-012, -0.0000000000000000     ) (  4.6621014023871185E-012, -0.0000000000000000     ) ( -1.0405069379576267E-013, -0.0000000000000000     ) (  2.3519717441646583E-012, -0.0000000000000000     )
+ Finished!
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 9657.40663206174, 'alamn_33': -47.03349604843356, 'LAMN_33': 0.09526414515904527, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 185.4037, 'Chi_5': 825.038866, 'hh_1': 115.057396, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= [['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001], ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012], ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25], ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]]
+**************yuanfang break detect 6****************
+jj= ['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 9657.40663206174, 'alamn_33': -47.03349604843356, 'LAMN_33': 0.09526414515904527, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 131.30401, 'Chi_5': 825.038868, 'hh_1': 115.042946, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 9488.64818645128, 'alamn_33': -230.5512489069814, 'LAMN_33': 0.08127349397745423, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 131.30401, 'Chi_5': 825.038868, 'hh_1': 115.042946, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 9488.64818645128, 'alamn_33': -230.5512489069814, 'LAMN_33': 0.08127349397745423, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 131.30401, 'Chi_5': 825.038868, 'hh_1': 115.042946, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Calculating branching ratios and decay widths
+ Calculating low energy constraints
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -104129.03542111724     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108260.35891376757     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108529.47761324738     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108547.02941494266     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108548.17422460949     
+ MSvRe1=   59.456586393258952     
+ MSvIm1=   153.37695905267870     
+ Mchi1=   163.65002067054732     
+ Writing output files
+ (  20.055247838589782     ,  0.0000000000000000     ) ( -9.6612768774314794     ,  0.0000000000000000     ) (  7.6555250664892522     ,  0.0000000000000000     )
+ (  20.055247838589782     ,  0.0000000000000000     ) ( -9.6612768774314794     ,  0.0000000000000000     ) (  7.6555250664892522     ,  0.0000000000000000     ) (  1.6018178159268950E-011, -0.0000000000000000     ) (  4.8296863732612629E-011, -0.0000000000000000     ) ( -7.1272034507909326E-012,  0.0000000000000000     ) ( -9.6330117886990377E-012,  0.0000000000000000     ) ( -5.2630099093858159E-014, -0.0000000000000000     ) (  1.1896638566466541E-012, -0.0000000000000000     )
+ Finished!
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 9488.64818645128, 'alamn_33': -230.5512489069814, 'LAMN_33': 0.08127349397745423, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 131.30401, 'Chi_5': 825.038868, 'hh_1': 115.042946, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= [['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001], ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012], ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25], ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]]
+**************yuanfang break detect 6****************
+jj= ['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 9488.64818645128, 'alamn_33': -230.5512489069814, 'LAMN_33': 0.08127349397745423, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 59.4565864, 'Chi_5': 825.038869, 'hh_1': 115.074587, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 9669.171079923057, 'alamn_33': -256.8843723834558, 'LAMN_33': 0.11952239375144771, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 59.4565864, 'Chi_5': 825.038869, 'hh_1': 115.074587, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 9669.171079923057, 'alamn_33': -256.8843723834558, 'LAMN_33': 0.11952239375144771, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 59.4565864, 'Chi_5': 825.038869, 'hh_1': 115.074587, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Calculating branching ratios and decay widths
+ Calculating low energy constraints
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -104129.03528788245     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108260.35878030407     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108529.47747972829     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108547.02928141742     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108548.17409108384     
+ MSvRe1=   35.705437935491815     
+ MSvIm1=   188.36484588238281     
+ Mchi1=   163.57378015059024     
+ Writing output files
+ (  40.024235517930308     ,  0.0000000000000000     ) ( -24.267534543849809     ,  0.0000000000000000     ) (  9.6566078676688321     ,  0.0000000000000000     )
+ (  40.024235517930308     ,  0.0000000000000000     ) ( -24.267534543849809     ,  0.0000000000000000     ) (  9.6566078676688321     ,  0.0000000000000000     ) (  2.6108691549896800E-011, -0.0000000000000000     ) (  7.8561735292561347E-011, -0.0000000000000000     ) ( -1.4528963490373419E-011,  0.0000000000000000     ) ( -1.9570229908675435E-011,  0.0000000000000000     ) ( -5.4051818655314606E-014, -0.0000000000000000     ) (  1.2217893205224903E-012, -0.0000000000000000     )
+ Finished!
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 9669.171079923057, 'alamn_33': -256.8843723834558, 'LAMN_33': 0.11952239375144771, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 59.4565864, 'Chi_5': 825.038869, 'hh_1': 115.074587, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= [['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001], ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012], ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25], ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]]
+**************yuanfang break detect 6****************
+jj= ['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 9669.171079923057, 'alamn_33': -256.8843723834558, 'LAMN_33': 0.11952239375144771, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 35.7054379, 'Chi_5': 825.038865, 'hh_1': 115.109856, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 8574.169086644903, 'alamn_33': -226.41846093387983, 'LAMN_33': 0.12011360527799894, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 35.7054379, 'Chi_5': 825.038865, 'hh_1': 115.109856, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 8574.169086644903, 'alamn_33': -226.41846093387983, 'LAMN_33': 0.12011360527799894, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 35.7054379, 'Chi_5': 825.038865, 'hh_1': 115.109856, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Calculating branching ratios and decay widths
+ Calculating low energy constraints
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -104129.03528625057     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108260.35877865923     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108529.47747808235     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108547.02927977154     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108548.17408943722     
+ MSvRe1=   55.338993680922293     
+ MSvIm1=   178.09977648975484     
+ Mchi1=   163.56727371024081     
+ Writing output files
+ (  36.624337984034440     ,  0.0000000000000000     ) ( -20.912143186773218     ,  0.0000000000000000     ) (  10.254201791640066     ,  0.0000000000000000     )
+ (  36.624337984034440     ,  0.0000000000000000     ) ( -20.912143186773218     ,  0.0000000000000000     ) (  10.254201791640066     ,  0.0000000000000000     ) (  2.5231174703649333E-011, -0.0000000000000000     ) (  7.5993421523342638E-011, -0.0000000000000000     ) ( -1.3264734746669061E-011,  0.0000000000000000     ) ( -1.7896891641849726E-011,  0.0000000000000000     ) ( -6.0706561379092947E-014, -0.0000000000000000     ) (  1.3722113793195701E-012, -0.0000000000000000     )
+ Finished!
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 8574.169086644903, 'alamn_33': -226.41846093387983, 'LAMN_33': 0.12011360527799894, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 35.7054379, 'Chi_5': 825.038865, 'hh_1': 115.109856, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= [['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001], ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012], ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25], ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]]
+**************yuanfang break detect 6****************
+jj= ['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 8574.169086644903, 'alamn_33': -226.41846093387983, 'LAMN_33': 0.12011360527799894, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 55.3389937, 'Chi_5': 825.038865, 'hh_1': 115.094252, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 6856.871769979343, 'alamn_33': -333.75975602383403, 'LAMN_33': 0.1523611555337815, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 55.3389937, 'Chi_5': 825.038865, 'hh_1': 115.094252, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 6856.871769979343, 'alamn_33': -333.75975602383403, 'LAMN_33': 0.1523611555337815, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 55.3389937, 'Chi_5': 825.038865, 'hh_1': 115.094252, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Warning from routine CalculateMSvRe                          
+ in the calculation of the masses
+ occurred a negative mass squared!
+           1  -9399.8381982621722     
+  Stopping calculation because of negative mass squared.
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP Subroutine TerminateProgram
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 6856.871769979343, 'alamn_33': -333.75975602383403, 'LAMN_33': 0.1523611555337815, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 55.3389937, 'Chi_5': 825.038865, 'hh_1': 115.094252, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 2****************
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+Phy= False
+ES.AllPar= {'mv2_33': 6856.871769979343, 'alamn_33': -333.75975602383403, 'LAMN_33': 0.1523611555337815, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 55.3389937, 'Chi_5': 825.038865, 'hh_1': 115.094252, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 12816.319205401223, 'alamn_33': -33.367306888569146, 'LAMN_33': 0.06211703660611978, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 55.3389937, 'Chi_5': 825.038865, 'hh_1': 115.094252, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 12816.319205401223, 'alamn_33': -33.367306888569146, 'LAMN_33': 0.06211703660611978, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 55.3389937, 'Chi_5': 825.038865, 'hh_1': 115.094252, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove 'SPheno.spc.seesaw1nmssm': No such file or directory
+
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm  GsphenoInput.txt'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output: Calculating branching ratios and decay widths
+ Calculating low energy constraints
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -104129.03550661282     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108260.35899941584     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108529.47769893269     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108547.02950063167     
+ Warning from routine OneLoopSu                               
+ in the calculation of the masses occurred a negative mass squared!
+ generation:            1
+ mass:   -108548.17431029900     
+ MSvRe1=   130.99443523801818     
+ MSvIm1=   115.00360820554590     
+ Mchi1=   163.67792932130956     
+ Writing output files
+ ( 0.82194695734290313     ,  0.0000000000000000     ) (  6.1832813521865679     ,  0.0000000000000000     ) (  8.0394157154365953     ,  0.0000000000000000     )
+ ( 0.82194695734290313     ,  0.0000000000000000     ) (  6.1832813521865679     ,  0.0000000000000000     ) (  8.0394157154365953     ,  0.0000000000000000     ) (  8.7322073752220555E-013, -0.0000000000000000     ) (  2.6373652473667628E-012, -0.0000000000000000     ) (  6.1009522038086778E-012, -0.0000000000000000     ) (  8.2697202923287975E-012, -0.0000000000000000     ) ( -7.3716353122129521E-014, -0.0000000000000000     ) (  1.6663048971446857E-012, -0.0000000000000000     )
+ Finished!
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 12816.319205401223, 'alamn_33': -33.367306888569146, 'LAMN_33': 0.06211703660611978, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 55.3389937, 'Chi_5': 825.038865, 'hh_1': 115.094252, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= [['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001], ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012], ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25], ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]]
+**************yuanfang break detect 6****************
+jj= ['Sd_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000001]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['SvRe_1', 1, 'SLHA', 'BLOCK', 'MASS', 1000012]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['hh_1', 1, 'SLHA', 'BLOCK', 'MASS', 25]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 6****************
+jj= ['Chi_5', 1, 'SLHA', 'BLOCK', 'MASS', 1000045]
+**************yuanfang break detect 7****************
+**************yuanfang break detect 8****************
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 12816.319205401223, 'alamn_33': -33.367306888569146, 'LAMN_33': 0.06211703660611978, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 130.994435, 'Chi_5': 825.03887, 'hh_1': 115.049956, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program CAL is running...
+parallel_run:runing program CAL with old command ['python ./calculator/GsphenoInput.py']
+parallel_run:Runing Program CAL with new command ['python  .././calculator/GsphenoInput.py  '] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 2463.8179157503555, 'alamn_33': -139.62629303715175, 'LAMN_33': 0.042937540685176676, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 130.994435, 'Chi_5': 825.03887, 'hh_1': 115.049956, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_seesaw
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+**************yuanfang break detect 1****************
+**************yuanfang break detect 3****************
+**************yuanfang break detect 4****************
+**************yuanfang break detect 5****************
+self._OuSLHAVar[ii]= []
+**************yuanfang break detect 9****************
+Phy= True
+ES.AllPar= {'mv2_33': 2463.8179157503555, 'alamn_33': -139.62629303715175, 'LAMN_33': 0.042937540685176676, 'Sd_1': 794.773373, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'SvRe_1': 130.994435, 'Chi_5': 825.03887, 'hh_1': 115.049956, 'yf_M1': 1.0, 'SPhenooutfile': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+**************yuanfang break detect 10****************
+parallel_run: rank 1 with program SPheno-4.0.3 is running...
+parallel_run:runing program SPheno-4.0.3 with old command ['rm  SPheno.spc.seesaw1nmssm']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm   SPheno.spc.seesaw1nmssm'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:
+parallel_run:runing program SPheno-4.0.3 with old command ['rm -rf effC.dat']
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm  -rf effC.dat'] in run_path /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 0 with PID 17585 on node yuanfang-Lenovo-G40-70m exited on signal 6 (Aborted).
+--------------------------------------------------------------------------

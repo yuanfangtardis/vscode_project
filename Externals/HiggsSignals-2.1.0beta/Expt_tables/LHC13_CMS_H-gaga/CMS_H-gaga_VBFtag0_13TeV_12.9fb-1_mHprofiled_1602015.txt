@@ -1,0 +1,14 @@
+# Data taken from Fig.13, CMS-PAS-HIG-16-020
+# Efficiencies from composition in Table 3 divided by cross sections from LHC Higgs XS WG
+1602015	160205		1
+CMS-PAS-HIG-16-020
+LHC, CMS, CMS
+(pp)->h->gamma gamma (VBF Tag 0)
+13	12.9	0.062
+1	0
+2.5
+125.09 125.09 1.0
+5	125.09
+11 21 31 41 51
+1.0 27.6187 0.305033 0.119389 0.652041
+125.09		0.98	1.58	2.38

@@ -1,0 +1,126 @@
+[scan]
+#Result file name:  NMSSMISscan_LowScale_sneutrino_1
+#notes
+#1. yv=0.001 set
+#2. timeout = 60 min
+#3. three body decay turned off
+#4. alambdn33 fixed to 0
+
+# Result file name:   yf_ns_saw4yang
+Result file name:   poly_mpiseesw
+Points number:     5
+Scan method:       PolyChord 
+#                  ID     Prior  Min    MAX       Step   Ini
+Input parametes:   mv2_33,   LOG,  50,  40000  
+                   LAMN_33,  FLAT, 0,     0.3
+                   alamn_33, FLAT, -1000, 1000
+#                 alamn_33, FLAT, -1000, 1000,   400,   -345
+#                 yv_33,    FLAT, 0,     0.1,    1,    0.001
+#                 av_33,    FLAT, -1000, 1000,   200,   0
+#                 mv2_33,   LOG,  100,  22500,  200,   8000
+Random seed: 564     
+Interval of print: 1
+
+[program1]
+program name: CAL
+Execute command: GsphenoInput.py
+Command path: ../Externals/calculator/
+Input file: 1, ../Externals/calculator/GsphenoInput.py
+Input variable:  mv2_33,   1, Replace, ES_mv2_33 
+                 LAMN_33,  1, Replace, ES_LAMN_33 
+                 alamn_33, 1, Replace, ES_alamn_33 
+                
+Output file: 1, ../Externals/SPheno-4.0.3/GsphenoInput.txt 
+Output variable: yf_M1,1,Position,2,1
+                 GsphenoInput,1,File,Save
+[program2]
+Program name:    SPheno-4.0.3
+Execute command: rm -f SPheno.spc.seesaw1nmssm
+                 rm -f effC.dat
+                 ./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt
+Command path:    ../Externals/
+Input file:       
+#                varID    fileID  way          note
+Input variable:  
+Output file:     1, ../Externals/SPheno.spc.seesaw1nmssm
+#                varID    fileID  way          note
+Output variable:  Sd_1,    1,  SLHA,  BLOCK,  MASS,  1000001
+                  SvRe_1,  1,  SLHA,  BLOCK,  MASS,  1000012
+                  hh_1,    1,  SLHA,  BLOCK,  MASS,  25
+                  Chi_5,   1,  SLHA,  BLOCK,  MASS,  1000045
+                 SPhenooutfile,             1,  File,  Save
+# #                    
+# [program3]
+# Program name:    micromegas_4.3.5
+# Execute command: rm -f omg.out
+#                  ./micromegas_4.3.5/shl-seesaw1-nmssm/CalcOmega_with_DDetection_MOv4.3 SPheno.spc.seesaw1nmssm
+# Command path:    ../Externals/
+# Input file:
+# Input variable:
+# Output file:     1, ../Externals/omg.out
+# #                varID    fileID  way          note
+# Output variable: omega,      1,   SLHA,  BLOCK,  DarkMatter,    1
+#                  proton_si,  1,   SLHA,  BLOCK,  DarkMatter,  201
+#                  sigma_v,    1,   SLHA,  BLOCK,  DarkMatter,  302
+#                  omgfile, 1, File, Save
+# #
+# [program4]
+# Program name:    Fermi_Lat
+# Execute command: rm -f Delta_X2.dat
+#                  ./Fermi_Lat/IDD_onefile.py omg.out
+# Command path:    ../Externals/
+# Input file:
+# Input variable:
+# Output file:     1, ../Externals/Delta_X2.dat
+# #                varID    fileID  way          note
+# Output variable: Fermi_Lat,      1,   position,  1,    1
+# #                 Delta_X2file, 1, File, Save
+# #
+# [program5]
+# Program name:    HiggsBounds
+# Execute command:  rm -f HiggsBounds_results.dat
+#                   ./HiggsBounds-5.1.1beta/HiggsBounds LandH effC 5 1 ../Externals/ 
+# Command path:    ../Externals/
+# Input file:     
+# Input variable:
+# Output file:    1,../Externals/HiggsBounds_results.dat
+# #                varID    fileID  way          note
+# Output variable: HBresult,      1,     position,       19,   8
+# #
+# [program6]
+# Program name:    HiggsSignals
+# Execute command:  rm -f HiggsSignals_results.dat
+#                   ./HiggsSignals-2.1.0beta/HiggsSignals latestresults peak 2 effC 5 1 ../Externals/ 
+# Command path:    ../Externals/
+# Input file:     
+# Input variable:
+# Output file:    1,../Externals/HiggsSignals_results.dat
+# #                varID    fileID  way          note
+# Output variable: Pvalue,      1,     position,       18,   14
+
+# [program7]
+# Program name:    yf_extract
+# Execute command: rm -f yf_results.txt
+#                  ./yf_extract/yf_ni1ni1_a1a1.py
+# Command path:    ../Externals/
+# Input file:      
+# Input variable:  
+# Output file:  1,../Externals/yf_results.txt
+# Output variable: yf_flag, 1, Position, 1 , 1
+
+# ##################################################################################
+
+[constraint]
+Gaussian:     omega ,  0.1187,  0.0198
+#                 SvIm_1,  180, 10
+#                Fermi_Lat, 5, 3
+                                  
+# Gaussian:        omega ,  0.1187,  198 
+#Gaussian:        omega ,  0.1187,  0.03 
+
+[plot]
+# Histogram: hh_1
+# Scatter:  omega,hh_1
+# color: hh_1, hh_2, hh_3
+#        hh_1, hh_2, omega
+

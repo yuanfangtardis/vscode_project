@@ -1,0 +1,160 @@
+https://stackoverflow.com/questions/20729032/can-we-use-elif-in-c
+
+
+0
+down vote
+favorite
+I am confused by the code in sprng2.0 and it gives me compile errors on my machine after I make. It seems that my compiler(gcc 4.7.3) doesn't support #elif !, what does #elif ! mean? Or could I just replace it with #ifndef ?
+
+#ifdef SYNC
+if(expJ[dE]>sprng(genptr[k]))
+#elif !SYNC
+if(dE<=0 || expJ[dE]>sprng(genptr[k]))
+#endif
+The error message is error: operator '!' has no right operand I have tested,
+
+#ifdef SYNC
+if(expJ[dE]>sprng(genptr[k]))
+#elif !(SYNC)
+if(dE<=0 || expJ[dE]>sprng(genptr[k]))
+#endif
+It gives me the error: missing expression between '(' and ')'
+
+c gcc
+shareimprove this question
+edited Dec 22 '13 at 12:24
+asked Dec 22 '13 at 11:45
+
+Zhiwen Fang
+1,49011424
+2	 	
+Personally I don't use #ifdef precisely because of this inconsistency, I just use #if defined(...), #elif defined(...), etc.. makes things much more straightforward imho, even if it's a bit more verbose. – Thomas Dec 22 '13 at 11:48 
+3	 	
+It's not a macro, it's a preprocessor directive. You need to use defined(SYNC) to check if a macro is.. well... defined. Also, in your second case, the macro will never be defined, so the extra check is superfluous. – StoryTeller Dec 22 '13 at 11:48 
+5	 	
+if X .... elif !X ... looks a bit a bit redundant redundant. – n.m. Dec 22 '13 at 11:51
+  	 	
+@StoryTeller yeah, It's not macro, it's preprocessor directive. I don't know whether #elif $(SYNC) equals $if !define(SYNC). – Zhiwen Fang Dec 22 '13 at 11:57
+1	 	
+@philippelhardy: I've never heard of an #elifdef extension. Even if it existed, I wouldn't use it, since it would make the code non-portable. – Keith Thompson Dec 22 '13 at 22:26
+show 4 more comments
+3 Answers
+active oldest votes
+up vote
+4
+down vote
+accepted
+The code in your question:
+
+#ifdef SYNC
+/* ... */
+#elif !SYNC
+/* ... */
+#endif
+may or may not work. It will fail in the way you indicate if the macro SYNC is defined as nothing (not undefined, but defined to expand to a sequence of no tokens).
+
+But it's an odd way to write it.
+
+#ifdef SYNC tests whether SYNC is defined or not, without regard to how it's defined.
+
+#elif !SYNC tests whether SYNC expands to an expression with a false value. If SYNC is not defined at all, the preprocessor will expand the identifier SYNC to 0, and #elif !0 is perfectly legal. But if SYNC is defined to expand to something that's not a valid operand of !, then you'll get an error.
+
+For example, if I compile the above with either gcc ... or gcc -DSYNC ... (the latter defines SYNC as 1), then there's no error, and I get either the first or the second block of code.
+
+But if I compile it with gcc -DSYNC= ..., which defines SYNC as an empty token sequence, then the #elif expands to:
+
+#elif !
+which is a syntax error. Adding parentheses doesn't help; it just changes the error message.
+
+The real problem, I think, is that you're mixing a test for whether SYNC is defined or not with a test for whether its value is true or false.
+
+You very probably don't need the #elif; just #else will do.
+
+If you want to choose which chunk of code to compile based on whether SYNC is defined, just write:
+
+#ifdef SYNC
+/* ... */
+#else
+/* ... */
+#endif
+If you want to test whether SYNC is true or false (and noting that if SYNC is not defined as a macro it expands to0`), you can write:
+
+#if SYNC
+/* ... */
+#else
+/* ... */
+#endif
+You can use either form, but I personally would prefer the #ifdef (unless there's some meaningful distinction between different defined values of SYNC).
+
+Note that the preprocessor has #ifdef and #ifndef directives, but it doesn't have #elifdef or  #elifndef. If you need to test for definedness in a #else, just use the defined operator:
+
+...
+#elif defined(SYNC)
+...
+But I don't think you need to do that in this case.
+
+shareimprove this answer
+answered Dec 22 '13 at 22:39
+
+Keith Thompson
+170k24237421
+add a comment
+
+up vote
+3
+down vote
+The easiest would be
+
+#ifdef SYNC
+defined
+#else
+undefined
+#endif
+Or closer to your code:
+
+#ifdef SYNC
+defined
+#elif !defined SYNC
+undefined
+#endif
+shareimprove this answer
+answered Dec 22 '13 at 12:14
+
+egur
+6,87111841
+  	 	
+I will make the code compile successfully. I didn't know the exact meaning of the code #elif !SYNC, since they are the code in an open source library. – Zhiwen Fang Dec 22 '13 at 12:30
+  	 	
+!SYNC assumes SYNC is defined to zero which is different than not being defined at all. This looks like poorly written code. Also #if and #ifdef are too different things – egur Dec 22 '13 at 12:39 
+add a comment
+up vote
+-1
+down vote
+I think you are looking for this:
+
+#ifdef SYNC
+defined
+#elif !(SYNC)
+undefined
+#endif
+Now running preprocessor gcc -E test.c outputs:
+
+undefined
+Note: you could also use #if (SYNC), which would have the same effect as #ifdef.
+
+shareimprove this answer
+answered Dec 22 '13 at 12:09
+
+Zaffy
+10.7k83262
+1	 	
+Does #elif !(SYNC) just equal to #ifndef SYNC? What about #define SYNC 0, will it be defined or undefined or neither? – Zhiwen Fang Dec 22 '13 at 12:15
+1	 	
+#elif (SYNC) equals to #ifdef, if SYNC would be 0, it is still defined and therefore the conditiion will be true. – Zaffy Dec 22 '13 at 12:21
+1	 	
+I get error: missing expression between '(' and ')' after I modify it to #elif !(SYNC) – Zhiwen Fang Dec 22 '13 at 12:23
+1	 	
+Ps. I don't know why someone else down vote you.. – Zhiwen Fang Dec 22 '13 at 12:26
+  	 	
+@notbad I am sorry but your chunk of code compiles fine for me. – Zaffy Dec 22 '13 at 12:29
+show 8 more comments

@@ -1,0 +1,14 @@
+# Data taken from Fig.13 , ATLAS-CONF-2016-080
+# Implemented as pure production mode
+201608011	20160801		1
+ATLAS-CONF-2016-080
+LHC, ATL, ATL
+(pp)->h->bb (ttH)
+13	13.2	0.029
+1	0
+10.0
+125.0 125.0 1.0
+1	-1
+55
+
+125.0		1.2	2.1	3.1

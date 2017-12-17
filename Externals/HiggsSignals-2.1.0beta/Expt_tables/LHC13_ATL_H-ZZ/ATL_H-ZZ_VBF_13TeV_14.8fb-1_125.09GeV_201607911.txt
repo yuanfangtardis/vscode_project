@@ -1,0 +1,14 @@
+# Data calculated from eq. 8, ATLAS-CONF-2016-079
+# Implemented as pure production mode
+201607911	20160791		1
+ATLAS-CONF-2016-079
+LHC, ATL, ATL
+(pp)->h->ZZ (VBF)
+13	14.8	0.029
+1	0
+5.0
+125.09 125.09 1.0
+1	-1
+23
+
+125.09		1.6	3.7	6.5

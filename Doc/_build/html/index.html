@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>EasyScan_HEP &mdash; EasyScan_HEP  documentation</title>
+    
+    <link rel="stylesheet" href="_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="EasyScan_HEP  documentation" href="#" />
+    <link rel="next" title="Structure" href="structure.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body role="document">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="structure.html" title="Structure"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">EasyScan_HEP  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="easyscan-hep">
+<h1>EasyScan_HEP<a class="headerlink" href="#easyscan-hep" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<p>EasyScan_HEP is an easy-to-use tool providing a comfortable way connecting programs to scan the parameter space for high energy physics models.</p>
+<p>It includes four scan methods(random, grid, MCMC, MultiNest), some popular data analysis algorithm (Bayes analysis, CLs) and a well defined framework to connect to high energy physics programs. With only few necessary input parameters(one page), users can easily get visible results with different scan methods.</p>
+</div>
+<div class="section" id="download">
+<h2>Download<a class="headerlink" href="#download" title="Permalink to this headline">¶</a></h2>
+<p>Version beta.1.1 (12.07.2016) is available here: <a class="reference external" href="https://www.hepforge.org/downloads/easyscanhep">Download</a></p>
+</div>
+<div class="section" id="install">
+<h2>Install<a class="headerlink" href="#install" title="Permalink to this headline">¶</a></h2>
+<p>EasyScan_HEP requires Python 2.x with modules <cite>scipy, numpy, matplotlib, progressbar</cite> on your system. Most systems already come with a Python installation, which you can easily check by typing</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ python -V
+</pre></div>
+</div>
+<p>and install the modules (on Ubuntu) by typing</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ sudo apt-get install python-<span class="o">{</span>scipy,numpy,matplotlib,progressbar<span class="o">}</span>
+</pre></div>
+</div>
+<p>To use MultiNest methodology, you need to install the PyMultiNest and MultiNest libraries(see <a class="reference external" href="http://johannesbuchner.github.io/pymultinest-tutorial/install.html#on-your-own-computer">PyMultiNest installation</a> for detailed install instructions) on your system.</p>
+</div>
+<div class="section" id="test-run">
+<h2>Test run<a class="headerlink" href="#test-run" title="Permalink to this headline">¶</a></h2>
+<p>Now you can try out EasyScan_HEP with command</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ .／easyScan.py test.ini
+</pre></div>
+</div>
+<p>in the folder ’bin’, where test.ini is an example input file to run EasyScan_HEP:</p>
+<div class="literal-block-wrapper container" id="test-ini">
+<div class="code-block-caption"><span class="caption-text">test.ini</span><a class="headerlink" href="#test-ini" title="Permalink to this code">¶</a></div>
+<div class="highlight-none"><div class="highlight"><pre><span></span>[scan]
+Result file name:  test
+Scan method:       MCMC
+Points number:     1000
+#                  ID     Prior  Min    MAX
+Input parametes:   x,     Flat,  -2,    2
+                   y,     Flat,  -2,    2.5
+
+[program0]
+Program name:    zytest
+Execute command: ./test.py
+Command path:    ../Externals/zytest/
+Input file:      1, ../Externals/zytest/inp.dat
+#                varID   fileID  method    other
+Input variable:  x,      1,      Position, 1,  1
+                 y,      1,      Position, 1,  2
+Output file:     1, ../Externals/zytest/output.txt
+#                varID   fileID  method    other
+Output variable: z,      1,      Position, 1 , 1
+
+[constraint]
+#                      mean    sigma
+Gaussian:        z,    1.0,    1.0
+
+[plot]
+color: x, y, z
+</pre></div>
+</div>
+</div>
+<p>It provides all the information of this run:</p>
+<ol class="arabic simple">
+<li>It will scan the parameters <cite>x</cite> and <cite>y</cite> by random scattering in range (0, 3.14) and (-3.14, 3.14) respectively with flat distribution function.</li>
+<li>By executing &#8216;./test.py&#8217; in the path &#8216;externals/zytest/&#8217;, it will generate the output parameter <cite>z</cite>.</li>
+<li>The scan result, including 100 groups of (x,y,z) and a figure, will be saved in &#8216;test_random/RandomData.txt&#8217;, and the figure named &#8216;fig_x_y_z.png&#8217; looks like below.</li>
+</ol>
+<img alt="_images/test_run.png" src="_images/test_run.png" />
+<p>As a simplest input sample, it can be extended to accomplish more functions, such  as using other scan method, adding more than one programs, and generating more figures. You can see the manual documentation for detail explanation of those parameters and more examples.</p>
+</div>
+<div class="section" id="manual">
+<h2>Manual<a class="headerlink" href="#manual" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="structure.html">Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="input.html">An introduction to the input File</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="input.html#scan">1. [scan]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input.html#program">2. [program]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input.html#constraint">3. [constraint]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input.html#plot">4. [plot]</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="output.html">Output folder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scanmethod.html">Scan method</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">Example</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="getting-help">
+<h2>Getting help<a class="headerlink" href="#getting-help" title="Permalink to this headline">¶</a></h2>
+<p>If you meet any problem with EasyScan_HEP, please contact with <a class="reference external" href="mailto:zhangyang&#37;&#52;&#48;itp&#46;ac&#46;cn">Yang Zhang</a> or <a class="reference external" href="mailto:shlwell1988&#37;&#52;&#48;gmail&#46;com">Liang Shang</a>.</p>
+</div>
+<div class="section" id="cite">
+<h2>Cite<a class="headerlink" href="#cite" title="Permalink to this headline">¶</a></h2>
+<p>Please cite corresponding program according to the algorithm you using in this package.</p>
+<ul class="simple">
+<li><a class="reference external" href="http://ccpforge.cse.rl.ac.uk/gf/project/multinest/">MultiNest</a> and <a class="reference external" href="https://github.com/JohannesBuchner/PyMultiNest">PyMultiNest</a></li>
+</ul>
+<p>If EasyScan_HEP enables your research, please consider citing our publication: <a class="reference external" href="http://www.itp.cas.cn">ITP New Physics Legion, 2016, CAS</a> (BibTex) In this paper, we introduce the software package officially, and compare the  parameter space of CMSSM and CNMSSM with different scan and analysis methodologies.</p>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">EasyScan_HEP</a><ul>
+<li><a class="reference internal" href="#about">About</a></li>
+<li><a class="reference internal" href="#download">Download</a></li>
+<li><a class="reference internal" href="#install">Install</a></li>
+<li><a class="reference internal" href="#test-run">Test run</a></li>
+<li><a class="reference internal" href="#manual">Manual</a></li>
+<li><a class="reference internal" href="#getting-help">Getting help</a></li>
+<li><a class="reference internal" href="#cite">Cite</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><a href="structure.html"
+                        title="next chapter">Structure</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="structure.html" title="Structure"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">EasyScan_HEP  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Yang Zhang, Liang Shang.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.1.
+    </div>
+  </body>
+</html>

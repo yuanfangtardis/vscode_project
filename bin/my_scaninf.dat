@@ -1,0 +1,14 @@
+HBresult: cube[3]=1.0
+omega: cube[4]=25.51728
+proton_si: cube[5]=1.963123e-09
+Sd_1: cube[6]=794.773373
+GsphenoInput: cube[7]=0.0
+sigma_v: cube[8]=6.464211e-29
+SvRe_1: cube[9]=52.3528519
+Chi_5: cube[10]=825.038871
+Fermi_Lat: cube[11]=0.0
+hh_1: cube[12]=115.050096
+yf_flag: cube[13]=0.0
+yf_M1: cube[14]=1.0
+SPhenooutfile: cube[15]=0.0
+Pvalue: cube[16]=3.80721e-11

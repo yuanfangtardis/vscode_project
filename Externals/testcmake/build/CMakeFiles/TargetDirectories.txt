@@ -1,0 +1,3 @@
+/mnt/g/home/yuanfang/Desktop/multinest_latest/Externals/testcmake/build/CMakeFiles/edit_cache.dir
+/mnt/g/home/yuanfang/Desktop/multinest_latest/Externals/testcmake/build/CMakeFiles/rebuild_cache.dir
+/mnt/g/home/yuanfang/Desktop/multinest_latest/Externals/testcmake/build/CMakeFiles/hello.dir

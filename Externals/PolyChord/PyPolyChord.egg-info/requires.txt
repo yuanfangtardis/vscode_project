@@ -1,0 +1,4 @@
+numpy
+
+[plotting]
+getdist

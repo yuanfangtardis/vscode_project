@@ -1,0 +1,1477 @@
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+[1;36;2m
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+____ ____ ____ _   _ ____ ____ ____ _  _ _  _ ____ ___
+|___ |__| [__   \_/  [__  |    |__| |\ | |__| |___ |__]
+|___ |  | ___]   |   ___] |___ |  | | \| |  | |___ |
+
+                                       Version: beta 1.1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[0m
+rank= 1
+rank= 0
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m Scan method       = POLYCHORD[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Result file name  = /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Result file name  = /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3[0m
+INFO: [1;32;2m Points number     = 5[0m
+INFO: [1;32;2m Random seed       = 123[0m
+INFO: [1;32;2m Points number     = 5[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m Random seed       = 123[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m   ID= mv2_33	Prior= LOG	Min= 50.000000	Max= 40000.000000[0m
+INFO: [1;32;2m Interval of print = 1[0m
+INFO: [1;32;2m   ID= LAMN_33	Prior= FLAT	Min= 0.000000	Max= 0.300000[0m
+INFO: [1;32;2m   ID= alamn_33	Prior= FLAT	Min= -1000.000000	Max= 1000.000000[0m
+INFO: [1;32;2m Input parametes   =  [0m
+INFO: [1;32;2m   ID= mv2_33	Prior= LOG	Min= 50.000000	Max= 40000.000000[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m   ID= LAMN_33	Prior= FLAT	Min= 0.000000	Max= 0.300000[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = CAL[0m
+INFO: [1;32;2m   ID= alamn_33	Prior= FLAT	Min= -1000.000000	Max= 1000.000000[0m
+INFO: [1;32;2m Execute command = [['python GsphenoInput.py']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   fID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = CAL[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m Execute command = [['python GsphenoInput.py']][0m
+INFO: [1;32;2m   varID= mv2_33 	fID= 1 	Method= Replace 	Name= ES_mv2_33[0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/[0m
+INFO: [1;32;2m Input file      = [0m
+WARNING: [1;31;2m For input variable "mv2_33" in program "CAL" with "Replace" method, the input file "/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py" does not contain "ES_mv2_33", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+INFO: [1;32;2m   fID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py[0m
+INFO: [1;32;2m   varID= LAMN_33 	fID= 1 	Method= Replace 	Name= ES_LAMN_33[0m
+INFO: [1;32;2m Input variable = [0m
+INFO: [1;32;2m   varID= alamn_33 	fID= 1 	Method= Replace 	Name= ES_alamn_33[0m
+INFO: [1;32;2m   varID= mv2_33 	fID= 1 	Method= Replace 	Name= ES_mv2_33[0m
+WARNING: [1;31;2m For input variable "mv2_33" in program "CAL" with "Replace" method, the input file "/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py" does not contain "ES_mv2_33", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
+[1;31;2m # Goto [0m[4;31;2m http://easyscanhep.hepforge.org[0m[1;31;2m  for detail.[0m
+INFO: [1;32;2m   varID= LAMN_33 	fID= 1 	Method= Replace 	Name= ES_LAMN_33[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m   varID= alamn_33 	fID= 1 	Method= Replace 	Name= ES_alamn_33[0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= GsphenoInput 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= yf_M1 	fID= 1 	Method= Position 	Line num= 2 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = SPheno-4.0.3[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Execute command = [['rm -f SPheno.spc.seesaw1nmssm'], ['rm -f effC.dat'], ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+INFO: [1;32;2m   varID= GsphenoInput 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= yf_M1 	fID= 1 	Method= Position 	Line num= 2 	Column num= 1[0m
+INFO: [1;32;2m   varID= SPhenooutfile 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= Sd_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000001[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m   varID= SvRe_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000012[0m
+INFO: [1;32;2m   varID= hh_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 25[0m
+INFO: [1;32;2m   varID= Chi_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000045[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = SPheno-4.0.3[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = micromegas_4.3.5[0m
+INFO: [1;32;2m Execute command = [['rm -f SPheno.spc.seesaw1nmssm'], ['rm -f effC.dat'], ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']][0m
+INFO: [1;32;2m Execute command = [['rm -f omg.out'], ['./micromegas_4.3.5/shl-seesaw1-nmssm/CalcOmega_with_DDetection_MOv4.3 SPheno.spc.seesaw1nmssm']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/omg.out[0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
+INFO: [1;32;2m   varID= omgfile 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= omega 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 1[0m
+INFO: [1;32;2m   varID= proton_si 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 201[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= sigma_v 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 302[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m   varID= SPhenooutfile 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m   varID= Sd_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000001[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m   varID= SvRe_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000012[0m
+INFO: [1;32;2m Program name    = Fermi_Lat[0m
+INFO: [1;32;2m   varID= hh_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 25[0m
+INFO: [1;32;2m Execute command = [['rm -f Delta_X2.dat'], ['./Fermi_Lat/IDD_onefile.py omg.out']][0m
+INFO: [1;32;2m   varID= Chi_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000045[0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m No Run flag.[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/Delta_X2.dat[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m Program name    = micromegas_4.3.5[0m
+INFO: [1;32;2m   varID= Fermi_Lat 	fID= 1 	Method= position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m Execute command = [['rm -f omg.out'], ['./micromegas_4.3.5/shl-seesaw1-nmssm/CalcOmega_with_DDetection_MOv4.3 SPheno.spc.seesaw1nmssm']][0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m Program name    = HiggsBounds[0m
+INFO: [1;32;2m Execute command = [['rm -f HiggsBounds_results.dat'], ['./HiggsBounds-5.1.1beta/HiggsBounds LandH effC 5 1 ../Externals/']][0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m Input file      = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/omg.out[0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/HiggsBounds_results.dat[0m
+INFO: [1;32;2m   varID= omgfile 	fID= 1 	Method= File and Save[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= HBresult 	fID= 1 	Method= position 	Line num= 19 	Column num= 8[0m
+INFO: [1;32;2m   varID= omega 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = HiggsSignals[0m
+INFO: [1;32;2m Execute command = [['rm -f HiggsSignals_results.dat'], ['./HiggsSignals-2.1.0beta/HiggsSignals latestresults peak 2 effC 5 1 ../Externals/']][0m
+INFO: [1;32;2m   varID= proton_si 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 201[0m
+INFO: [1;32;2m   varID= sigma_v 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 302[0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = Fermi_Lat[0m
+INFO: [1;32;2m Execute command = [['rm -f Delta_X2.dat'], ['./Fermi_Lat/IDD_onefile.py omg.out']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/Delta_X2.dat[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= Fermi_Lat 	fID= 1 	Method= position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = HiggsBounds[0m
+INFO: [1;32;2m Execute command = [['rm -f HiggsBounds_results.dat'], ['./HiggsBounds-5.1.1beta/HiggsBounds LandH effC 5 1 ../Externals/']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/HiggsBounds_results.dat[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= HBresult 	fID= 1 	Method= position 	Line num= 19 	Column num= 8[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = HiggsSignals[0m
+INFO: [1;32;2m Execute command = [['rm -f HiggsSignals_results.dat'], ['./HiggsSignals-2.1.0beta/HiggsSignals latestresults peak 2 effC 5 1 ../Externals/']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/HiggsSignals_results.dat[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= Pvalue 	fID= 1 	Method= position 	Line num= 18 	Column num= 14[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = yf_extract[0m
+INFO: [1;32;2m Execute command = [['rm -f yf_results.txt'], ['./yf_extract/yf_ni1ni1_a1a1.py']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/HiggsSignals_results.dat[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= Pvalue 	fID= 1 	Method= position 	Line num= 18 	Column num= 14[0m
+INFO: [1;32;2m No Run flag.[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m Program name    = yf_extract[0m
+INFO: [1;32;2m Execute command = [['rm -f yf_results.txt'], ['./yf_extract/yf_ni1ni1_a1a1.py']][0m
+INFO: [1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals/[0m
+INFO: [1;32;2m Input file      = [0m
+DEBUG: [1;35;2m OuFileID: [1][0m
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/yf_results.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= yf_flag 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+DEBUG: [1;35;2m Programe ID: program4[0m
+DEBUG: [1;35;2m Corresponding output vars: {'Fermi_Lat': nan}[0m
+DEBUG: [1;35;2m Programe ID: program5[0m
+DEBUG: [1;35;2m Corresponding output vars: {'HBresult': nan}[0m
+DEBUG: [1;35;2m Programe ID: program6[0m
+DEBUG: [1;35;2m Corresponding output vars: {'Pvalue': nan}[0m
+DEBUG: [1;35;2m Programe ID: program7[0m
+DEBUG: [1;35;2m Corresponding output vars: {'yf_flag': nan}[0m
+DEBUG: [1;35;2m Programe ID: program1[0m
+DEBUG: [1;35;2m Corresponding output vars: {'yf_M1': nan, 'GsphenoInput': nan}[0m
+DEBUG: [1;35;2m Programe ID: program2[0m
+DEBUG: [1;35;2m Corresponding output vars: {'hh_1': nan, 'SvRe_1': nan, 'Chi_5': nan, 'SPhenooutfile': nan, 'Sd_1': nan}[0m
+DEBUG: [1;35;2m Programe ID: program3[0m
+DEBUG: [1;35;2m Corresponding output vars: {'proton_si': nan, 'omega': nan, 'sigma_v': nan, 'omgfile': nan}[0m
+DEBUG: [1;35;2m All vars:   : {'mv2_33': nan, 'alamn_33': nan, 'HBresult': nan, 'LAMN_33': nan, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': nan, 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': nan, 'SPhenooutfile': nan, 'Pvalue': nan}[0m
+DEBUG: [1;35;2m Input Pars: : {'mv2_33': nan, 'alamn_33': nan, 'LAMN_33': nan}[0m
+DEBUG: [1;35;2m Output Pars:: {'omgfile': nan, 'HBresult': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': nan, 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': nan, 'SPhenooutfile': nan, 'Pvalue': nan}[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+DEBUG: [1;35;2m constraint_items: ['gaussian'][0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m   varID= omega	Mean= 1.187000e-01	Deviation= 1.980000e-02	Type= sym[0m
+main: programs= {'program4': <manfun.program instance at 0x7efe23e16440>, 'program5': <manfun.program instance at 0x7efe23e1bcf8>, 'program6': <manfun.program instance at 0x7efe23dd2ea8>, 'program7': <manfun.program instance at 0x7efe23e0f6c8>, 'program1': <manfun.program instance at 0x7efe23dd2e60>, 'program2': <manfun.program instance at 0x7efe23dd8680>, 'program3': <manfun.program instance at 0x7efe23dd83f8>}
+main:ProgID= ['program1', 'program2', 'program3', 'program4', 'program5', 'program6', 'program7']
+ES.getFileName()= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+nlive_points= 5
+yf mpi_initilized, then still run...
+INFO: [1;32;2m Output file     = [0m
+INFO: [1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/yf_results.txt[0m
+INFO: [1;32;2m Output variable = [0m
+INFO: [1;32;2m   varID= yf_flag 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+INFO: [1;32;2m No Run flag.[0m
+DEBUG: [1;35;2m Programe ID: program4[0m
+DEBUG: [1;35;2m Corresponding output vars: {'Fermi_Lat': nan}[0m
+DEBUG: [1;35;2m Programe ID: program5[0m
+DEBUG: [1;35;2m Corresponding output vars: {'HBresult': nan}[0m
+DEBUG: [1;35;2m Programe ID: program6[0m
+DEBUG: [1;35;2m Corresponding output vars: {'Pvalue': nan}[0m
+DEBUG: [1;35;2m Programe ID: program7[0m
+DEBUG: [1;35;2m Corresponding output vars: {'yf_flag': nan}[0m
+DEBUG: [1;35;2m Programe ID: program1[0m
+DEBUG: [1;35;2m Corresponding output vars: {'yf_M1': nan, 'GsphenoInput': nan}[0m
+DEBUG: [1;35;2m Programe ID: program2[0m
+DEBUG: [1;35;2m Corresponding output vars: {'hh_1': nan, 'SvRe_1': nan, 'Chi_5': nan, 'SPhenooutfile': nan, 'Sd_1': nan}[0m
+DEBUG: [1;35;2m Programe ID: program3[0m
+DEBUG: [1;35;2m Corresponding output vars: {'proton_si': nan, 'omega': nan, 'sigma_v': nan, 'omgfile': nan}[0m
+DEBUG: [1;35;2m All vars:   : {'mv2_33': nan, 'alamn_33': nan, 'HBresult': nan, 'LAMN_33': nan, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': nan, 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': nan, 'SPhenooutfile': nan, 'Pvalue': nan}[0m
+DEBUG: [1;35;2m Input Pars: : {'mv2_33': nan, 'alamn_33': nan, 'LAMN_33': nan}[0m
+DEBUG: [1;35;2m Output Pars:: {'omgfile': nan, 'HBresult': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': nan, 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': nan, 'SPhenooutfile': nan, 'Pvalue': nan}[0m
+INFO: [1;32;2m ...............................................[0m
+INFO: [1;32;2m ...............................................[0m
+DEBUG: [1;35;2m constraint_items: ['gaussian'][0m
+INFO: [1;32;2m Gaussian Constraint:[0m
+INFO: [1;32;2m   varID= omega	Mean= 1.187000e-01	Deviation= 1.980000e-02	Type= sym[0m
+main: programs= {'program4': <manfun.program instance at 0x7f6716aad440>, 'program5': <manfun.program instance at 0x7f6716ab2cf8>, 'program6': <manfun.program instance at 0x7f6716a69ea8>, 'program7': <manfun.program instance at 0x7f6716aa8cf8>, 'program1': <manfun.program instance at 0x7f6716a69e60>, 'program2': <manfun.program instance at 0x7f6716a6f680>, 'program3': <manfun.program instance at 0x7f6716a6f3f8>}
+main:ProgID= ['program1', 'program2', 'program3', 'program4', 'program5', 'program6', 'program7']
+ES.getFileName()= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+nlive_points= 5
+yf mpi_initilized, then still run...
+
+PolyChord: Next Generation Nested Sampling
+copyright: Will Handley, Mike Hobson & Anthony Lasenby
+  version: 1.11
+  release: 7th July 2017
+    email: wh260@mrao.cam.ac.uk
+
+Run Settings
+nlive    :       5
+nDims    :       3
+nDerived :      15
+Doing Clustering
+Generating equally weighted posteriors
+Generating weighted posteriors
+Clustering on posteriors
+Writing a resume file to/home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3/PolyChordData/test.resume
+
+generating live points
+
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 1867.548465996101, 'alamn_33': 309.21539599677544, 'HBresult': nan, 'LAMN_33': 0.26796844459826696, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': nan, 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': nan, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 1867.548465996101, 'alamn_33': 309.21539599677544, 'HBresult': nan, 'LAMN_33': 0.26796844459826696, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 83.10229790899484, 'alamn_33': 1.3706789608909276, 'HBresult': nan, 'LAMN_33': 0.1483353301442639, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 83.10229790899484, 'alamn_33': 1.3706789608909276, 'HBresult': nan, 'LAMN_33': 0.1483353301442639, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 28181.2508747373, 'alamn_33': -852.238319153475, 'HBresult': nan, 'LAMN_33': 0.2380260306144666, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 28181.2508747373, 'alamn_33': -852.238319153475, 'HBresult': nan, 'LAMN_33': 0.2380260306144666, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 57.00187373317339, 'alamn_33': -773.0697644853819, 'HBresult': nan, 'LAMN_33': 0.21659883080444842, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 57.00187373317339, 'alamn_33': -773.0697644853819, 'HBresult': nan, 'LAMN_33': 0.21659883080444842, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 27477.18941714019, 'alamn_33': 760.1408028645585, 'HBresult': nan, 'LAMN_33': 0.27055870232124235, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 27477.18941714019, 'alamn_33': 760.1408028645585, 'HBresult': nan, 'LAMN_33': 0.27055870232124235, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 58.500151235722235, 'alamn_33': -361.5522724760434, 'HBresult': nan, 'LAMN_33': 0.06985164725747849, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 58.500151235722235, 'alamn_33': -361.5522724760434, 'HBresult': nan, 'LAMN_33': 0.06985164725747849, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 13974.085471381284, 'alamn_33': -980.209454210379, 'HBresult': nan, 'LAMN_33': 0.12775071333437116, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 13974.085471381284, 'alamn_33': -980.209454210379, 'HBresult': nan, 'LAMN_33': 0.12775071333437116, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 321.09422246544636, 'alamn_33': 708.898132781728, 'HBresult': nan, 'LAMN_33': 0.10293336410583855, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 321.09422246544636, 'alamn_33': 708.898132781728, 'HBresult': nan, 'LAMN_33': 0.10293336410583855, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 1314.5917154053705, 'alamn_33': 446.5138841939395, 'HBresult': nan, 'LAMN_33': 0.016506575614797247, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 1314.5917154053705, 'alamn_33': 446.5138841939395, 'HBresult': nan, 'LAMN_33': 0.016506575614797247, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 34838.501818761135, 'alamn_33': 181.34504222916007, 'HBresult': nan, 'LAMN_33': 0.08571857376604927, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 34838.501818761135, 'alamn_33': 181.34504222916007, 'HBresult': nan, 'LAMN_33': 0.08571857376604927, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 2665.6288197394274, 'alamn_33': -153.29684836495346, 'HBresult': nan, 'LAMN_33': 0.0037248649219958404, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 2665.6288197394274, 'alamn_33': -153.29684836495346, 'HBresult': nan, 'LAMN_33': 0.0037248649219958404, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 3924.7551308164448, 'alamn_33': -960.2691734445657, 'HBresult': nan, 'LAMN_33': 0.0596532175348678, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 3924.7551308164448, 'alamn_33': -960.2691734445657, 'HBresult': nan, 'LAMN_33': 0.0596532175348678, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 11691.560613161339, 'alamn_33': -441.3969869145225, 'HBresult': nan, 'LAMN_33': 0.15520656365918772, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 11691.560613161339, 'alamn_33': -441.3969869145225, 'HBresult': nan, 'LAMN_33': 0.15520656365918772, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 2956.432554322767, 'alamn_33': 802.4891976983113, 'HBresult': nan, 'LAMN_33': 0.16682369539212646, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 2956.432554322767, 'alamn_33': 802.4891976983113, 'HBresult': nan, 'LAMN_33': 0.16682369539212646, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 608.8868352788967, 'alamn_33': 745.0967606423196, 'HBresult': nan, 'LAMN_33': 0.25579683575178724, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 608.8868352788967, 'alamn_33': 745.0967606423196, 'HBresult': nan, 'LAMN_33': 0.25579683575178724, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 304.318445052169, 'alamn_33': -291.8484005155135, 'HBresult': nan, 'LAMN_33': 0.1239452103865734, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 304.318445052169, 'alamn_33': -291.8484005155135, 'HBresult': nan, 'LAMN_33': 0.1239452103865734, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 188.90262105873424, 'alamn_33': -747.0331465638099, 'HBresult': nan, 'LAMN_33': 0.17853008406227516, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 188.90262105873424, 'alamn_33': -747.0331465638099, 'HBresult': nan, 'LAMN_33': 0.17853008406227516, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 200.16564775402756, 'alamn_33': 375.6485913096549, 'HBresult': nan, 'LAMN_33': 0.21629635725014346, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 200.16564775402756, 'alamn_33': 375.6485913096549, 'HBresult': nan, 'LAMN_33': 0.21629635725014346, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 105.9902841916381, 'alamn_33': 590.7053647352234, 'HBresult': nan, 'LAMN_33': 0.1795662804404975, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 105.9902841916381, 'alamn_33': 590.7053647352234, 'HBresult': nan, 'LAMN_33': 0.1795662804404975, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 4839.194866143667, 'alamn_33': -134.84031188426138, 'HBresult': nan, 'LAMN_33': 0.2909101845401714, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 4839.194866143667, 'alamn_33': -134.84031188426138, 'HBresult': nan, 'LAMN_33': 0.2909101845401714, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 10312.264042776822, 'alamn_33': 369.4625516638039, 'HBresult': nan, 'LAMN_33': 0.06663937642270748, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 10312.264042776822, 'alamn_33': 369.4625516638039, 'HBresult': nan, 'LAMN_33': 0.06663937642270748, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 79.9994476878921, 'alamn_33': -737.1324244810422, 'HBresult': nan, 'LAMN_33': 0.025049104842417978, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 79.9994476878921, 'alamn_33': -737.1324244810422, 'HBresult': nan, 'LAMN_33': 0.025049104842417978, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 10895.961837334717, 'alamn_33': -880.8520449553343, 'HBresult': nan, 'LAMN_33': 0.0158233861753157, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 10895.961837334717, 'alamn_33': -880.8520449553343, 'HBresult': nan, 'LAMN_33': 0.0158233861753157, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 106.25366059250219, 'alamn_33': 480.6741545310292, 'HBresult': nan, 'LAMN_33': 0.02453301387879796, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 106.25366059250219, 'alamn_33': 480.6741545310292, 'HBresult': nan, 'LAMN_33': 0.02453301387879796, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 5986.851793822428, 'alamn_33': -451.8205681667266, 'HBresult': nan, 'LAMN_33': 0.19059690199287754, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 5986.851793822428, 'alamn_33': -451.8205681667266, 'HBresult': nan, 'LAMN_33': 0.19059690199287754, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 2147.676901742051, 'alamn_33': -173.14726604593852, 'HBresult': nan, 'LAMN_33': 0.017047277191670783, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 2147.676901742051, 'alamn_33': -173.14726604593852, 'HBresult': nan, 'LAMN_33': 0.017047277191670783, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 381.1832436554952, 'alamn_33': 100.2677032423785, 'HBresult': nan, 'LAMN_33': 0.2659738421744572, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/effC.dat': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']
+type(cmd)= <type 'list'>
+cmd_lists= [['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm', './calculator/GsphenoInput.txt']]
+before reorganize:cmd_results= [{'program': './SPheno-4.0.3/bin/SPhenoseesaw1nmssm', 'inputfile': './calculator/GsphenoInput.txt'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command ['  .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:/bin/sh: 1: .././SPheno-4.0.3/bin/SPhenoseesaw1nmssm./1/./calculator/GsphenoInput.txt: not found
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm'}
+parallel read:par= {'mv2_33': 381.1832436554952, 'alamn_33': 100.2677032423785, 'HBresult': nan, 'LAMN_33': 0.2659738421744572, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm'}
+DEBUG: [1;35;2m No output file for program SPheno-4.0.3[0m
+DEBUG: [1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
+parallel rank 1 is running...
+Runing Program CAL with command ['python GsphenoInput.py']
+type(cmd)= <type 'list'>
+cmd_lists= [['python', 'GsphenoInput.py']]
+before reorganize:cmd_results= [{'interpreter': 'python', 'program': 'GsphenoInput.py'}]
+parallel_run:Runing Program CAL with new command ['python ../GsphenoInput.py ']
+Program CAL done in 0 minutes, corresponding output:GsphenoInput suceesfully running...
+
+paralle read:self._OutputFile= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt'}
+parallel read:par= {'mv2_33': 4369.492342799423, 'alamn_33': 889.9558361343641, 'HBresult': nan, 'LAMN_33': 0.04886790914499205, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt', 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': 1.0, 'SPhenooutfile': nan, 'Pvalue': nan}
+parallel read:path= /home/yuanfang/Desktop/multinest_latest/bin/yf_mpiseesawv3
+parallel read:rank= 1
+parallel read:my_path= {1: '/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/1/GsphenoInput.txt'}
+parallel rank 1 is running...
+Runing Program SPheno-4.0.3 with command ['rm -f SPheno.spc.seesaw1nmssm']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'SPheno.spc.seesaw1nmssm']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'SPheno.spc.seesaw1nmssm'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/SPheno.spc.seesaw1nmssm']
+Program SPheno-4.0.3 done in 0 minutes, corresponding output:rm: cannot remove './1/SPheno.spc.seesaw1nmssm': No such file or directory
+
+Runing Program SPheno-4.0.3 with command ['rm -f effC.dat']
+type(cmd)= <type 'list'>
+cmd_lists= [['rm', '-f', 'effC.dat']]
+before reorganize:cmd_results= [{'option': '-f', 'shell_cmd': 'rm', 'inputfile': 'effC.dat'}]
+parallel_run:Runing Program SPheno-4.0.3 with new command [' rm ./1/effC.dat']

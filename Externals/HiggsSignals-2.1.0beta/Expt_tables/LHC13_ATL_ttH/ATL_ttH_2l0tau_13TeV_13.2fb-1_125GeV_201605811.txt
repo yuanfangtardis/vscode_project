@@ -1,0 +1,15 @@
+# Moriond 2017 results
+# From Fig. 5. Signal composition from Tab. 3,
+# assuming "H->other" is 50% H->bb and 50% H->mumu.
+201605811	20160581		1
+ATL-CONF-2016-058
+LHC, ATL, ATL
+(pp)->tth->multilepton (2l0tau_h)
+13 	13.2	0.029
+1	0
+10
+125 125 0.1
+5	125
+52 53 54 55 58
+1.00 0.309309 0.723182 0.00685609 18.0087
+125	2.3	4.0	6.1
