@@ -10,6 +10,7 @@ import PyPolyChord
 from scanmanner import PolyChordrun
 from mpi4py import MPI 
 import subprocess
+import subfun as sf
 # from mpi4py import MPI
 
 comm=MPI.COMM_WORLD
@@ -54,8 +55,8 @@ def LogLikelihood(cube, ndim, nparams):
             #set output parameters' value to nan
             Phy = Programs[ii].SetOutput(ES.AllPar)
         # if the point is unphysical, return log(0)
-        print  'ES.AllPar=',ES.AllPar
-        print '**************yuanfang break detect 10****************'
+        # print  'ES.AllPar=',ES.AllPar
+        # print '**************yuanfang break detect 10****************'
         if not Phy :
             return log_zero
     
@@ -95,3 +96,7 @@ PolyChordrun(LogLikelihood=LogLikelihood,
     feedback=1,
     max_ndead=1000,
     do_clustering=True)
+# write scan inf
+print 'writing to scaninf ...'
+if rank==0:
+    sf.WriteResultInf(ES.InPar,ES.OutPar,ES.getFileName(),ResultFile,ES.getScanMethod())
