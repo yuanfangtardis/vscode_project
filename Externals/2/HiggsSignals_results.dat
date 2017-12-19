@@ -1,4 +1,4 @@
- # generated with HiggsSignals version 2.1.0beta on 17.12.2017 at 12:45
+ # generated with HiggsSignals version 2.1.0beta on 19.12.2017 at 10:02
  # settings: latestresults, effC, peak, gaussian
  #
  # column abbreviations
@@ -15,4 +15,4 @@
  #
  #cols:  n           Mh(1)           Mh(2)           Mh(3)           Mh(4)           Mh(5)       Mhplus(1)         csq(mu)         csq(mh)         csq(tot) nobs(mu) nobs(mh) nobs(tot)    Pvalue
  #
-             1     114.949         127.764         840.968         276.070         845.454         837.994         111.575         35.2207         146.795        85     4    89    0.112533E-03
+             1     115.010         127.849         841.055         275.901         845.541         838.082         111.615         38.2704         149.886        85     4    89    0.578802E-04

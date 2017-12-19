@@ -446,7 +446,7 @@ class program:
         #timeout = 60*2   # if the program run more than 2 hour, it may be killed
         #liang
         #timeout = 60*20   # if the program run more than 2 hour, it may be killed
-        print 'self._Command=',self._Command
+        # print 'self._Command=',self._Command
         timeout=120  # yuanfang set
         for cmd in self._Command:
             sf.Debug('Runing Program %s with command'%self._ProgName,cmd)
@@ -601,7 +601,7 @@ class program:
            Date:2017.12.4  
            Function: parallel run polychord and multinest
         '''
-        print 'parallel_run: rank %s with program %s is running...'%(rank,self._ProgName)
+        # print 'parallel_run: rank %s with program %s is running...'%(rank,self._ProgName)
         run_path=self.getComPath()
         run_path=run_path+'/'+str(rank)
         self._parallel_path=run_path
@@ -767,30 +767,30 @@ class program:
            Date:2017.12.5  
            Function: parallelly run polychord and multinest
         '''
-        print 'paralle read:self._OutputFile=',self._OutputFile
-        print 'parallel read:par=',par
-        print 'parallel read:path=',path
-        print 'parallel read:rank=',rank
+        # print 'paralle read:self._OutputFile=',self._OutputFile
+        # print 'parallel read:par=',par
+        # print 'parallel read:path=',path
+        # print 'parallel read:rank=',rank
         para_path=dict()
         for key,keyvalue in self._OutputFile.iteritems():
             paths=os.path.split(self._OutputFile[key])
             para_path[key]=paths[0]+'/'+str(rank)+'/'+paths[1]
 
-        print 'parallel read:my_path=',para_path
+        # print 'parallel read:my_path=',para_path
         
         for ii in self._OuFileID:
-            print '**************yuanfang break detect 1****************'
+            # print '**************yuanfang break detect 1****************'
             # if not os.path.exists(self._OutputFile[ii]):
             if not os.path.exists(para_path[ii]):
 
-                print '**************yuanfang break detect 2****************'
+                # print '**************yuanfang break detect 2****************'
                 sf.Debug('No output file for program %s'%self._ProgName)
                 sf.Debug('output file name is %s'%para_path[ii])
                 # sf.Debug('output file name is %s'%self._OutputFile[ii])
                 return False
             ## For 'File' method
             for jj in self._OuFilVar[ii]:
-                print '**************yuanfang break detect 3****************'
+                # print '**************yuanfang break detect 3****************'
                 # a=raw_input( "yuanfang in manfun begin...") 
                 # print self._OuFilVar
                 # print 'ii=',ii
@@ -803,7 +803,7 @@ class program:
                     shutil.copy(para_path[ii],SavePath)
                     # shutil.copy(self._OutputFile[ii],SavePath)
                 par[jj[0]] = self._OutputFile[ii]
-            print '**************yuanfang break detect 4****************'
+            # print '**************yuanfang break detect 4****************'
             if len(self._OuPosVar[ii])+ len(self._OuLabVar[ii]) + len(self._OuSLHAVar[ii])>0 :
                 # oulines = open(self._OutputFile[ii]).readlines()
                 oulines=open(para_path[ii]).readlines()  # yuanfang
@@ -829,16 +829,16 @@ class program:
                 except:
                     sf.Debug('Can not read the output var',jj[0])
                     return False
-            print '**************yuanfang break detect 5****************'            
+            # print '**************yuanfang break detect 5****************'            
             ## For 'SLHA' method
             print 'self._OuSLHAVar[ii]=',self._OuSLHAVar[ii]
             for jj in self._OuSLHAVar[ii]:
-                print '**************yuanfang break detect 6****************'
-                print 'jj=',jj
+                # print '**************yuanfang break detect 6****************'
+                # print 'jj=',jj
                 blk = str(jj[4]).split()   # Block name
                 blk_flag = False
                 ks = [ str(x) for x in jj[5:] ]
-                print '**************yuanfang break detect 7****************'
+                # print '**************yuanfang break detect 7****************'
                 #ks  = str(jj[5:]).split()   # keys name
 		        #sf.WarningNoWait('test0:%s'%jj)
 		        #sf.WarningNoWait('test0:%s'%ks)
@@ -870,11 +870,11 @@ class program:
                                 par[jj[0]]=float(ouvar[kki][3])
                                 ks_flag  = True
                             break
-                print '**************yuanfang break detect 8****************'
+                # print '**************yuanfang break detect 8****************'
                 if not ks_flag:
                     sf.Debug('Can not read the output var',jj)
                     return False
-        print '**************yuanfang break detect 9****************'
+        # print '**************yuanfang break detect 9****************'
         return True
         
 

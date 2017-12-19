@@ -98,5 +98,5 @@ PolyChordrun(LogLikelihood=LogLikelihood,
     do_clustering=True)
 # write scan inf
 print 'writing to scaninf ...'
-if rank==0:
+if rank==1:
     sf.WriteResultInf(ES.InPar,ES.OutPar,ES.getFileName(),ResultFile,ES.getScanMethod())

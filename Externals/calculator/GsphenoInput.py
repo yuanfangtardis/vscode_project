@@ -172,7 +172,7 @@ mv2in_2_2=1.6E+5 # mv2(2,2)
 mv2in_2_3=0.E+00 # mv2(2,3)
 mv2in_3_1=0.E+00 # mv2(3,1)
 mv2in_3_2=0.E+00 # mv2(3,2)
-mv2in_3_3=4102.31891552 # mv2(3,3)
+mv2in_3_3=88.7420576379 # mv2(3,3)
 
 yvin_1_1=0.E+00 # Yv(1,1)
 yvin_1_2=0.E+00 # Yv(1,2)
@@ -192,7 +192,7 @@ lamnin_2_2=3.E-01 # lamN(2,2)
 lamnin_2_3=0.E+00 # lamN(2,3)
 lamnin_3_1=0.E+00 # lamN(3,1)
 lamnin_3_2=0.E+00 # lamN(3,2)
-lamnin_3_3=0.14007423432 # lamN(3,3)
+lamnin_3_3=0.216565102056 # lamN(3,3)
 
 tdin_1_1=0.E+00 # Td(1,1)
 tdin_1_2=0.E+00 # Td(1,2)
@@ -252,7 +252,7 @@ alamn_2_2=0.E+00
 alamn_2_3=0.E+00
 alamn_3_1=0.E+00
 alamn_3_2=0.E+00
-alamn_3_3=204.529560361
+alamn_3_3=-112.181412404
 
 tlamnin_1_1=lamnin_1_1*alamn_1_1 # TLN(1,1)
 tlamnin_1_2=lamnin_1_1*alamn_1_1 # TLN(1,2)

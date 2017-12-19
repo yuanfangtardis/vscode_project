@@ -1,0 +1,7 @@
+/home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_1core	/home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Poly_1core/PolyChordData/test_phys_live.txt
+y	0
+x	1
+m	2
+z	3
+yf_output	4
+loglike	5

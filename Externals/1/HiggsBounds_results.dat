@@ -1,4 +1,4 @@
- # generated with HiggsBounds version 5.1.1beta on 17.12.2017 at 12:38
+ # generated with HiggsBounds version 5.1.1beta on 19.12.2017 at 09:58
  # settings: LandH, effC
  #
  # column abbreviations
@@ -16,4 +16,4 @@
  #
  #cols:  n           Mh(1)           Mh(2)           Mh(3)           Mh(4)           Mh(5)       Mhplus(1)  HBresult  chan    obsratio     ncomb
  #
-             1     115.002         127.810         841.038         275.709         845.529         838.075         1   566    0.722241         1
+             1     115.021         127.858         841.075         275.806         845.562         838.103         1   566    0.723013         1
