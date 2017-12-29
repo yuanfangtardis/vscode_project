@@ -1,354 +1,1244 @@
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Scan method       = POLYCHORD[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:41 - easyscan.main - INFO
+[1;32;2m Scan method       = MULTINEST[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Result file name  = /home/yuanfang/Desktop/multinest_latest/bin/yf_polympi_beta[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m Result file name  = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/Multi_mpi_5[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m Points number     = 5[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Random seed       = 123[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m Random seed       = 120[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m Interval of print = 1[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m Input parametes   =  [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= mv2_33	Prior= LOG	Min= 50.000000	Max= 40000.000000[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= LAMN_33	Prior= FLAT	Min= 0.000000	Max= 0.300000[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= alamn_33	Prior= FLAT	Min= -1000.000000	Max= 1000.000000[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   ID= x	Prior= FLAT	Min= 0.000000	Max= 100.000000[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   ID= y	Prior= FLAT	Min= 300.000000	Max= 400.000000[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   ID= m	Prior= FLAT	Min= 500.000000	Max= 600.000000[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Program name    = CAL[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Execute command = [['python ./calculator/GsphenoInput.py']][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m Program name    = zytest[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m Execute command = [['./test.py']][0m
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m Command path    = /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m Input file      = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   fID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   fID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/inp.dat[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m Input variable = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= mv2_33 	fID= 1 	Method= Replace 	Name= ES_mv2_33[0m
-2017-12-19T09:52:50 - easyscan.main - WARNING
-[1;31;2m For input variable "mv2_33" in program "CAL" with "Replace" method, the input file "/home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.py" does not contain "ES_mv2_33", and ESbackup file exist. In the following, ESbackup file will take the part of input file.[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= LAMN_33 	fID= 1 	Method= Replace 	Name= ES_LAMN_33[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= alamn_33 	fID= 1 	Method= Replace 	Name= ES_alamn_33[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   varID= x 	fID= 1 	Method= Replace 	Name= ES_x[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   varID= y 	fID= 1 	Method= Replace 	Name= ES_y[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   varID= m 	fID= 1 	Method= Replace 	Name= ES_m[0m
+2017-12-26T20:34:43 - easyscan.main - DEBUG
 [1;35;2m OuFileID: [1][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m Output file     = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/calculator/GsphenoInput.txt[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   ID= 1 	File= /home/shl/type_I_seesaw/new_h2like/multinest_latest/bin/../Internals/zytest/output.txt[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m Output variable = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= GsphenoInput 	fID= 1 	Method= File and Save[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= yf_M1 	fID= 1 	Method= Position 	Line num= 2 	Column num= 1[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   varID= yf_output 	fID= 1 	Method= File and Save[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   varID= z 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m No Run flag.[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Program name    = SPheno-4.0.3[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Execute command = [['rm  SPheno.spc.seesaw1nmssm'], ['rm -rf effC.dat'], ['./SPheno-4.0.3/bin/SPhenoseesaw1nmssm ./calculator/GsphenoInput.txt']][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Input file      = [0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m OuFileID: [1][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output file     = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output variable = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= SPhenooutfile 	fID= 1 	Method= File and Save[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= Sd_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000001[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= SvRe_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000012[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= hh_1 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 25[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= Chi_5 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= MASS 	Keys= 1000045[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m No Run flag.[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Program name    = micromegas_4.3.5[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Execute command = [['rm -f omg.out'], ['./micromegas_4.3.5/shl-seesaw1-nmssm/CalcOmega_with_DDetection_MOv4.3 SPheno.spc.seesaw1nmssm']][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Input file      = [0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m OuFileID: [1][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output file     = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/omg.out[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output variable = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= omgfile 	fID= 1 	Method= File and Save[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= omega 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 1[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= proton_si 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 201[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= sigma_v 	fID= 1 	Method= SLHA 	B/D= BLOCK 	Name= DarkMatter 	Keys= 302[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m No Run flag.[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Program name    = Fermi_Lat[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Execute command = [['rm -f Delta_X2.dat'], ['./Fermi_Lat/IDD_onefile.py omg.out']][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Input file      = [0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m OuFileID: [1][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output file     = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/Delta_X2.dat[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output variable = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= Fermi_Lat 	fID= 1 	Method= position 	Line num= 1 	Column num= 1[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m No Run flag.[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Program name    = HiggsBounds[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Execute command = [['rm -f HiggsBounds_results.dat'], ['./HiggsBounds-5.1.1beta/HiggsBounds LandH effC 5 1 ../Externals/']][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Input file      = [0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m OuFileID: [1][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output file     = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/HiggsBounds_results.dat[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output variable = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= HBresult 	fID= 1 	Method= position 	Line num= 19 	Column num= 8[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m No Run flag.[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Program name    = HiggsSignals[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Execute command = [['rm -f HiggsSignals_results.dat'], ['./HiggsSignals-2.1.0beta/HiggsSignals latestresults peak 2 effC 5 1 ../Externals/']][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Input file      = [0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m OuFileID: [1][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output file     = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/HiggsSignals_results.dat[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output variable = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= Pvalue 	fID= 1 	Method= position 	Line num= 18 	Column num= 14[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m No Run flag.[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Program name    = yf_extract[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Execute command = [['rm -f yf_results.txt'], ['./yf_extract/yf_ni1ni1_a1a1.py']][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Command path    = /home/yuanfang/Desktop/multinest_latest/bin/../Externals[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Input file      = [0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m OuFileID: [1][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output file     = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   ID= 1 	File= /home/yuanfang/Desktop/multinest_latest/bin/../Externals/yf_results.txt[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m Output variable = [0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= yf_flag 	fID= 1 	Method= Position 	Line num= 1 	Column num= 1[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m No Run flag.[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Programe ID: program4[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Corresponding output vars: {'Fermi_Lat': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Programe ID: program5[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Corresponding output vars: {'HBresult': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Programe ID: program6[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Corresponding output vars: {'Pvalue': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Programe ID: program7[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Corresponding output vars: {'yf_flag': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
+2017-12-26T20:34:43 - easyscan.main - DEBUG
 [1;35;2m Programe ID: program1[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Corresponding output vars: {'yf_M1': nan, 'GsphenoInput': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Programe ID: program2[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Corresponding output vars: {'hh_1': nan, 'SvRe_1': nan, 'Chi_5': nan, 'SPhenooutfile': nan, 'Sd_1': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Programe ID: program3[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Corresponding output vars: {'proton_si': nan, 'omega': nan, 'sigma_v': nan, 'omgfile': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m All vars:   : {'mv2_33': nan, 'alamn_33': nan, 'HBresult': nan, 'LAMN_33': nan, 'omgfile': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': nan, 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': nan, 'SPhenooutfile': nan, 'Pvalue': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Input Pars: : {'mv2_33': nan, 'alamn_33': nan, 'LAMN_33': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
-[1;35;2m Output Pars:: {'omgfile': nan, 'HBresult': nan, 'omega': nan, 'proton_si': nan, 'Sd_1': nan, 'GsphenoInput': nan, 'sigma_v': nan, 'SvRe_1': nan, 'Chi_5': nan, 'Fermi_Lat': nan, 'hh_1': nan, 'yf_flag': nan, 'yf_M1': nan, 'SPhenooutfile': nan, 'Pvalue': nan}[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - DEBUG
+[1;35;2m Corresponding output vars: {'z': nan, 'yf_output': nan}[0m
+2017-12-26T20:34:43 - easyscan.main - DEBUG
+[1;35;2m All vars:   : {'y': nan, 'x': nan, 'z': nan, 'm': nan, 'yf_output': nan}[0m
+2017-12-26T20:34:43 - easyscan.main - DEBUG
+[1;35;2m Input Pars: : {'y': nan, 'x': nan, 'm': nan}[0m
+2017-12-26T20:34:43 - easyscan.main - DEBUG
+[1;35;2m Output Pars:: {'z': nan, 'yf_output': nan}[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m ...............................................[0m
-2017-12-19T09:52:50 - easyscan.main - DEBUG
+2017-12-26T20:34:43 - easyscan.main - DEBUG
 [1;35;2m constraint_items: ['gaussian'][0m
-2017-12-19T09:52:50 - easyscan.main - INFO
+2017-12-26T20:34:43 - easyscan.main - INFO
 [1;32;2m Gaussian Constraint:[0m
-2017-12-19T09:52:50 - easyscan.main - INFO
-[1;32;2m   varID= hh_1	Mean= 1.150000e+02	Deviation= 2.000000e+00	Type= sym[0m
-2017-12-19T09:52:51 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:52:51 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/3/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:52:52 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:52:52 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/3/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:55:05 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:55:05 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:55:05 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:55:05 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:55:44 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:55:44 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:56:12 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:56:12 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/3/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:56:21 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:56:21 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:56:22 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:56:22 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:56:22 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:56:22 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:57:05 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:57:05 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/1/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:57:58 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:57:58 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:58:54 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:58:54 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:58:55 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:58:55 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T09:58:55 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T09:58:55 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T10:00:28 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T10:00:28 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T10:00:28 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T10:00:28 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T10:00:28 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T10:00:28 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T10:00:29 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T10:00:29 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T10:01:00 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T10:01:00 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T10:01:00 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T10:01:00 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T10:01:01 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T10:01:01 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T10:01:01 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T10:01:01 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
-2017-12-19T10:01:02 - easyscan.main - DEBUG
-[1;35;2m No output file for program SPheno-4.0.3[0m
-2017-12-19T10:01:02 - easyscan.main - DEBUG
-[1;35;2m output file name is /home/yuanfang/Desktop/multinest_latest/bin/../Externals/2/SPheno.spc.seesaw1nmssm[0m
+2017-12-26T20:34:43 - easyscan.main - INFO
+[1;32;2m   varID= z	Mean= 1.025000e+03	Deviation= 3.000000e+00	Type= sym[0m
+2017-12-26T20:34:45 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:45 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 978.600245714
+[0m
+2017-12-26T20:34:45 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:45 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 851.487243175
+[0m
+2017-12-26T20:34:45 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:45 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 943.603420257
+[0m
+2017-12-26T20:34:45 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1035.97407341
+[0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 968.170714378
+[0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 973.376142979
+[0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 970.34702301
+[0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 917.279434204
+[0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 976.068848372
+[0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 948.489129544
+[0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 924.490988255
+[0m
+2017-12-26T20:34:46 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 942.410248518
+[0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 959.335136413
+[0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 977.56216526
+[0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 953.318053484
+[0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 925.093901157
+[0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 969.569152593
+[0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 895.162057876
+[0m
+2017-12-26T20:34:47 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 862.534201145
+[0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 889.024871588
+[0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 941.16167426
+[0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 932.695174217
+[0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 862.440890074
+[0m
+2017-12-26T20:34:48 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 955.696487427
+[0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 976.277238131
+[0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 945.956760645
+[0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 907.849615812
+[0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 956.092506647
+[0m
+2017-12-26T20:34:49 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:50 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 901.7827034
+[0m
+2017-12-26T20:34:50 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:50 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.9094348
+[0m
+2017-12-26T20:34:50 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:50 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 998.801136018
+[0m
+2017-12-26T20:34:50 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:50 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1056.67976737
+[0m
+2017-12-26T20:34:50 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 990.384167433
+[0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 881.630480289
+[0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 900.787347556
+[0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 958.215123416
+[0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 878.060179949
+[0m
+2017-12-26T20:34:51 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.07193589
+[0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1000.57924986
+[0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1020.15489936
+[0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 946.105402708
+[0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 949.259430169
+[0m
+2017-12-26T20:34:52 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 875.031322241
+[0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 958.959180117
+[0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 957.804745437
+[0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 963.880783319
+[0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 940.315335989
+[0m
+2017-12-26T20:34:53 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:54 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 936.310255528
+[0m
+2017-12-26T20:34:54 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:54 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1008.0037713
+[0m
+2017-12-26T20:34:54 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:54 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 958.243715762
+[0m
+2017-12-26T20:34:54 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:54 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 879.023629427
+[0m
+2017-12-26T20:34:54 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 956.938624382
+[0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 984.975141286
+[0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 939.492619038
+[0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1028.0674994
+[0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 888.074672222
+[0m
+2017-12-26T20:34:55 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 938.298660517
+[0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 997.60068655
+[0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 884.107333421
+[0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 980.902314186
+[0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 874.976581335
+[0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 956.052827835
+[0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1007.9046011
+[0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 947.905671596
+[0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 923.843079806
+[0m
+2017-12-26T20:34:56 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 993.889838457
+[0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 994.305092096
+[0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 893.87434721
+[0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 975.19274354
+[0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 884.335917234
+[0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 917.68231988
+[0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1050.06313324
+[0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 955.814701319
+[0m
+2017-12-26T20:34:57 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 962.557989359
+[0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 968.547451496
+[0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 987.270969153
+[0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 909.011483193
+[0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1002.16091871
+[0m
+2017-12-26T20:34:58 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:59 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 966.360217332
+[0m
+2017-12-26T20:34:59 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:59 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1016.68369174
+[0m
+2017-12-26T20:34:59 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:59 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1000.81920028
+[0m
+2017-12-26T20:34:59 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:34:59 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 892.886662483
+[0m
+2017-12-26T20:34:59 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 986.447548867
+[0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 854.502815008
+[0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 892.069542408
+[0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1048.26914668
+[0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 894.933283329
+[0m
+2017-12-26T20:35:00 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 990.259224176
+[0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 942.480915785
+[0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 925.520718098
+[0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 905.583280325
+[0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 958.057022094
+[0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 950.335431099
+[0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 869.830805063
+[0m
+2017-12-26T20:35:01 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 890.474140644
+[0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1037.66981363
+[0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 901.71148181
+[0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1015.100348
+[0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 901.936000586
+[0m
+2017-12-26T20:35:02 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:03 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1030.92589378
+[0m
+2017-12-26T20:35:03 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:03 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 935.336905718
+[0m
+2017-12-26T20:35:03 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:03 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 981.782847643
+[0m
+2017-12-26T20:35:03 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:03 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1060.14174819
+[0m
+2017-12-26T20:35:03 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 917.927622795
+[0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 925.455057621
+[0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 922.441124916
+[0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1019.29646134
+[0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1015.86453691
+[0m
+2017-12-26T20:35:04 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.07891157
+[0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1020.7204723
+[0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.9712643
+[0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.65623028
+[0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1029.46088802
+[0m
+2017-12-26T20:35:05 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1027.97040991
+[0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1023.35644228
+[0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1022.50601763
+[0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1029.21684676
+[0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.46055041
+[0m
+2017-12-26T20:35:06 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:07 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.19398324
+[0m
+2017-12-26T20:35:07 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:07 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1023.17954974
+[0m
+2017-12-26T20:35:07 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:07 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1028.33398294
+[0m
+2017-12-26T20:35:07 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:07 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1022.44502274
+[0m
+2017-12-26T20:35:07 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1029.18487729
+[0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.72353219
+[0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.88746856
+[0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.67059879
+[0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.78536502
+[0m
+2017-12-26T20:35:08 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.99513853
+[0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.00785523
+[0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.00726645
+[0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.45442693
+[0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.92488484
+[0m
+2017-12-26T20:35:09 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.61996655
+[0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.0545787
+[0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.44572616
+[0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.4084928
+[0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.33640208
+[0m
+2017-12-26T20:35:10 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:11 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.92847332
+[0m
+2017-12-26T20:35:11 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:11 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.04360568
+[0m
+2017-12-26T20:35:11 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:11 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.63795603
+[0m
+2017-12-26T20:35:11 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:11 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.99573339
+[0m
+2017-12-26T20:35:11 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.3996402
+[0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.84553395
+[0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.50959241
+[0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.45546644
+[0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1026.19957293
+[0m
+2017-12-26T20:35:12 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.25434575
+[0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.43419215
+[0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.7586143
+[0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.32052196
+[0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.73671079
+[0m
+2017-12-26T20:35:13 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.35955646
+[0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.01940541
+[0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.93950408
+[0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.45241174
+[0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.6814337
+[0m
+2017-12-26T20:35:14 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:15 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.84480876
+[0m
+2017-12-26T20:35:15 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:15 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.68234475
+[0m
+2017-12-26T20:35:15 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:15 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.67203526
+[0m
+2017-12-26T20:35:15 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:15 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.34294887
+[0m
+2017-12-26T20:35:15 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.68186941
+[0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.2239883
+[0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.07850028
+[0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.30349543
+[0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.0259871
+[0m
+2017-12-26T20:35:16 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.06583565
+[0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.52350575
+[0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.82841905
+[0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.36149587
+[0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.88105503
+[0m
+2017-12-26T20:35:17 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:18 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.8354573
+[0m
+2017-12-26T20:35:18 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:18 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.13719915
+[0m
+2017-12-26T20:35:18 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:18 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.56094615
+[0m
+2017-12-26T20:35:18 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:18 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.5165948
+[0m
+2017-12-26T20:35:18 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.86485964
+[0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.70156852
+[0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.81890028
+[0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.68728787
+[0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.60785462
+[0m
+2017-12-26T20:35:19 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.39769939
+[0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.72243081
+[0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.94489592
+[0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.17264862
+[0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.06672841
+[0m
+2017-12-26T20:35:20 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.19045446
+[0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.0271553
+[0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.94830232
+[0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.15024328
+[0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.9850376
+[0m
+2017-12-26T20:35:21 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:22 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.87032515
+[0m
+2017-12-26T20:35:22 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:22 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.82440168
+[0m
+2017-12-26T20:35:22 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:22 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.93806055
+[0m
+2017-12-26T20:35:22 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:22 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1024.9050208
+[0m
+2017-12-26T20:35:22 - easyscan.main - DEBUG
+[1;35;2m Runing Program zytest with command: ['./test.py'][0m
+2017-12-26T20:35:22 - easyscan.main - DEBUG
+[1;35;2m Program zytest done in 0 minutes, corresponding output:: I am runing...
+z= 1025.01598231
+[0m
+2017-12-26T20:35:22 - easyscan.main - INFO
+[1;32;2m Start to plot the result ... [0m
